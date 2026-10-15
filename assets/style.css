@@ -97,7 +97,7 @@ h2.sec { display: flex; align-items: center; gap: 8px; font-size: 16px; margin: 
 h2.sec .count { font-size: 12px; font-weight: 600; color: var(--muted); background: var(--surface-2); border-radius: 999px; padding: 1px 8px; }
 
 /* KPI tiles */
-.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; margin: 16px 0 8px; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); gap: 12px; margin: 16px 0 8px; }
 .kpi { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 14px; box-shadow: var(--shadow); }
 .kpi .v { font-size: 24px; font-weight: 650; font-variant-numeric: tabular-nums; line-height: 1.2; }
 .kpi .l { font-size: 12px; color: var(--muted); }
@@ -189,3 +189,11 @@ tr.applied td { opacity: .55; }
 .warn { color: var(--worth); }
 th { cursor: default; }
 .plain li > span { min-width: 0; overflow-wrap: anywhere; }
+
+/* labels */
+.tag.pay { background: var(--top-soft); color: var(--top); font-weight: 700; }
+.tag.stage { background: var(--bridge-soft); color: var(--bridge); font-weight: 600; }
+.tag.sector { background: var(--surface-2); color: var(--muted); }
+.emp .hp { color: var(--top); font-weight: 600; }
+.emp .st { color: var(--bridge); font-weight: 600; }
+.filters .chk { display: flex; align-items: center; gap: 6px; font-size: 14px; color: var(--muted); padding: 0 4px; }

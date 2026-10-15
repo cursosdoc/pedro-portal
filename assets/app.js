@@ -50,7 +50,7 @@
   });
 
   /* ---------- shell: day list + selector ---------- */
-  function renderShell(active) {
+  function renderShell(active, mode) {
     const max = Math.max(1, ...INDEX.days.map((d) => d.kept || 0));
     dayList.innerHTML = INDEX.days.map((d) => `
       <li><a href="#/day/${d.date}" class="${d.date === active ? 'active' : ''} ${d.status === 'failed' ? 'failed' : ''}">
@@ -63,7 +63,7 @@
     if (!active) dateSelect.value = 'all';
     document.querySelectorAll('.tabs a').forEach((a) => {
       const v = a.dataset.view;
-      a.classList.toggle('active', (v === 'all' && !active) || (v === 'day' && !!active));
+      a.classList.toggle('active', (v === 'all' && !active && !mode) || (v === 'startups' && mode === 'startups') || (v === 'day' && !!active));
     });
     const latest = INDEX.days[0];
     document.querySelector('.tabs a[data-view="day"]').href = latest ? '#/day/' + latest.date : '#/all';
@@ -73,6 +73,15 @@
   });
 
   /* ---------- pieces ---------- */
+  const STARTUPISH = new Set(['Startup', 'Scale-up']);
+  function labelChips(it) {
+    const out = [];
+    if (it.high_pay) out.push('<span class="tag pay" title="High-paying sector or employer">High pay</span>');
+    if (it.pay) out.push(`<span class="tag">${esc(it.pay)}</span>`);
+    if (it.stage && it.stage !== 'Unknown') out.push(`<span class="tag ${STARTUPISH.has(it.stage) ? 'stage' : ''}">${esc(it.stage)}</span>`);
+    if (it.sector && it.sector !== 'Other') out.push(`<span class="tag sector">${esc(it.sector)}</span>`);
+    return out.join('');
+  }
   function card(it, date) {
     const cls = fitClass(it);
     const soon = isDate(it.closes) && daysUntil(it.closes) >= 0 && daysUntil(it.closes) <= 7;
@@ -84,6 +93,7 @@
         <span class="fit ${cls}" title="Fit score">${esc(it.fit)}/5</span>
       </div>
       <div class="meta">
+        ${labelChips(it)}
         <span class="tag cv" title="Which CV to send">CV: ${esc(it.cv)}</span>
         <span class="tag">${esc(it.type_name)}</span>
         <span class="tag ${soon ? 'close-soon' : ''}">${esc(closes)}</span>
@@ -124,7 +134,7 @@
   function rowHtml(i, withSeen) {
     return `<tr class="${applied[i.key] ? 'applied' : ''}">
       <td class="num"><span class="fit ${fitClass(i)}">${esc(i.fit)}</span></td>
-      <td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="emp">${esc(i.employer)} · ${esc(i.type_name)}${i.ad_read === false ? ' · <span class="warn">ad not read</span>' : ''}</div></td>
+      <td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="emp">${esc(i.employer)}${i.sector && i.sector !== 'Other' ? ' · ' + esc(i.sector) : ''}${i.stage && STARTUPISH.has(i.stage) ? ' · <span class="st">' + esc(i.stage) + '</span>' : ''}${i.high_pay ? ' · <span class="hp">High pay</span>' : ''}${i.ad_read === false ? ' · <span class="warn">ad not read</span>' : ''}</div></td>
       <td>${esc(i.hub)}</td><td>${esc(i.cv)}</td>
       <td class="num">${isDate(i.closes) ? esc(fmtDay(i.closes, { weekday: undefined, year: undefined })) : 'rolling'}</td>
       ${withSeen ? `<td class="num"><a href="#/day/${i.date}">${esc(fmtDay(i.date, { weekday: undefined, year: undefined }))}</a></td>` : ''}
@@ -152,11 +162,16 @@
   function filterBar(prefix, items) {
     const hubs = [...new Set(items.map((i) => i.hub))].sort();
     const cvs = [...new Set(items.map((i) => i.cv))].sort();
+    const sectors = [...new Set(items.map((i) => i.sector).filter(Boolean))].sort();
+    const stages = ['Startup', 'Scale-up', 'Startup or scale-up', 'Established', 'Public and academic'];
     return `<div class="filters">
         <input type="search" id="${prefix}q" placeholder="Search title, employer, why…" aria-label="Search">
         <select id="${prefix}Hub" aria-label="Hub"><option value="">All hubs</option>${hubs.map((h) => `<option>${esc(h)}</option>`).join('')}</select>
         <select id="${prefix}Cv" aria-label="CV to send"><option value="">All CVs</option>${cvs.map((c) => `<option>${esc(c)}</option>`).join('')}</select>
         <select id="${prefix}Fit" aria-label="Minimum fit"><option value="0">Any fit</option><option value="3">Fit 3+</option><option value="4">Fit 4+</option></select>
+        <select id="${prefix}Sector" aria-label="Sector"><option value="">All sectors</option>${sectors.map((c) => `<option>${esc(c)}</option>`).join('')}</select>
+        <select id="${prefix}Stage" aria-label="Company stage"><option value="">Any company stage</option>${stages.map((c) => `<option>${esc(c)}</option>`).join('')}</select>
+        <label class="chk"><input type="checkbox" id="${prefix}Pay"> High pay only</label>
       </div>`;
   }
   function matcher(prefix) {
@@ -164,7 +179,10 @@
     return (i) => {
       const q = g('q').value.trim().toLowerCase();
       return (!q || [i.title, i.employer, i.why, i.angle, i.type_name, i.hub].join(' ').toLowerCase().includes(q)) &&
-        (!g('Hub').value || i.hub === g('Hub').value) && (!g('Cv').value || i.cv === g('Cv').value) && (+i.fit >= +g('Fit').value);
+        (!g('Hub').value || i.hub === g('Hub').value) && (!g('Cv').value || i.cv === g('Cv').value) && (+i.fit >= +g('Fit').value) &&
+        (!g('Sector').value || i.sector === g('Sector').value) &&
+        (!g('Stage').value || (g('Stage').value === 'Startup or scale-up' ? STARTUPISH.has(i.stage) : i.stage === g('Stage').value)) &&
+        (!g('Pay').checked || i.high_pay);
     };
   }
 
@@ -189,8 +207,9 @@
       [s.ad_text ?? s.read ?? '–', 'with full ad'],
       [s.kept ?? items.length, 'kept (fit 2+)'],
       [items.filter((i) => i.section === 'top').length, 'top picks'],
+      [items.filter((i) => i.section === 'check').length, 'high pay to check'],
+      [items.filter((i) => STARTUPISH.has(i.stage)).length, 'startups and scale-ups'],
       [s.dropped ?? (d.filtered || []).length, 'filtered out'],
-      [s.sources_failed ?? 0, 'sources failed'],
     ]);
     html += filterBar('d', items);
     html += '<div id="dayBody"></div>';
@@ -217,17 +236,25 @@
     const drawBody = () => {
       const vis = items.filter(match);
       const by = (sec) => vis.filter((i) => i.section === sec);
-      let h = section('Top picks · fit 4+', by('top'), null) + section('Worth a look · fit 3+', by('worth'), null);
+      const chk = by('check');
+      let h = '';
+      if (chk.length) {
+        h += `<h2 class="sec">High pay: check by hand <span class="count">${chk.length}</span></h2>
+          <p class="notes">Well-paid employers (quant trading, hedge funds, banks, top tech) whose ad page blocks automated reading. Open each one and judge it yourself.</p>` + tableShell('checkT', false);
+      }
+      h += section('Top picks · fit 4+', by('top'), null) + section('Worth a look · fit 3+', by('worth'), null);
       const maybe = by('maybe');
       if (maybe.length) h += `<h2 class="sec">Also kept · fit 2+ <span class="count">${maybe.length}</span></h2>` + tableShell('maybeT', false);
       h += section('Bridge', by('bridge'), null);
       if (!vis.length) h = '<p class="empty">No items match these filters.</p>';
       body.innerHTML = h;
+      const ct = document.getElementById('checkT');
+      if (ct) pager(ct, chk, (i) => rowHtml(i, false), 'None');
       const mt = document.getElementById('maybeT');
       if (mt) pager(mt, maybe, (i) => rowHtml(i, false), 'None');
       wireApplied(body);
     };
-    ['q', 'Hub', 'Cv', 'Fit'].forEach((id) => document.getElementById('d' + id).addEventListener('input', drawBody));
+    ['q', 'Hub', 'Cv', 'Fit', 'Sector', 'Stage', 'Pay'].forEach((id) => document.getElementById('d' + id).addEventListener('input', drawBody));
     drawBody();
 
     const fl = document.getElementById('filtList');
@@ -252,8 +279,8 @@
   }
 
   /* ---------- overview ---------- */
-  async function renderAll() {
-    renderShell(null);
+  async function renderAll(mode) {
+    renderShell(null, mode);
     const okDays = INDEX.days.filter((d) => d.status === 'ok');
     const digests = await Promise.all(okDays.map((d) => getDay(d.date).catch(() => null)));
     // newest first; keep the latest sighting of each job key (and its duplicate keys)
@@ -269,18 +296,23 @@
       });
     });
 
+    if (mode === 'startups') {   // the whole page covers startups and scale-ups only
+      for (let k = all.length - 1; k >= 0; k--) if (!STARTUPISH.has(all[k].stage)) all.splice(k, 1);
+    }
     const today = todayISO();
     const open = all.filter((i) => !isDate(i.closes) || i.closes >= today);
     const closing = open.filter((i) => isDate(i.closes)).sort((a, b) => a.closes.localeCompare(b.closes));
     const ledgerDeadlines = digests[0] ? (digests[0].deadlines || []) : [];
     const appliedCount = all.filter((i) => applied[i.key]).length;
 
-    let html = `<div class="pagehead"><h1>Overview</h1><span class="sub">${okDays.length} digest day${okDays.length === 1 ? '' : 's'}${INDEX.updated ? ' · updated ' + esc(INDEX.updated.replace('T', ' ').slice(0, 16)) + ' UTC' : ''}</span></div>`;
+    const title = mode === 'startups' ? 'Startups and scale-ups' : 'Overview';
+    let html = `<div class="pagehead"><h1>${title}</h1><span class="sub">${okDays.length} digest day${okDays.length === 1 ? '' : 's'}${INDEX.updated ? ' · updated ' + esc(INDEX.updated.replace('T', ' ').slice(0, 16)) + ' UTC' : ''}</span></div>`;
     html += kpis([
       [INDEX.days.length, 'days tracked'],
       [all.length, 'unique matches'],
       [all.filter((i) => i.section === 'top').length, 'top picks'],
-      [open.length, 'still open'],
+      [all.filter((i) => i.high_pay).length, 'high pay'],
+      [all.filter((i) => STARTUPISH.has(i.stage)).length, 'startups and scale-ups'],
       [closing.filter((i) => daysUntil(i.closes) <= 14).length, 'closing in 14 days'],
       [appliedCount, 'marked applied'],
     ]);
@@ -326,7 +358,7 @@
       document.getElementById('allCount').textContent = rows.length;
       pager(document.getElementById('allT'), rows, (i) => rowHtml(i, true), 'No matches for these filters.');
     }
-    ['aq', 'aHub', 'aCv', 'aFit', 'aOpen', 'aSort'].forEach((id) => document.getElementById(id).addEventListener('input', draw));
+    ['aq', 'aHub', 'aCv', 'aFit', 'aSector', 'aStage', 'aPay', 'aOpen', 'aSort'].forEach((id) => document.getElementById(id).addEventListener('input', draw));
     draw();
   }
 
@@ -336,6 +368,7 @@
     const m = h.match(/^#\/day\/(\d{4}-\d{2}-\d{2})$/);
     if (m) return renderDay(m[1]);
     if (h === '#/latest' && INDEX.days[0]) return renderDay(INDEX.days[0].date);
+    if (h === '#/startups') return renderAll('startups');
     return renderAll();
   }
 
