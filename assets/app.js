@@ -147,7 +147,7 @@
       const more = el.querySelector('.more');
       if (more) {
         more.hidden = rows.length <= n;
-        more.textContent = `Show ${Math.min(PAGE, rows.length - n)} more of ${rows.length - n}`;
+        more.textContent = `Show ${Math.min(PAGE, Math.max(0, rows.length - n))} more (${Math.max(0, rows.length - n)} left)`;
       }
     };
     const btn = el.querySelector('.more');
@@ -264,7 +264,7 @@
       const drawF = () => {
         fl.innerHTML = filt.slice(0, n).map((f) => `<li><span>${esc(f.title)} <span class="muted">· ${esc(f.employer)}</span></span><span class="r">${esc(f.reason)}</span></li>`).join('');
         more.hidden = filt.length <= n;
-        more.textContent = `Show ${Math.min(100, filt.length - n)} more of ${filt.length - n}`;
+        more.textContent = `Show ${Math.min(100, Math.max(0, filt.length - n))} more (${Math.max(0, filt.length - n)} left)`;
       };
       more.onclick = () => { n += 100; drawF(); };
       drawF();
