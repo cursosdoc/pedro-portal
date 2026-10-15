@@ -55,7 +55,7 @@
     dayList.innerHTML = INDEX.days.map((d) => `
       <li><a href="#/day/${d.date}" class="${d.date === active ? 'active' : ''} ${d.status === 'failed' ? 'failed' : ''}">
         <span class="d">${esc(fmtDay(d.date, { year: undefined }))}</span>
-        <span class="n">${d.status === 'ok' ? (d.shown || 0) + ' · ' + (d.top || 0) + ' top' : '–'}</span>
+        <span class="n">${d.status === 'ok' ? (d.shown || 0) + ' · ' + (d.top || 0) + ' top' : d.status}</span>
         <span class="bar"><i style="width:${Math.round(100 * (d.kept || 0) / max)}%"></i></span>
       </a></li>`).join('') || '<li class="empty">No digests yet.</li>';
     dateSelect.innerHTML = '<option value="all">Overview (all days)</option>' +
@@ -84,8 +84,8 @@
         <span class="fit ${cls}" title="Fit score">${esc(it.fit)}/5</span>
       </div>
       <div class="meta">
-        <span class="tag cv" title="CV flavour">CV ${esc(it.cv)}</span>
-        <span class="tag">Type ${esc(it.type_id)} · ${esc(it.type_name)}</span>
+        <span class="tag cv" title="Which CV to send">CV: ${esc(it.cv)}</span>
+        <span class="tag">${esc(it.type_name)}</span>
         <span class="tag ${soon ? 'close-soon' : ''}">${esc(closes)}</span>
         ${date ? `<span class="tag">seen ${esc(fmtDay(date, { weekday: undefined, year: undefined }))}</span>` : ''}
       </div>
@@ -119,6 +119,55 @@
     return `<div class="kpis">${list.map(([v, l]) => `<div class="kpi"><div class="v">${esc(v)}</div><div class="l">${esc(l)}</div></div>`).join('')}</div>`;
   }
 
+  /* ---------- tables with paging ---------- */
+  const PAGE = 50;
+  function rowHtml(i, withSeen) {
+    return `<tr class="${applied[i.key] ? 'applied' : ''}">
+      <td class="num"><span class="fit ${fitClass(i)}">${esc(i.fit)}</span></td>
+      <td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="emp">${esc(i.employer)} · ${esc(i.type_name)}${i.ad_read === false ? ' · <span class="warn">ad not read</span>' : ''}</div></td>
+      <td>${esc(i.hub)}</td><td>${esc(i.cv)}</td>
+      <td class="num">${isDate(i.closes) ? esc(fmtDay(i.closes, { weekday: undefined, year: undefined })) : 'rolling'}</td>
+      ${withSeen ? `<td class="num"><a href="#/day/${i.date}">${esc(fmtDay(i.date, { weekday: undefined, year: undefined }))}</a></td>` : ''}
+    </tr>`;
+  }
+  function pager(el, rows, render, empty) {
+    let n = PAGE;
+    const draw = () => {
+      el.querySelector('tbody').innerHTML = rows.slice(0, n).map(render).join('') || `<tr><td colspan="6" class="empty">${empty}</td></tr>`;
+      const more = el.querySelector('.more');
+      if (more) {
+        more.hidden = rows.length <= n;
+        more.textContent = `Show ${Math.min(PAGE, rows.length - n)} more of ${rows.length - n}`;
+      }
+    };
+    const btn = el.querySelector('.more');
+    if (btn) btn.onclick = () => { n += PAGE; draw(); };
+    draw();
+  }
+  function tableShell(id, withSeen) {
+    return `<div class="panel tablewrap" id="${id}"><table><thead><tr>
+      <th data-k="fit">Fit</th><th data-k="title">Role</th><th data-k="hub">Hub</th><th data-k="cv">CV to send</th><th data-k="closes">Closes</th>${withSeen ? '<th data-k="date">Seen</th>' : ''}
+      </tr></thead><tbody></tbody></table><button type="button" class="more" hidden></button></div>`;
+  }
+  function filterBar(prefix, items) {
+    const hubs = [...new Set(items.map((i) => i.hub))].sort();
+    const cvs = [...new Set(items.map((i) => i.cv))].sort();
+    return `<div class="filters">
+        <input type="search" id="${prefix}q" placeholder="Search title, employer, why…" aria-label="Search">
+        <select id="${prefix}Hub" aria-label="Hub"><option value="">All hubs</option>${hubs.map((h) => `<option>${esc(h)}</option>`).join('')}</select>
+        <select id="${prefix}Cv" aria-label="CV to send"><option value="">All CVs</option>${cvs.map((c) => `<option>${esc(c)}</option>`).join('')}</select>
+        <select id="${prefix}Fit" aria-label="Minimum fit"><option value="0">Any fit</option><option value="3">Fit 3+</option><option value="4">Fit 4+</option></select>
+      </div>`;
+  }
+  function matcher(prefix) {
+    const g = (id) => document.getElementById(prefix + id);
+    return (i) => {
+      const q = g('q').value.trim().toLowerCase();
+      return (!q || [i.title, i.employer, i.why, i.angle, i.type_name, i.hub].join(' ').toLowerCase().includes(q)) &&
+        (!g('Hub').value || i.hub === g('Hub').value) && (!g('Cv').value || i.cv === g('Cv').value) && (+i.fit >= +g('Fit').value);
+    };
+  }
+
   /* ---------- day view ---------- */
   async function renderDay(date) {
     renderShell(date);
@@ -130,48 +179,69 @@
       <span class="sub">${d.catch_up ? `Covers ${esc(d.days_covered)} days since ${esc((d.window_from || '').slice(0, 10))}` : 'Daily digest'}${d.data_refreshed && d.data_refreshed !== d.date ? ` · data last refreshed ${esc(d.data_refreshed)}` : ''}</span></div>
       ${(d.notes || []).length ? `<ul class="notes">${d.notes.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>` : ''}`;
 
-    if (d.status === 'failed') {
-      main.innerHTML = head + `<div class="callout fail">Run failed. ${esc(d.failure_note || '')}</div>` + healthBlock(d);
-      return;
-    }
-    if (d.status === 'empty') {
-      main.innerHTML = head + `<div class="callout">${esc(d.failure_note || 'No new matching postings.')}</div>` + healthBlock(d);
+    if (d.status === 'failed' || d.status === 'empty') {
+      main.innerHTML = head + `<div class="callout ${d.status === 'failed' ? 'fail' : ''}">${d.status === 'failed' ? 'Run failed. ' : ''}${esc(d.failure_note || 'No new matching postings.')}</div>` + healthBlock(d);
       return;
     }
 
-    const top = items.filter((i) => i.section === 'top');
-    const worth = items.filter((i) => i.section === 'worth');
-    const bridge = items.filter((i) => i.section === 'bridge');
     let html = head + kpis([
-      [s.pending ?? '–', 'pending postings'],
-      [s.read ?? '–', 'ads read'],
-      [s.passed_gates ?? '–', 'passed gates'],
-      [s.kept ?? items.length, 'kept (fit ≥ 2)'],
-      [top.length, 'top picks'],
+      [s.pending ?? '–', 'in queue'],
+      [s.ad_text ?? s.read ?? '–', 'with full ad'],
+      [s.kept ?? items.length, 'kept (fit 2+)'],
+      [items.filter((i) => i.section === 'top').length, 'top picks'],
+      [s.dropped ?? (d.filtered || []).length, 'filtered out'],
       [s.sources_failed ?? 0, 'sources failed'],
     ]);
-    html += section('Top picks · fit 4+', top, null);
-    html += section('Worth a look · fit 3', worth, null);
-    if (s.held_over) html += `<p class="notes" style="margin-top:12px">+${esc(s.held_over)} kept items scoring 2 to 2.5 held over the 12-item cap; they stay pending.</p>`;
-    html += section('Bridge', bridge, null);
-
+    html += filterBar('d', items);
+    html += '<div id="dayBody"></div>';
     html += `<h2 class="sec">Schemes and deadlines · next 14 days</h2>` + ((d.deadlines || []).length
       ? `<div class="panel"><ul class="plain">${d.deadlines.map((x) => `<li><span>${esc(x.employer)} · ${esc(x.scheme)}</span><span class="r">${esc(isDate(x.closes) ? fmtDay(x.closes) : x.closes)}</span></li>`).join('')}</ul></div>`
       : `<p class="empty">None.</p>`);
-
     if (d.cv_version) html += `<h2 class="sec">CV version</h2><div class="callout">${esc(d.cv_version)}</div>`;
 
     const filt = d.filtered || [];
     if (filt.length || d.filtered_more) {
-      html += `<h2 class="sec">Filtered out <span class="count">${filt.length}${d.filtered_more ? '+' : ''}</span></h2>
-        <details class="panel"><summary>Show reasons</summary><ul class="plain">
-        ${filt.map((f) => `<li><span>${esc(f.title)} <span class="muted">· ${esc(f.employer)}</span></span><span class="r">${esc(f.reason)}</span></li>`).join('')}
-        ${d.filtered_more ? `<li><span class="muted">${esc(d.filtered_more)}</span><span></span></li>` : ''}
-        </ul></details>`;
+      const reasons = {};
+      filt.forEach((f) => { const r = f.reason.replace(/^closed .*/, 'closed').replace(/^\d+\+ years.*/, 'too much experience required'); reasons[r] = (reasons[r] || 0) + 1; });
+      html += `<h2 class="sec">Filtered out <span class="count">${filt.length}</span></h2>
+        <p class="notes">${Object.entries(reasons).sort((a, b) => b[1] - a[1]).map(([r, n]) => `${esc(r)}: ${n}`).join(' · ')}</p>
+        <details class="panel"><summary>Show all</summary><ul class="plain" id="filtList"></ul>
+        <button type="button" class="more" id="filtMore" hidden></button></details>`;
     }
     html += healthBlock(d);
     main.innerHTML = html;
-    wireApplied(main);
+
+    // sections, re-rendered on filter change
+    const body = document.getElementById('dayBody');
+    const match = matcher('d');
+    const drawBody = () => {
+      const vis = items.filter(match);
+      const by = (sec) => vis.filter((i) => i.section === sec);
+      let h = section('Top picks · fit 4+', by('top'), null) + section('Worth a look · fit 3+', by('worth'), null);
+      const maybe = by('maybe');
+      if (maybe.length) h += `<h2 class="sec">Also kept · fit 2+ <span class="count">${maybe.length}</span></h2>` + tableShell('maybeT', false);
+      h += section('Bridge', by('bridge'), null);
+      if (!vis.length) h = '<p class="empty">No items match these filters.</p>';
+      body.innerHTML = h;
+      const mt = document.getElementById('maybeT');
+      if (mt) pager(mt, maybe, (i) => rowHtml(i, false), 'None');
+      wireApplied(body);
+    };
+    ['q', 'Hub', 'Cv', 'Fit'].forEach((id) => document.getElementById('d' + id).addEventListener('input', drawBody));
+    drawBody();
+
+    const fl = document.getElementById('filtList');
+    if (fl) {
+      let n = 100;
+      const more = document.getElementById('filtMore');
+      const drawF = () => {
+        fl.innerHTML = filt.slice(0, n).map((f) => `<li><span>${esc(f.title)} <span class="muted">· ${esc(f.employer)}</span></span><span class="r">${esc(f.reason)}</span></li>`).join('');
+        more.hidden = filt.length <= n;
+        more.textContent = `Show ${Math.min(100, filt.length - n)} more of ${filt.length - n}`;
+      };
+      more.onclick = () => { n += 100; drawF(); };
+      drawF();
+    }
   }
 
   function healthBlock(d) {
@@ -232,59 +302,31 @@
       : `<p class="empty">No dated deadlines among open matches.</p>`);
 
     // all matches table
-    const hubs = [...new Set(all.map((i) => i.hub))].sort();
-    const cvs = [...new Set(all.map((i) => i.cv))].sort();
     html += `<h2 class="sec">All matches <span class="count" id="allCount">${all.length}</span></h2>
-      <div class="filters">
-        <input type="search" id="q" placeholder="Search title, employer, why…" aria-label="Search">
-        <select id="fHub" aria-label="Hub"><option value="">All hubs</option>${hubs.map((h) => `<option>${esc(h)}</option>`).join('')}</select>
-        <select id="fCv" aria-label="CV flavour"><option value="">All CVs</option>${cvs.map((c) => `<option>${esc(c)}</option>`).join('')}</select>
-        <select id="fFit" aria-label="Minimum fit"><option value="0">Any fit</option><option value="3">Fit 3+</option><option value="4">Fit 4+</option></select>
-        <select id="fOpen" aria-label="Status"><option value="open">Open only</option><option value="">Include closed</option><option value="todo">Not applied</option></select>
-      </div>
-      <div class="panel tablewrap"><table><thead><tr>
-        <th data-k="fit" aria-sort="descending">Fit</th><th data-k="title">Role</th><th data-k="hub">Hub</th><th data-k="cv">CV</th><th data-k="closes">Closes</th><th data-k="date">Seen</th>
-      </tr></thead><tbody id="allBody"></tbody></table></div>`;
+      ${filterBar('a', all)}
+      <div class="filters"><select id="aOpen" aria-label="Status"><option value="open">Open only</option><option value="">Include closed</option><option value="todo">Not applied</option></select>
+      <select id="aSort" aria-label="Sort"><option value="fit">Sort: fit</option><option value="closes">Sort: closing date</option><option value="date">Sort: newest</option></select></div>
+      ${tableShell('allT', true)}`;
     main.innerHTML = html;
 
-    let sortK = 'fit', sortDir = -1;
-    const els = ['q', 'fHub', 'fCv', 'fFit', 'fOpen'].reduce((o, id) => (o[id] = document.getElementById(id), o), {});
+    const match = matcher('a');
+    const openSel = document.getElementById('aOpen');
+    const sortSel = document.getElementById('aSort');
     const saved = store.get('jr.filters', {});
-    Object.keys(saved).forEach((k) => { if (els[k]) els[k].value = saved[k]; });
-
+    if (saved.open !== undefined) openSel.value = saved.open;
+    if (saved.sort) sortSel.value = saved.sort;
     function draw() {
-      const q = els.q.value.trim().toLowerCase();
-      store.set('jr.filters', { fHub: els.fHub.value, fCv: els.fCv.value, fFit: els.fFit.value, fOpen: els.fOpen.value });
-      const rows = all.filter((i) =>
-        (!q || [i.title, i.employer, i.why, i.angle, i.type_name].join(' ').toLowerCase().includes(q)) &&
-        (!els.fHub.value || i.hub === els.fHub.value) &&
-        (!els.fCv.value || i.cv === els.fCv.value) &&
-        (+i.fit >= +els.fFit.value) &&
-        (els.fOpen.value !== 'open' || !isDate(i.closes) || i.closes >= today) &&
-        (els.fOpen.value !== 'todo' || !applied[i.key])
-      ).sort((a, b) => {
-        const av = sortK === 'closes' ? (isDate(a.closes) ? a.closes : '9999') : a[sortK];
-        const bv = sortK === 'closes' ? (isDate(b.closes) ? b.closes : '9999') : b[sortK];
-        return (av > bv ? 1 : av < bv ? -1 : 0) * sortDir || (b.fit - a.fit);
-      });
+      store.set('jr.filters', { open: openSel.value, sort: sortSel.value });
+      const rows = all.filter((i) => match(i) &&
+        (openSel.value !== 'open' || !isDate(i.closes) || i.closes >= today) &&
+        (openSel.value !== 'todo' || !applied[i.key]));
+      const k = sortSel.value;
+      rows.sort((a, b) => k === 'closes' ? (isDate(a.closes) ? a.closes : '9999').localeCompare(isDate(b.closes) ? b.closes : '9999') || b.fit - a.fit
+        : k === 'date' ? b.date.localeCompare(a.date) || b.fit - a.fit : b.fit - a.fit);
       document.getElementById('allCount').textContent = rows.length;
-      document.getElementById('allBody').innerHTML = rows.map((i) => `<tr class="${applied[i.key] ? 'applied' : ''}">
-        <td class="num"><span class="fit ${fitClass(i)}">${esc(i.fit)}</span></td>
-        <td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="emp">${esc(i.employer)} · ${esc(i.type_name)}</div></td>
-        <td>${esc(i.hub)}</td><td>${esc(i.cv)}</td>
-        <td class="num">${isDate(i.closes) ? esc(fmtDay(i.closes, { weekday: undefined, year: undefined })) : 'rolling'}</td>
-        <td class="num"><a href="#/day/${i.date}">${esc(fmtDay(i.date, { weekday: undefined, year: undefined }))}</a></td>
-      </tr>`).join('') || `<tr><td colspan="6" class="empty">No matches for these filters.</td></tr>`;
+      pager(document.getElementById('allT'), rows, (i) => rowHtml(i, true), 'No matches for these filters.');
     }
-    Object.values(els).forEach((el) => el.addEventListener('input', draw));
-    main.querySelectorAll('th[data-k]').forEach((th) => th.addEventListener('click', () => {
-      const k = th.dataset.k;
-      sortDir = sortK === k ? -sortDir : (k === 'fit' || k === 'date' ? -1 : 1);
-      sortK = k;
-      main.querySelectorAll('th[data-k]').forEach((t) => t.removeAttribute('aria-sort'));
-      th.setAttribute('aria-sort', sortDir === 1 ? 'ascending' : 'descending');
-      draw();
-    }));
+    ['aq', 'aHub', 'aCv', 'aFit', 'aOpen', 'aSort'].forEach((id) => document.getElementById(id).addEventListener('input', draw));
     draw();
   }
 
