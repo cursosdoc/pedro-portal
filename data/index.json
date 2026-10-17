@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-16T06:55:46Z",
+ "updated": "2026-10-17T06:54:39Z",
  "days": [
+  {
+   "date": "2026-10-17",
+   "status": "ok",
+   "shown": 41,
+   "top": 5,
+   "kept": 41,
+   "pending": 163,
+   "catch_up": true
+  },
   {
    "date": "2026-10-16",
    "status": "ok",
