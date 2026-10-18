@@ -1,0 +1,657 @@
+{
+ "schema": 1,
+ "date": "2026-10-18",
+ "generated_at": "2026-10-18T06:53:25+00:00",
+ "status": "ok",
+ "data_refreshed": "2026-10-18",
+ "window_from": "2026-10-16T23:32:21+00:00",
+ "catch_up": true,
+ "days_covered": 2,
+ "first_digest": false,
+ "stats": {
+  "pending": 44,
+  "ad_text": 43,
+  "passed_gates": 14,
+  "kept": 4,
+  "shown": 4,
+  "held_over": 0,
+  "waiting_for_ad": 0,
+  "dropped": 38,
+  "sources_failed": 31,
+  "top": 0,
+  "check": 0,
+  "high_pay": 0,
+  "startups": 1
+ },
+ "notes": [
+  "Ad text fetched for 35 postings today"
+ ],
+ "items": [
+  {
+   "key": "7453890d536e0e55",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Insurance and risk",
+   "stage": "Scale-up",
+   "high_pay": false,
+   "pay": "£80,000 - £160,000 a year",
+   "title": "Math, Physics & Engineering Graduates",
+   "employer": "Prima",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 13,
+   "type_name": "Physics-informed / scientific ML engineer",
+   "fit": 3.75,
+   "cv": "Data and machine learning",
+   "why": "\"Push-broom imaging spectrometer forward model and radiometric calibration; 5 noise sources; 0.05% RMS radiometric residual\" (graduate data science role open to physics graduates)",
+   "angle": "Physics graduate who builds models from noisy measured data and checks them against results.",
+   "flags": [
+    "sponsor licence unknown",
+    "£80,000 - £160,000 a year"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4435550491",
+   "first_seen": "2026-10-18",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "a87df3294a9c7f81",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Semiconductors",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "title": "PVD Field and Hardware Engineer",
+   "employer": "KLA",
+   "hub": "South Wales",
+   "closes": "rolling",
+   "type_id": 4,
+   "type_name": "Process / R&D engineer, thin films and semiconductors",
+   "fit": 3.6,
+   "cv": "Lab and vacuum hardware",
+   "why": "\"Maintained and repaired UHV components (gauges, valves, readouts); helped reassemble and test the ZERNIKELEIF facility\" (ad asks for hands-on fault finding on PVD systems)",
+   "angle": "Hands-on UHV repair and sputter gun operation, ready to learn PVD tools from the field team.",
+   "flags": [
+    "sponsor licence unknown",
+    "ad asks for an experienced engineer; open to early career"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4451225919",
+   "first_seen": "2026-10-18",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "82fc82ff4fde6d6d",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Instruments and vacuum",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "title": "Field Service Engineer - North West England",
+   "employer": "Thermo Fisher Scientific",
+   "hub": "UK (unspecified)",
+   "closes": "rolling",
+   "type_id": 21,
+   "type_name": "Technical sales / field application / service engineer",
+   "fit": 2.98,
+   "cv": "Lab and vacuum hardware",
+   "why": "\"Xe implantation at multiple incidence angles and energies; SRIM predictive models to guide experimental design\" (ad mentions instrumentation, laboratory, mass spectrometry, plasma)",
+   "angle": "Repaired and recommissioned vacuum and ion-source hardware; explains it well to users.",
+   "flags": [
+    "sponsor licence unknown",
+    "asks 1 to 5 years servicing analytical equipment or equivalent"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4477777003",
+   "first_seen": "2026-10-18",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "75dd40aac01a0a85",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Other",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "title": "Laboratory Engineer - Testing (Curtain Walling & Rainscreen Cladding)",
+   "employer": "UL Solutions",
+   "hub": "UK (unspecified)",
+   "closes": "rolling",
+   "type_id": 2,
+   "type_name": "Research / facility technician, experimental officer",
+   "fit": 2.64,
+   "cv": "Lab and vacuum hardware",
+   "why": "\"Maintained and repaired UHV components (gauges, valves, readouts); helped reassemble and test the ZERNIKELEIF facility\" (ad asks to build and maintain test setups; degree list includes materials science)",
+   "angle": "Builds and maintains lab test rigs and reports measured results carefully.",
+   "flags": [
+    "sponsor licence unknown",
+    "asks for facade or cladding testing experience"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4450826217",
+   "first_seen": "2026-10-18",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  }
+ ],
+ "deadlines": [
+  {
+   "employer": "Accenture",
+   "scheme": "London AI & Data Graduate Programme 2027 - 2028",
+   "closes": "2026-10-18"
+  },
+  {
+   "employer": "Springer Nature",
+   "scheme": "Sub Editor",
+   "closes": "2026-10-19"
+  },
+  {
+   "employer": "Tesco",
+   "scheme": "Data Scientist",
+   "closes": "2026-10-20"
+  },
+  {
+   "employer": "National Physical Laboratory",
+   "scheme": "Higher Scientist - Cryogenic Electronics and Quantum Technologies",
+   "closes": "2026-10-21"
+  },
+  {
+   "employer": "United Utilities",
+   "scheme": "Graduate Modeller",
+   "closes": "2026-10-21"
+  },
+  {
+   "employer": "WTW",
+   "scheme": "2027 Rewards Data & Intelligence Consulting Graduate Programme, London",
+   "closes": "2026-10-21"
+  },
+  {
+   "employer": "Newcastle University",
+   "scheme": "Research Assistant / Associate in Applied Materials",
+   "closes": "2026-10-22"
+  },
+  {
+   "employer": "AccelerComm",
+   "scheme": "Graduate System Test Engineer",
+   "closes": "2026-10-23"
+  },
+  {
+   "employer": "Cadillac Formula 1® Team",
+   "scheme": "CFD Engineer - Thermal Brake Methodology",
+   "closes": "2026-10-23"
+  },
+  {
+   "employer": "University of Sheffield",
+   "scheme": "Research Associate in Multimodal Neuroimaging (Sheffield, GB)",
+   "closes": "2026-10-28"
+  },
+  {
+   "employer": "Leeds Teaching Hospitals NHS Trust",
+   "scheme": "Clinical Scientist - Radiotherapy Physicist",
+   "closes": "2026-10-28"
+  },
+  {
+   "employer": "#CatchUpWithCancer",
+   "scheme": "Clinical Scientist - Radiotherapy Physicist",
+   "closes": "2026-10-28"
+  },
+  {
+   "employer": "FTI Consulting, Inc.",
+   "scheme": "2027 Graduate Scheme, Economic & Financial Consulting",
+   "closes": "2026-10-30"
+  },
+  {
+   "employer": "Balfour Beatty",
+   "scheme": "Graduate Risk Analyst",
+   "closes": "2026-10-31"
+  },
+  {
+   "employer": "SatSense",
+   "scheme": "Earth Observation / SAR Specialist",
+   "closes": "2026-10-31"
+  },
+  {
+   "employer": "Tetra Tech Europe",
+   "scheme": "Graduate Noise Consultant",
+   "closes": "2026-10-31"
+  },
+  {
+   "employer": "Tetra Tech",
+   "scheme": "Graduate Noise Consultant - Leeds",
+   "closes": "2026-10-31"
+  },
+  {
+   "employer": "Tetra Tech",
+   "scheme": "Graduate Noise Consultant",
+   "closes": "2026-10-31"
+  },
+  {
+   "employer": "University of Sheffield",
+   "scheme": "Research Associate - Heterogeneous Integration: Systems Architecture and Design (Sheffield, GB)",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "University of Nottingham",
+   "scheme": "Research Associate/ Fellow (Fixed Term) (ENG2552726)",
+   "closes": "2026-11-01"
+  }
+ ],
+ "filtered": [
+  {
+   "title": "Research Associate",
+   "employer": "University of Bath",
+   "reason": "PhD in an engineering field or industrial R&D experience required; research associate post"
+  },
+  {
+   "title": "Founding Machine Learning Engineer, Industrial AI",
+   "employer": "Calyptus",
+   "reason": "at least six years in applied machine learning required"
+  },
+  {
+   "title": "Field Service Engineer (X-Ray), South",
+   "employer": "Healthcare 21 UK",
+   "reason": "score too low"
+  },
+  {
+   "title": "Field Service Engineer (X-Ray), South",
+   "employer": "Healthcare 21 UK",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate Renewable Energy Engineer",
+   "employer": "Renewable Careers",
+   "reason": "score too low"
+  },
+  {
+   "title": "KTP Associate in Building Physics Automation",
+   "employer": "The University of Edinburgh",
+   "reason": "score too low"
+  },
+  {
+   "title": "Production Technician II",
+   "employer": "TAIT",
+   "reason": "score too low"
+  },
+  {
+   "title": "SEND and Inclusion Teaching Assistant",
+   "employer": "Lacey Gardens Junior Academy",
+   "reason": "score too low (title only)"
+  },
+  {
+   "title": "Teaching Assistant",
+   "employer": "Highfield School",
+   "reason": "score too low"
+  },
+  {
+   "title": "Lab Technician/ Manufacturing Assistant",
+   "employer": "Specsavers",
+   "reason": "score too low"
+  },
+  {
+   "title": "Clean Energy Rotation Programme (Graduate)",
+   "employer": "Renewable Careers",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate Structural Engineer",
+   "employer": "HDR",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate Systems Engineer",
+   "employer": "Leonardo",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Research Associate in Sensor Development & Electronic Device Characterisation",
+   "employer": "Heriot-Watt University",
+   "reason": "PhD essential"
+  },
+  {
+   "title": "Graduate Firmware Engineer",
+   "employer": "Leonardo",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Graduate Engineer - Stress and Thermal Analyst",
+   "employer": "Leonardo",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Graduate Software Engineering Programme 2027",
+   "employer": "targetjobs UK",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Graduate Hardware Engineer",
+   "employer": "Leonardo",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Jr. Mobile Threat to Aerospace Operations (TTAO) Technician Assistant",
+   "employer": "SAIC",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Manufacturing Design Engineering Graduate",
+   "employer": "KLA",
+   "reason": "degree discipline not accepted"
+  },
+  {
+   "title": "Summer Placement Materials Engineer",
+   "employer": "Leonardo",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Epitaxy Process Shift Engineer",
+   "employer": "Lumentum",
+   "reason": "3+ years experience"
+  },
+  {
+   "title": "Graduate Electronics Engineer",
+   "employer": "Leonardo",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Graduate Electronics Engineer",
+   "employer": "Leonardo",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Applications Engineer - Battery Diagnostic Systems",
+   "employer": "Sention",
+   "reason": "5+ years experience"
+  },
+  {
+   "title": "2027 Graduate Programme - Mining",
+   "employer": "WSP in the UK & Ireland",
+   "reason": "graduation window excludes 2025"
+  },
+  {
+   "title": "Graduate Optical Engineer",
+   "employer": "Leonardo",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Graduate Energy Consultant - Renewables (Glasgow / Manchester / London)",
+   "employer": "Jacobs",
+   "reason": "closed 2026-10-12"
+  },
+  {
+   "title": "Software Engineer Graduate Apprenticeship",
+   "employer": "Leonardo",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Graduate Software Engineer",
+   "employer": "Leonardo",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Graduate Structural Engineers",
+   "employer": "Expedition Engineering Ltd",
+   "reason": "graduation window excludes 2025"
+  },
+  {
+   "title": "2027 Graduate Programme - Mining",
+   "employer": "WSP in the UK & Ireland",
+   "reason": "graduation window excludes 2025"
+  },
+  {
+   "title": "Mechanical Engineering Graduate Apprentice",
+   "employer": "Leonardo",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Graduate Mechanical Design Engineer",
+   "employer": "Mercedes-AMG PETRONAS Formula One Team",
+   "reason": "graduation window excludes 2025"
+  },
+  {
+   "title": "Graduate Test Systems Engineer",
+   "employer": "Leonardo",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Field Service Engineer (Multi-Skilled)",
+   "employer": "JBT Marel",
+   "reason": "degree discipline not accepted"
+  },
+  {
+   "title": "Electric System Health Analyst",
+   "employer": "NESO (National Energy System Operator)",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Field Application Engineer",
+   "employer": "Altera",
+   "reason": "10+ years experience"
+  }
+ ],
+ "filtered_more": "",
+ "cv_version": "",
+ "source_health": [
+  {
+   "source": "Reed API",
+   "error": "RuntimeError: REED_API_KEY not set",
+   "days": 7
+  },
+  {
+   "source": "Adzuna API",
+   "error": "RuntimeError: ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
+   "days": 7
+  },
+  {
+   "source": "Microsoft",
+   "error": "SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /searc",
+   "days": 7
+  },
+  {
+   "source": "New Scientist Jobs",
+   "error": "HTTPError: 406 Client Error: Not Acceptable for url: https://www.newscientist.com/nsj/jobsrss/",
+   "days": 7
+  },
+  {
+   "source": "Invisible Technologies",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/invisible",
+   "days": 7
+  },
+  {
+   "source": "Cambridge Design Partnership",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/cdp?details=tr",
+   "days": 3
+  },
+  {
+   "source": "Frazer-Nash Consultancy",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/frazer-nash?de",
+   "days": 3
+  },
+  {
+   "source": "ORCA Computing",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 7
+  },
+  {
+   "source": "Infleqtion UK",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/coldquanta?det",
+   "days": 3
+  },
+  {
+   "source": "Oxford Quantum Circuits",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/oxford-quantum",
+   "days": 3
+  },
+  {
+   "source": "Nu Quantum",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/nu-quantum?det",
+   "days": 3
+  },
+  {
+   "source": "Paragraf",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/paragraf-1?det",
+   "days": 3
+  },
+  {
+   "source": "Phasecraft",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/phasecraft-1?d",
+   "days": 3
+  },
+  {
+   "source": "Tokamak Energy",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/tokamak-energy",
+   "days": 3
+  },
+  {
+   "source": "Universal Quantum",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/universalquant",
+   "days": 3
+  },
+  {
+   "source": "Wave Photonics",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/wavephotonics?",
+   "days": 3
+  },
+  {
+   "source": "Modo Energy",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 7
+  },
+  {
+   "source": "Google DeepMind",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/deepmind/jobs?content=true",
+   "days": 7
+  },
+  {
+   "source": "Orbital Materials",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/orbitalmaterials",
+   "days": 7
+  },
+  {
+   "source": "Monolith AI",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://monolithai.teamtailor.com/jobs.rss",
+   "days": 7
+  },
+  {
+   "source": "Satellite Vu (SatVu)",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/satellitevu?de",
+   "days": 3
+  },
+  {
+   "source": "Rolls-Royce",
+   "error": "HTTPError: 405 Client Error: Method Not Allowed for url: https://rollsroyce.wd3.myworkdayjobs.com/wday/cxs/rollsroyce/In",
+   "days": 7
+  },
+  {
+   "source": "jobs.ac.uk - Engineering & Technology",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/engineering-and-technology?forma",
+   "days": 7
+  },
+  {
+   "source": "jobs.ac.uk - Laboratory, Clinical & Technician",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/laboratory-clinical-and-technici",
+   "days": 7
+  },
+  {
+   "source": "jobs.ac.uk - Materials Science",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/materials-science?format=rss",
+   "days": 7
+  },
+  {
+   "source": "jobs.ac.uk - Physical & Environmental Sciences (parent)",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physical-and-environmental-scien",
+   "days": 7
+  },
+  {
+   "source": "jobs.ac.uk - Physics & Astronomy",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physics-and-astronomy?format=rss",
+   "days": 7
+  },
+  {
+   "source": "University of Cambridge",
+   "error": "ConnectionError: HTTPSConnectionPool(host='jobs.cam.ac.uk', port=443): Max retries exceeded with url: /job/?format=rss&u",
+   "days": 7
+  },
+  {
+   "source": "University of York",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://jobs.york.ac.uk/rss/rss.aspx",
+   "days": 7
+  },
+  {
+   "source": "Capula Investment Management",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/capula-investm",
+   "days": 3
+  },
+  {
+   "source": "Aegiq",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/aegiq?details=",
+   "days": 3
+  }
+ ],
+ "pipeline": {
+  "ready": {
+   "ready_at": "2026-10-18T05:45:27+00:00",
+   "pending": 44,
+   "ad_text": 43,
+   "gated": 28,
+   "fit_ge_2": 6,
+   "first_seen_days": [
+    "2026-10-18"
+   ],
+   "file": "/Users/danielito/Projects/job-radar/state/pending.jsonl"
+  },
+  "enrich": {
+   "enrich_at": "2026-10-18T05:43:21+00:00",
+   "needed": 35,
+   "seconds": 124,
+   "enriched": 35,
+   "failed": 0,
+   "skipped": 0,
+   "restage_dropped": 0,
+   "linkedin_fetched": 33,
+   "linkedin_blocked": false,
+   "skipped_by_notes": 0,
+   "hosts": {
+    "linkedin.com": {
+     "ok": 33
+    },
+    "neso.wd103.myworkdayjobs.com": {
+     "ok": 1
+    },
+    "teaching-vacancies.service.gov.uk": {
+     "ok": 1
+    }
+   },
+   "runs": [
+    {
+     "enrich_at": "2026-10-18T05:43:21+00:00",
+     "needed": 35,
+     "seconds": 124,
+     "enriched": 35,
+     "failed": 0,
+     "skipped": 0,
+     "restage_dropped": 0,
+     "linkedin_fetched": 33,
+     "linkedin_blocked": false,
+     "skipped_by_notes": 0,
+     "hosts": {
+      "linkedin.com": {
+       "ok": 33
+      },
+      "neso.wd103.myworkdayjobs.com": {
+       "ok": 1
+      },
+      "teaching-vacancies.service.gov.uk": {
+       "ok": 1
+      }
+     }
+    }
+   ]
+  }
+ }
+}
