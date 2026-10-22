@@ -76,6 +76,7 @@
   const STARTUPISH = new Set(['Startup', 'Scale-up']);
   function labelChips(it) {
     const out = [];
+    if (it.ideal) out.push(`<span class="tag ideal" title="${esc(it.ideal_why || 'Hands-on vacuum and beam work at junior level')}">★ Ideal role</span>`);
     if (it.high_pay) out.push('<span class="tag pay" title="High-paying sector or employer">High pay</span>');
     if (it.pay) out.push(`<span class="tag">${esc(it.pay)}</span>`);
     if (it.stage && it.stage !== 'Unknown') out.push(`<span class="tag ${STARTUPISH.has(it.stage) ? 'stage' : ''}">${esc(it.stage)}</span>`);
@@ -87,7 +88,7 @@
     const soon = isDate(it.closes) && daysUntil(it.closes) >= 0 && daysUntil(it.closes) <= 7;
     const closes = isDate(it.closes) ? 'closes ' + fmtDay(it.closes, { weekday: undefined }) : 'rolling';
     const done = !!applied[it.key];
-    return `<article class="card ${cls} ${done ? 'applied' : ''}" data-key="${esc(it.key)}">
+    return `<article class="card ${cls} ${it.ideal ? 'ideal' : ''} ${done ? 'applied' : ''}" data-key="${esc(it.key)}">
       <div class="head">
         <div><h3>${esc(it.title)}</h3><div class="emp">${esc(it.employer)} · ${esc(it.hub)}</div></div>
         <span class="fit ${cls}" title="Fit score">${esc(it.fit)}/5</span>
@@ -99,6 +100,7 @@
         <span class="tag ${soon ? 'close-soon' : ''}">${esc(closes)}</span>
         ${date ? `<span class="tag">seen ${esc(fmtDay(date, { weekday: undefined, year: undefined }))}</span>` : ''}
       </div>
+      ${it.ideal && it.ideal_why ? `<p><b>Ideal</b>${esc(it.ideal_why)}</p>` : ''}
       <p><b>Why</b>${esc(it.why)}</p>
       <p><b>Angle</b>${esc(it.angle)}</p>
       ${(it.flags || []).length ? `<div class="flags">${it.flags.map((f) => `<span class="flag">${esc(f)}</span>`).join('')}</div>` : ''}
@@ -134,7 +136,7 @@
   function rowHtml(i, withSeen) {
     return `<tr class="${applied[i.key] ? 'applied' : ''}">
       <td class="num"><span class="fit ${fitClass(i)}">${esc(i.fit)}</span></td>
-      <td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="emp">${esc(i.employer)}${i.sector && i.sector !== 'Other' ? ' · ' + esc(i.sector) : ''}${i.stage && STARTUPISH.has(i.stage) ? ' · <span class="st">' + esc(i.stage) + '</span>' : ''}${i.high_pay ? ' · <span class="hp">High pay</span>' : ''}${i.ad_read === false ? ' · <span class="warn">ad not read</span>' : ''}</div></td>
+      <td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="emp">${esc(i.employer)}${i.sector && i.sector !== 'Other' ? ' · ' + esc(i.sector) : ''}${i.stage && STARTUPISH.has(i.stage) ? ' · <span class="st">' + esc(i.stage) + '</span>' : ''}${i.ideal ? ' · <span class="id">★ Ideal role</span>' : ''}${i.high_pay ? ' · <span class="hp">High pay</span>' : ''}${i.ad_read === false ? ' · <span class="warn">ad not read</span>' : ''}</div></td>
       <td>${esc(i.hub)}</td><td>${esc(i.cv)}</td>
       <td class="num">${isDate(i.closes) ? esc(fmtDay(i.closes, { weekday: undefined, year: undefined })) : 'rolling'}</td>
       ${withSeen ? `<td class="num"><a href="#/day/${i.date}">${esc(fmtDay(i.date, { weekday: undefined, year: undefined }))}</a></td>` : ''}
@@ -172,6 +174,7 @@
         <select id="${prefix}Sector" aria-label="Sector"><option value="">All sectors</option>${sectors.map((c) => `<option>${esc(c)}</option>`).join('')}</select>
         <select id="${prefix}Stage" aria-label="Company stage"><option value="">Any company stage</option>${stages.map((c) => `<option>${esc(c)}</option>`).join('')}</select>
         <label class="chk"><input type="checkbox" id="${prefix}Pay"> High pay only</label>
+        <label class="chk"><input type="checkbox" id="${prefix}Ideal"> Ideal roles only</label>
       </div>`;
   }
   function matcher(prefix) {
@@ -182,7 +185,7 @@
         (!g('Hub').value || i.hub === g('Hub').value) && (!g('Cv').value || i.cv === g('Cv').value) && (+i.fit >= +g('Fit').value) &&
         (!g('Sector').value || i.sector === g('Sector').value) &&
         (!g('Stage').value || (g('Stage').value === 'Startup or scale-up' ? STARTUPISH.has(i.stage) : i.stage === g('Stage').value)) &&
-        (!g('Pay').checked || i.high_pay);
+        (!g('Pay').checked || i.high_pay) && (!g('Ideal').checked || i.ideal);
     };
   }
 
@@ -203,6 +206,7 @@
     }
 
     let html = head + kpis([
+      ...(items.some((i) => i.ideal) ? [[items.filter((i) => i.ideal).length, 'ideal roles']] : []),
       [s.pending ?? '–', 'in queue'],
       [s.ad_text ?? s.read ?? '–', 'with full ad'],
       [s.kept ?? items.length, 'kept (fit 2+)'],
@@ -235,9 +239,15 @@
     const match = matcher('d');
     const drawBody = () => {
       const vis = items.filter(match);
-      const by = (sec) => vis.filter((i) => i.section === sec);
+      const ideal = vis.filter((i) => i.ideal && i.section !== 'check');
+      const by = (sec) => vis.filter((i) => i.section === sec && !(i.ideal && sec !== 'check'));
       const chk = by('check');
       let h = '';
+      if (ideal.length) {
+        h += `<h2 class="sec ideal">★ Ideal roles · apply first <span class="count">${ideal.length}</span></h2>
+          <p class="notes">Hands-on experimental work with vacuum systems, beams or accelerators, open to a junior candidate.</p>
+          <div class="cards">${ideal.map((it) => card(it, null)).join('')}</div>`;
+      }
       if (chk.length) {
         h += `<h2 class="sec">High pay: check by hand <span class="count">${chk.length}</span></h2>
           <p class="notes">Well-paid employers (quant trading, hedge funds, banks, top tech) whose ad page blocks automated reading. Open each one and judge it yourself.</p>` + tableShell('checkT', false);
@@ -254,7 +264,7 @@
       if (mt) pager(mt, maybe, (i) => rowHtml(i, false), 'None');
       wireApplied(body);
     };
-    ['q', 'Hub', 'Cv', 'Fit', 'Sector', 'Stage', 'Pay'].forEach((id) => document.getElementById('d' + id).addEventListener('input', drawBody));
+    ['q', 'Hub', 'Cv', 'Fit', 'Sector', 'Stage', 'Pay', 'Ideal'].forEach((id) => document.getElementById('d' + id).addEventListener('input', drawBody));
     drawBody();
 
     const fl = document.getElementById('filtList');
@@ -310,6 +320,7 @@
     html += kpis([
       [INDEX.days.length, 'days tracked'],
       [all.length, 'unique matches'],
+      [all.filter((i) => i.ideal).length, 'ideal roles'],
       [all.filter((i) => i.section === 'top').length, 'top picks'],
       [all.filter((i) => i.high_pay).length, 'high pay'],
       [all.filter((i) => STARTUPISH.has(i.stage)).length, 'startups and scale-ups'],
@@ -354,11 +365,11 @@
         (openSel.value !== 'todo' || !applied[i.key]));
       const k = sortSel.value;
       rows.sort((a, b) => k === 'closes' ? (isDate(a.closes) ? a.closes : '9999').localeCompare(isDate(b.closes) ? b.closes : '9999') || b.fit - a.fit
-        : k === 'date' ? b.date.localeCompare(a.date) || b.fit - a.fit : b.fit - a.fit);
+        : k === 'date' ? b.date.localeCompare(a.date) || b.fit - a.fit : (!!b.ideal - !!a.ideal) || b.fit - a.fit);
       document.getElementById('allCount').textContent = rows.length;
       pager(document.getElementById('allT'), rows, (i) => rowHtml(i, true), 'No matches for these filters.');
     }
-    ['aq', 'aHub', 'aCv', 'aFit', 'aSector', 'aStage', 'aPay', 'aOpen', 'aSort'].forEach((id) => document.getElementById(id).addEventListener('input', draw));
+    ['aq', 'aHub', 'aCv', 'aFit', 'aSector', 'aStage', 'aPay', 'aIdeal', 'aOpen', 'aSort'].forEach((id) => document.getElementById(id).addEventListener('input', draw));
     draw();
   }
 

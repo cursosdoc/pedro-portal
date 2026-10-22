@@ -198,3 +198,9 @@ th { cursor: default; }
 .emp .hp { color: var(--top); font-weight: 600; }
 .emp .st { color: var(--bridge); font-weight: 600; }
 .filters .chk { display: flex; align-items: center; gap: 6px; font-size: 14px; color: var(--muted); padding: 0 4px; }
+
+/* ideal roles (rules.yaml > ideal) */
+.card.ideal { border: 2px solid var(--worth); border-left-width: 6px; background: linear-gradient(var(--worth-soft), var(--surface) 70px); }
+.tag.ideal { background: var(--worth); color: var(--surface); font-weight: 700; }
+h2.sec.ideal { color: var(--worth); }
+.emp .id { color: var(--worth); font-weight: 700; }
