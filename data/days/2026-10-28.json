@@ -1,0 +1,522 @@
+{
+ "schema": 1,
+ "date": "2026-10-28",
+ "generated_at": "2026-10-28T07:54:04+00:00",
+ "status": "ok",
+ "data_refreshed": "2026-10-28",
+ "window_from": "2026-10-27T00:30:07+00:00",
+ "catch_up": true,
+ "days_covered": 2,
+ "first_digest": false,
+ "stats": {
+  "pending": 15,
+  "ad_text": 15,
+  "passed_gates": 8,
+  "kept": 5,
+  "shown": 5,
+  "held_over": 0,
+  "waiting_for_ad": 0,
+  "dropped": 9,
+  "sources_failed": 11,
+  "top": 0,
+  "check": 0,
+  "high_pay": 2,
+  "ideal": 0,
+  "startups": 1
+ },
+ "notes": [
+  "Ad text fetched for 10 postings today"
+ ],
+ "items": [
+  {
+   "key": "75986aab624ba1f3",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "University",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Data Scientist / Research Officer",
+   "employer": "University of Surrey",
+   "hub": "Surrey-Sussex",
+   "closes": "rolling",
+   "type_id": 12,
+   "type_name": "Graduate data scientist (scientific data)",
+   "fit": 3.63,
+   "cv": "Data and machine learning",
+   "why": "\"Acoustic bird/bat classifier (Random Forest on mel spectrograms, 78%, 6 species) fused with radar altitude for wind-turbine collision risk; ~60% fewer false alerts (github.com/pf-oc/acoustic-wildlife-classifier)\" (ad mentions acoustic, data scientist, python, pytorch)",
+   "angle": "Three end-to-end data projects with measured results (calibration, classifier, SNN training).",
+   "flags": [
+    "sponsor licence unknown",
+    "part-time"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4482132909",
+   "first_seen": "2026-10-28",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "93f5f83ed7f01f7d",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Hedge fund",
+   "stage": "Established",
+   "high_pay": true,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Quantitative Researcher - Postgraduate",
+   "employer": "G-Research",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 17,
+   "type_name": "Quant research / trading (graduate or intern)",
+   "fit": 3.5,
+   "cv": "Data and machine learning",
+   "why": "Masters in physics accepted, no finance experience needed; evidence: \"Inkjet process simulator: droplet flight (Schiller-Naumann drag, Monte Carlo nozzle variation)\" and \"Spiking neural networks in Google JAX; revised training method; 3x accuracy on SHD\"",
+   "angle": "Hypothesis, model, measured result: Monte Carlo and noise modelling plus ML training in JAX.",
+   "flags": [
+    "sponsor licence unknown",
+    "PhD desirable",
+    "transcript needed"
+   ],
+   "url": "https://www.gresearch.com/vacancies/quantitative-researcher-postgraduate/",
+   "first_seen": "2026-10-28",
+   "source": "Kadoa Quant Jobs",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "df7ceda5ed27a4a3",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Big tech",
+   "stage": "Established",
+   "high_pay": true,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Data Scientist, Edge AI Product Science",
+   "employer": "Amazon",
+   "hub": "Cambridge",
+   "closes": "rolling",
+   "type_id": 12,
+   "type_name": "Graduate data scientist (scientific data)",
+   "fit": 3.19,
+   "cv": "Data and machine learning",
+   "why": "\"Spiking neural networks in Google JAX (CUBA-LIF, ferroelectric FeLIF); revised training method; 3x accuracy on SHD\" (ad mentions audio, data analysis, data scientist, deep learning)",
+   "angle": "Three end-to-end data projects with measured results (calibration, classifier, SNN training).",
+   "flags": [
+    "sponsor licence unknown"
+   ],
+   "url": "https://www.amazon.jobs/en/jobs/10590206/data-scientist-edge-ai-product-science",
+   "first_seen": "2026-10-28",
+   "source": "Amazon",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "57b7e5d36b0dd092",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Fintech and market data",
+   "stage": "Scale-up",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Junior Data Quality Analyst",
+   "employer": "Kpler",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 15,
+   "type_name": "Renewables / environmental analytics",
+   "fit": 3.16,
+   "cv": "Data and machine learning",
+   "why": "\"Spiking neural networks in Google JAX (CUBA-LIF, ferroelectric FeLIF); revised training method; 3x accuracy on SHD\" (ad mentions data analysis, data science, python, statistics)",
+   "angle": "Built a wildlife collision-risk pipeline for wind turbines (acoustic + radar fusion, ~60% fewer false alerts).",
+   "flags": [
+    "sponsor licence unknown",
+    "asks 1 to 2 years in a data role or internship and SQL plus BI tools"
+   ],
+   "url": "https://jobs.lever.co/kpler/caa9dbc6-f48f-437b-994f-64d233010da7",
+   "first_seen": "2026-10-28",
+   "source": "Kpler",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "6bd18d109941fc4a",
+   "dup_keys": [
+    "0f641d5a1fa83fe3"
+   ],
+   "section": "maybe",
+   "sector": "Insurance and risk",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Aon Graduate Programme 2027 - Commercial Risk Consulting",
+   "employer": "Aon",
+   "hub": "London",
+   "closes": "2026-12-07",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 2.75,
+   "cv": "General graduate",
+   "why": "\"IT support lead for an accounting firm's COVID-19 move to digital operations; ran user workshops\" (ad mentions analytical, consulting, graduate, presentations)",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence unknown",
+    "2:1 requested (quote UK ENIC comparability)",
+    "2027 programme: check that a 2025 MSc graduate is accepted"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4484286738",
+   "first_seen": "2026-10-28",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  }
+ ],
+ "deadlines": [
+  {
+   "employer": "University of Sheffield",
+   "scheme": "Research Associate in Multimodal Neuroimaging (Sheffield, GB)",
+   "closes": "2026-10-28"
+  },
+  {
+   "employer": "Leeds Teaching Hospitals NHS Trust",
+   "scheme": "Clinical Scientist - Radiotherapy Physicist",
+   "closes": "2026-10-28"
+  },
+  {
+   "employer": "#CatchUpWithCancer",
+   "scheme": "Clinical Scientist - Radiotherapy Physicist",
+   "closes": "2026-10-28"
+  },
+  {
+   "employer": "Rider Levett Bucknall RLB",
+   "scheme": "Assistant Fire Engineer (Graduate)",
+   "closes": "2026-10-28"
+  },
+  {
+   "employer": "Rider Levett Bucknall RLB",
+   "scheme": "Assistant Fire Engineer (Graduate)",
+   "closes": "2026-10-28"
+  },
+  {
+   "employer": "FTI Consulting, Inc.",
+   "scheme": "2027 Graduate Scheme, Economic & Financial Consulting",
+   "closes": "2026-10-30"
+  },
+  {
+   "employer": "Outwood Academy Ripon",
+   "scheme": "ICT Technician",
+   "closes": "2026-10-30"
+  },
+  {
+   "employer": "Balfour Beatty",
+   "scheme": "Graduate Risk Analyst",
+   "closes": "2026-10-31"
+  },
+  {
+   "employer": "SatSense",
+   "scheme": "Earth Observation / SAR Specialist",
+   "closes": "2026-10-31"
+  },
+  {
+   "employer": "Tetra Tech Europe",
+   "scheme": "Graduate Noise Consultant",
+   "closes": "2026-10-31"
+  },
+  {
+   "employer": "Tetra Tech",
+   "scheme": "Graduate Noise Consultant - Leeds",
+   "closes": "2026-10-31"
+  },
+  {
+   "employer": "Tetra Tech",
+   "scheme": "Graduate Noise Consultant",
+   "closes": "2026-10-31"
+  },
+  {
+   "employer": "Tetra Tech Europe",
+   "scheme": "Graduate Fire Engineer",
+   "closes": "2026-10-31"
+  },
+  {
+   "employer": "University of Sheffield",
+   "scheme": "Research Associate - Heterogeneous Integration: Systems Architecture and Design (Sheffield, GB)",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "University of Nottingham",
+   "scheme": "Research Associate/ Fellow (Fixed Term) (ENG2552726)",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "Ocado Retail",
+   "scheme": "Data Science Graduate - Sept 2027",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "Ocado Retail",
+   "scheme": "Data & Insights Graduate - Sept 2027",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "Ocado Retail",
+   "scheme": "Data Engineering Graduate - Sept 2027",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "SSE plc",
+   "scheme": "Energy Markets Graduate Programme",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "SSE plc",
+   "scheme": "Enterprise Risk & Assurance Graduate Programme",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "SSE plc",
+   "scheme": "Engineering Graduate Programme",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "SSE plc",
+   "scheme": "Engineering Graduate Programme",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "University of Lancashire",
+   "scheme": "Laboratory Support Technician - Analytical Sciences",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "SSE plc",
+   "scheme": "Engineering Graduate Programme",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "Harris Girls Academy Bromley",
+   "scheme": "Graduate Teaching Assistant",
+   "closes": "2026-11-02"
+  },
+  {
+   "employer": "Fossdene Primary School",
+   "scheme": "Teaching Assistant/Playworker (initially within the LARP)",
+   "closes": "2026-11-02"
+  },
+  {
+   "employer": "University of Surrey (incl. Ion Beam Centre)",
+   "scheme": "Data Scientist / Research Officer (050926)",
+   "closes": "2026-11-04"
+  },
+  {
+   "employer": "University of Edinburgh",
+   "scheme": "Research Associate",
+   "closes": "2026-11-04"
+  },
+  {
+   "employer": "The University of Edinburgh",
+   "scheme": "Research Associate",
+   "closes": "2026-11-04"
+  },
+  {
+   "employer": "University of Edinburgh",
+   "scheme": "Research Assistant",
+   "closes": "2026-11-05"
+  }
+ ],
+ "filtered": [
+  {
+   "title": "General Fusion Inc.: Computational Analyst",
+   "employer": "Physicsworldjobs",
+   "reason": "General Fusion is in Canada (relayed by Physicsworldjobs); also asks plasma physics simulation experience"
+  },
+  {
+   "title": "Aon Graduate Programme 2027 - Commercial Risk Consulting",
+   "employer": "targetjobs UK",
+   "reason": "duplicate of the Aon graduate ad listed under targetjobs UK"
+  },
+  {
+   "title": "Surveillance Analyst",
+   "employer": "DRW",
+   "reason": "score too low"
+  },
+  {
+   "title": "Research Associate - Department of Metabolism and Systems Sciences - 108135 - Grade 6",
+   "employer": "University of Birmingham",
+   "reason": "score too low"
+  },
+  {
+   "title": "Strategy Delivery Analyst",
+   "employer": "NESO (National Energy System Operator)",
+   "reason": "score too low"
+  },
+  {
+   "title": "Process Technician",
+   "employer": "Irresistible Materials",
+   "reason": "degree discipline not accepted"
+  },
+  {
+   "title": "Red Team Consultant",
+   "employer": "Leonardo UK",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Graduate Project Manager",
+   "employer": "Leonardo UK",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Test Technician",
+   "employer": "GE Vernova UK",
+   "reason": "security clearance or UK nationals only"
+  }
+ ],
+ "filtered_more": "",
+ "cv_version": "4 of the 4 strongest matches suit the data and machine learning CV. Lead it with: Spiking neural networks in Google JAX (CUBA-LIF, ferroelectric FeLIF); Push-broom imaging spectrometer forward model and radiometric calibration.",
+ "source_health": [
+  {
+   "source": "Adzuna API",
+   "error": "RuntimeError: ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
+   "days": 17
+  },
+  {
+   "source": "Reed API",
+   "error": "RuntimeError: REED_API_KEY not set",
+   "days": 17
+  },
+  {
+   "source": "Microsoft",
+   "error": "SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /searc",
+   "days": 17
+  },
+  {
+   "source": "ORCA Computing",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 17
+  },
+  {
+   "source": "Modo Energy",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 17
+  },
+  {
+   "source": "jobs.ac.uk - Engineering & Technology",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/engineering-and-technology?forma",
+   "days": 17
+  },
+  {
+   "source": "jobs.ac.uk - Laboratory, Clinical & Technician",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/laboratory-clinical-and-technici",
+   "days": 17
+  },
+  {
+   "source": "jobs.ac.uk - Materials Science",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/materials-science?format=rss",
+   "days": 17
+  },
+  {
+   "source": "jobs.ac.uk - Physical & Environmental Sciences (parent)",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physical-and-environmental-scien",
+   "days": 17
+  },
+  {
+   "source": "jobs.ac.uk - Physics & Astronomy",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physics-and-astronomy?format=rss",
+   "days": 17
+  },
+  {
+   "source": "University of Cambridge",
+   "error": "ConnectionError: HTTPSConnectionPool(host='jobs.cam.ac.uk', port=443): Max retries exceeded with url: /job/?format=rss&u",
+   "days": 17
+  }
+ ],
+ "pipeline": {
+  "ready": {
+   "ready_at": "2026-10-28T06:41:40+00:00",
+   "pending": 15,
+   "ad_text": 15,
+   "gated": 4,
+   "fit_ge_2": 8,
+   "first_seen_days": [
+    "2026-10-28"
+   ],
+   "file": "/Users/danielito/Projects/job-radar/state/pending.jsonl"
+  },
+  "enrich": {
+   "enrich_at": "2026-10-28T06:41:28+00:00",
+   "needed": 10,
+   "seconds": 11,
+   "enriched": 10,
+   "failed": 0,
+   "skipped": 0,
+   "restage_dropped": 0,
+   "linkedin_fetched": 4,
+   "linkedin_blocked": false,
+   "skipped_by_notes": 0,
+   "hosts": {
+    "gevernova.wd5.myworkdayjobs.com": {
+     "ok": 1
+    },
+    "gresearch.com": {
+     "ok": 1
+    },
+    "leonardocompany.wd3.myworkdayjobs.com": {
+     "ok": 2
+    },
+    "linkedin.com": {
+     "ok": 4
+    },
+    "neso.wd103.myworkdayjobs.com": {
+     "ok": 1
+    },
+    "physicsworldjobs.com": {
+     "ok": 1
+    }
+   },
+   "runs": [
+    {
+     "enrich_at": "2026-10-28T06:41:28+00:00",
+     "needed": 10,
+     "seconds": 11,
+     "enriched": 10,
+     "failed": 0,
+     "skipped": 0,
+     "restage_dropped": 0,
+     "linkedin_fetched": 4,
+     "linkedin_blocked": false,
+     "skipped_by_notes": 0,
+     "hosts": {
+      "gevernova.wd5.myworkdayjobs.com": {
+       "ok": 1
+      },
+      "gresearch.com": {
+       "ok": 1
+      },
+      "leonardocompany.wd3.myworkdayjobs.com": {
+       "ok": 2
+      },
+      "linkedin.com": {
+       "ok": 4
+      },
+      "neso.wd103.myworkdayjobs.com": {
+       "ok": 1
+      },
+      "physicsworldjobs.com": {
+       "ok": 1
+      }
+     }
+    }
+   ]
+  }
+ }
+}
