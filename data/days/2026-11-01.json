@@ -1,0 +1,594 @@
+{
+ "schema": 1,
+ "date": "2026-11-01",
+ "generated_at": "2026-11-01T07:53:45+00:00",
+ "status": "ok",
+ "data_refreshed": "2026-11-01",
+ "window_from": "2026-10-31T00:34:17+00:00",
+ "catch_up": true,
+ "days_covered": 2,
+ "first_digest": false,
+ "stats": {
+  "pending": 25,
+  "ad_text": 25,
+  "passed_gates": 16,
+  "kept": 7,
+  "shown": 7,
+  "held_over": 0,
+  "waiting_for_ad": 0,
+  "dropped": 15,
+  "sources_failed": 12,
+  "top": 0,
+  "check": 0,
+  "high_pay": 0,
+  "ideal": 0,
+  "startups": 0
+ },
+ "notes": [
+  "Ad text fetched for 24 postings today"
+ ],
+ "items": [
+  {
+   "key": "7a15dd58bde3ba34",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Engineering consultancy",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Product Engineer - Calibration",
+   "employer": "BSRIA",
+   "hub": "Thames Valley",
+   "closes": "rolling",
+   "type_id": 9,
+   "type_name": "Calibration, metrology or Earth-observation scientist",
+   "fit": 3.4,
+   "cv": "Lab and vacuum hardware",
+   "why": "\"Push-broom imaging spectrometer forward model and radiometric calibration; 0.05% RMS radiometric residual\" plus \"Maintained and repaired UHV components (gauges, valves, readouts)\"; ad accepts maths and science qualifications instead of 2 years experience",
+   "angle": "Calibration work on a spectrometer model and hands-on gauge and readout repair; ready for a calibration lab.",
+   "flags": [
+    "sponsor licence no"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4483957992",
+   "first_seen": "2026-11-01",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "acc3355f1485834b",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "2027 Risk Management Group Graduate Programme",
+   "employer": "targetjobs UK",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 3.06,
+   "cv": "General graduate",
+   "why": "\"IT support lead for an accounting firm's COVID-19 move to digital operations; ran user workshops\" (ad mentions graduate, presentation, problem-solving, quantitative)",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence unknown",
+    "employer is Macquarie (via targetjobs UK)",
+    "2027 intake: check whether 2025 graduates are eligible"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4485179258",
+   "first_seen": "2026-11-01",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "53eff62a93793bd7",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "£1,000",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Graduate Credit Policy Analyst",
+   "employer": "targetjobs UK",
+   "hub": "Bristol-Bath",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 3.0,
+   "cv": "General graduate",
+   "why": "\"Daily AI-assisted development with Claude Code\" (ad mentions data analysis, data science, statistics)",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence unknown",
+    "employer not named (targetjobs UK relay)",
+    "pay field £1,000 is likely a training budget, not salary"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4485181222",
+   "first_seen": "2026-11-01",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "e408bceb6c18b36f",
+   "dup_keys": [
+    "8939845d27728426"
+   ],
+   "section": "maybe",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "£35,000 - £43,000",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Calibration Engineer",
+   "employer": "Euro Projects Recruitment - Engineering, Manufacturing & Technology",
+   "hub": "UK (unspecified)",
+   "closes": "rolling",
+   "type_id": 9,
+   "type_name": "Calibration, metrology or Earth-observation scientist",
+   "fit": 2.6,
+   "cv": "Lab and vacuum hardware",
+   "why": "\"Push-broom imaging spectrometer forward model and radiometric calibration; 5 noise sources; 0.05% RMS radiometric residual, 6 pm RMS wavelength accuracy (github.com/pf-oc/tropomi-cal-sim)\" (ad mentions calibration)",
+   "angle": "Hands-on gauge and readout repair plus a radiometric calibration model; keen to train across calibration disciplines.",
+   "flags": [
+    "sponsor licence unknown",
+    "£35,000 - £43,000",
+    "recruiter ad; employer not named",
+    "field role with van, asks some calibration experience"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4485931757",
+   "first_seen": "2026-11-01",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "dea52a60cdfde840",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "2027 Client and Product Graduate Rotational Program",
+   "employer": "targetjobs UK",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 2.5,
+   "cv": "General graduate",
+   "why": "\"IT support lead for an accounting firm's COVID-19 move to digital operations; ran user workshops\" (ad mentions analytical, graduate, language, outreach)",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence unknown",
+    "employer not named (targetjobs UK relay; a global investment firm)",
+    "2027 intake: check whether 2025 graduates are eligible",
+    "sales and client service rotations, light on science"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4485176261",
+   "first_seen": "2026-11-01",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "2175ef050579d17f",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Graduate Service Technician (CO2 Assembly)",
+   "employer": "targetjobs UK",
+   "hub": "Manchester-Cheshire",
+   "closes": "rolling",
+   "type_id": 2,
+   "type_name": "Research / facility technician, experimental officer",
+   "fit": 2.5,
+   "cv": "Lab and vacuum hardware",
+   "why": "\"Maintained and repaired UHV components (gauges, valves, readouts); helped reassemble and test the ZERNIKELEIF facility\" (ad mentions assembly, laser, repairs)",
+   "angle": "Hands-on vacuum maintenance and instrument reassembly; comfortable owning shared equipment.",
+   "flags": [
+    "sponsor licence unknown",
+    "employer not named (targetjobs UK relay)"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4485180257",
+   "first_seen": "2026-11-01",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "ac9632d3ed9293f7",
+   "dup_keys": [
+    "263011e052657af8"
+   ],
+   "section": "maybe",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Field Service Engineer",
+   "employer": "DEMOB JOB LIMITED",
+   "hub": "Birmingham-Midlands",
+   "closes": "rolling",
+   "type_id": 21,
+   "type_name": "Technical sales / field application / service engineer",
+   "fit": 2.07,
+   "cv": "Lab and vacuum hardware",
+   "why": "\"Maintained and repaired UHV components (gauges, valves, readouts); helped reassemble and test the ZERNIKELEIF facility\" (ad mentions instrumentation, laboratory, maintenance)",
+   "angle": "Repaired and recommissioned vacuum and ion-source hardware; explains it well to users.",
+   "flags": [
+    "sponsor licence unknown",
+    "asks field service or maintenance experience",
+    "recruiter ad; employer not named"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4485930841",
+   "first_seen": "2026-11-01",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  }
+ ],
+ "deadlines": [
+  {
+   "employer": "University of Sheffield",
+   "scheme": "Research Associate - Heterogeneous Integration: Systems Architecture and Design (Sheffield, GB)",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "University of Nottingham",
+   "scheme": "Research Associate/ Fellow (Fixed Term) (ENG2552726)",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "Ocado Retail",
+   "scheme": "Data Science Graduate - Sept 2027",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "Ocado Retail",
+   "scheme": "Data & Insights Graduate - Sept 2027",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "Ocado Retail",
+   "scheme": "Data Engineering Graduate - Sept 2027",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "SSE plc",
+   "scheme": "Energy Markets Graduate Programme",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "SSE plc",
+   "scheme": "Enterprise Risk & Assurance Graduate Programme",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "SSE plc",
+   "scheme": "Engineering Graduate Programme",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "SSE plc",
+   "scheme": "Engineering Graduate Programme",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "University of Lancashire",
+   "scheme": "Laboratory Support Technician - Analytical Sciences",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "SSE plc",
+   "scheme": "Engineering Graduate Programme",
+   "closes": "2026-11-01"
+  },
+  {
+   "employer": "Harris Girls Academy Bromley",
+   "scheme": "Graduate Teaching Assistant",
+   "closes": "2026-11-02"
+  },
+  {
+   "employer": "Fossdene Primary School",
+   "scheme": "Teaching Assistant/Playworker (initially within the LARP)",
+   "closes": "2026-11-02"
+  },
+  {
+   "employer": "University of Surrey (incl. Ion Beam Centre)",
+   "scheme": "Data Scientist / Research Officer (050926)",
+   "closes": "2026-11-04"
+  },
+  {
+   "employer": "University of Edinburgh",
+   "scheme": "Research Associate",
+   "closes": "2026-11-04"
+  },
+  {
+   "employer": "The University of Edinburgh",
+   "scheme": "Research Associate",
+   "closes": "2026-11-04"
+  },
+  {
+   "employer": "University of Edinburgh",
+   "scheme": "Research Assistant",
+   "closes": "2026-11-05"
+  },
+  {
+   "employer": "Arcadis",
+   "scheme": "Graduate Flood Risk & Hydrology Engineer",
+   "closes": "2026-11-06"
+  },
+  {
+   "employer": "Arcadis",
+   "scheme": "Graduate Flood Risk & Hydrology Engineer",
+   "closes": "2026-11-06"
+  },
+  {
+   "employer": "University of Bath",
+   "scheme": "Data Analyst (CH14030)",
+   "closes": "2026-11-06"
+  },
+  {
+   "employer": "Arcadis",
+   "scheme": "Graduate Flood Risk & Hydrology Engineer",
+   "closes": "2026-11-06"
+  },
+  {
+   "employer": "Aurora Energy Research",
+   "scheme": "Graduate Analyst Programme (Oxford, 2027)",
+   "closes": "2026-11-08"
+  },
+  {
+   "employer": "Aston Martin F1 Team",
+   "scheme": "Data Science Engineer - Vehicle Science",
+   "closes": "2026-11-08"
+  },
+  {
+   "employer": "Aston Martin F1 Team",
+   "scheme": "Graduate Data Scientist - Vehicle Science",
+   "closes": "2026-11-08"
+  },
+  {
+   "employer": "Rolls-Royce",
+   "scheme": "Quantum Computational Science Specialist",
+   "closes": "2026-11-08"
+  },
+  {
+   "employer": "University of Sheffield",
+   "scheme": "Support Technician (Research & Facilities)",
+   "closes": "2026-11-09"
+  },
+  {
+   "employer": "Royal London",
+   "scheme": "Demographic Risk Analyst",
+   "closes": "2026-11-09"
+  },
+  {
+   "employer": "Essity",
+   "scheme": "Process Engineer",
+   "closes": "2026-11-10"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Bridge and Civil Structures Engineer",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Energy Consultant - Birmingham or Nottingham",
+   "closes": "2026-11-12"
+  }
+ ],
+ "filtered": [
+  {
+   "title": "Equipment Engineer",
+   "employer": "BWSR LIMITED",
+   "reason": "engineering only degree (electronics, mechanical, mechatronics) and regulated manufacturing experience"
+  },
+  {
+   "title": "Field Service Engineer",
+   "employer": "Hunter Selection | B Corp™",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate Geotechnical Engineer (Ground Investigation)",
+   "employer": "Ernest Gordon Recruitment",
+   "reason": "score too low"
+  },
+  {
+   "title": "Applications Engineer (Metrology / CMMs)",
+   "employer": "Ernest Gordon Recruitment",
+   "reason": "score too low"
+  },
+  {
+   "title": "Field Service Engineer",
+   "employer": "Midas",
+   "reason": "score too low"
+  },
+  {
+   "title": "Field Service Engineer",
+   "employer": "Midas",
+   "reason": "score too low"
+  },
+  {
+   "title": "Service Engineer (International Travel)",
+   "employer": "Ernest Gordon Recruitment",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate Civil Engineer (Training/Chartership)",
+   "employer": "Ernest Gordon Recruitment",
+   "reason": "score too low"
+  },
+  {
+   "title": "Field Service Engineer",
+   "employer": "DCV TECHNOLOGIES LIMITED",
+   "reason": "score too low"
+  },
+  {
+   "title": "Field Service Engineer (Full Training on Compressors)",
+   "employer": "Ernest Gordon Recruitment",
+   "reason": "score too low"
+  },
+  {
+   "title": "Computer Vision and Artificial Intelligence Engineer - Graduate Programme",
+   "employer": "targetjobs UK",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Applied Scientist/Machine Learning Engineer, Gaia",
+   "employer": "Wayve",
+   "reason": "4+ years experience"
+  },
+  {
+   "title": "PhD Graduate Consultant - Mechanical Engineering - 2027",
+   "employer": "targetjobs UK",
+   "reason": "PhD essential"
+  },
+  {
+   "title": "2027 Graduate Civil Engineer",
+   "employer": "targetjobs UK",
+   "reason": "degree discipline not accepted"
+  },
+  {
+   "title": "Graduate Materials Scientist",
+   "employer": "Amentum",
+   "reason": "security clearance or UK nationals only"
+  }
+ ],
+ "filtered_more": "",
+ "cv_version": "",
+ "source_health": [
+  {
+   "source": "Adzuna API",
+   "error": "RuntimeError: ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
+   "days": 20
+  },
+  {
+   "source": "Reed API",
+   "error": "RuntimeError: REED_API_KEY not set",
+   "days": 20
+  },
+  {
+   "source": "Microsoft",
+   "error": "SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /searc",
+   "days": 20
+  },
+  {
+   "source": "ORCA Computing",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 20
+  },
+  {
+   "source": "Modo Energy",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 20
+  },
+  {
+   "source": "jobs.ac.uk - Engineering & Technology",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/engineering-and-technology?forma",
+   "days": 20
+  },
+  {
+   "source": "jobs.ac.uk - Laboratory, Clinical & Technician",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/laboratory-clinical-and-technici",
+   "days": 20
+  },
+  {
+   "source": "jobs.ac.uk - Materials Science",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/materials-science?format=rss",
+   "days": 20
+  },
+  {
+   "source": "jobs.ac.uk - Physical & Environmental Sciences (parent)",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physical-and-environmental-scien",
+   "days": 20
+  },
+  {
+   "source": "jobs.ac.uk - Physics & Astronomy",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physics-and-astronomy?format=rss",
+   "days": 20
+  },
+  {
+   "source": "University of Cambridge",
+   "error": "ConnectionError: HTTPSConnectionPool(host='jobs.cam.ac.uk', port=443): Max retries exceeded with url: /job/?format=rss&u",
+   "days": 20
+  },
+  {
+   "source": "Fractile",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/fractile/jobs?content=true",
+   "days": 3
+  }
+ ],
+ "pipeline": {
+  "ready": {
+   "ready_at": "2026-11-01T06:42:26+00:00",
+   "pending": 25,
+   "ad_text": 25,
+   "gated": 6,
+   "fit_ge_2": 10,
+   "first_seen_days": [
+    "2026-11-01"
+   ],
+   "file": "/Users/danielito/Projects/job-radar/state/pending.jsonl"
+  },
+  "enrich": {
+   "enrich_at": "2026-11-01T06:40:58+00:00",
+   "needed": 24,
+   "seconds": 87,
+   "enriched": 24,
+   "failed": 0,
+   "skipped": 0,
+   "restage_dropped": 0,
+   "linkedin_fetched": 24,
+   "linkedin_blocked": false,
+   "skipped_by_notes": 0,
+   "hosts": {
+    "linkedin.com": {
+     "ok": 24
+    }
+   },
+   "runs": [
+    {
+     "enrich_at": "2026-11-01T06:40:58+00:00",
+     "needed": 24,
+     "seconds": 87,
+     "enriched": 24,
+     "failed": 0,
+     "skipped": 0,
+     "restage_dropped": 0,
+     "linkedin_fetched": 24,
+     "linkedin_blocked": false,
+     "skipped_by_notes": 0,
+     "hosts": {
+      "linkedin.com": {
+       "ok": 24
+      }
+     }
+    }
+   ]
+  }
+ }
+}
