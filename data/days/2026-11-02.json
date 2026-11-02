@@ -1,0 +1,497 @@
+{
+ "schema": 1,
+ "date": "2026-11-02",
+ "generated_at": "2026-11-02T10:30:52+00:00",
+ "status": "ok",
+ "data_refreshed": "2026-11-02",
+ "window_from": "2026-11-01T00:30:07+00:00",
+ "catch_up": true,
+ "days_covered": 2,
+ "first_digest": false,
+ "stats": {
+  "pending": 20,
+  "ad_text": 19,
+  "passed_gates": 6,
+  "kept": 3,
+  "shown": 4,
+  "held_over": 0,
+  "waiting_for_ad": 0,
+  "dropped": 16,
+  "sources_failed": 12,
+  "top": 1,
+  "check": 1,
+  "high_pay": 1,
+  "ideal": 0,
+  "startups": 0
+ },
+ "notes": [
+  "Ad text fetched for 17 postings today"
+ ],
+ "items": [
+  {
+   "key": "e7a0da333ca6fe67",
+   "dup_keys": [],
+   "section": "top",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Customer Support Engineer",
+   "employer": "VRS UK",
+   "hub": "Manchester-Cheshire",
+   "closes": "rolling",
+   "type_id": 21,
+   "type_name": "Technical sales / field application / service engineer",
+   "fit": 4.5,
+   "cv": "Lab and vacuum hardware",
+   "why": "\"Maintained and repaired UHV components (gauges, valves, readouts); helped reassemble and test the ZERNIKELEIF facility\" (ad mentions instrument, repair, surface analysis, uhv)",
+   "angle": "Repaired and recommissioned vacuum and ion-source hardware; explains it well to users.",
+   "flags": [
+    "sponsor licence unknown",
+    "posted under VRS UK, possibly an agency; check the instrument maker",
+    "field service role with extensive travel"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4484320096",
+   "first_seen": "2026-11-02",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "c6e36d8120d7ac4e",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Engineering consultancy",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "2027 Graduate Acoustics Engineer - London",
+   "employer": "Hoare Lea",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 3.0,
+   "cv": "General graduate",
+   "why": "\"Acoustic bird/bat classifier (Random Forest on mel spectrograms, 78%, 6 species) fused with radar altitude for wind-turbine collision risk\"",
+   "angle": "Physics MSc with hands-on acoustic signal analysis; keen to build towards the IOA Diploma.",
+   "flags": [
+    "sponsor licence no",
+    "2.1 requested (quote UK ENIC comparability)",
+    "degree should relate to acoustics; other degrees need an IOA Diploma",
+    "2027 graduate scheme: check a 2025 MSc is accepted"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4484313560",
+   "first_seen": "2026-11-02",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "c3d06ac6653b29b4",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Aerospace, defence and industrial",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "European Graduate Programme - United Kingdom",
+   "employer": "BOC UK & Ireland",
+   "hub": "North East",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 2.25,
+   "cv": "General graduate",
+   "why": "\"Four languages\" (ad mentions graduate, language)",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence unknown",
+    "rotations in sales, operations and supply, not lab research"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4486102996",
+   "first_seen": "2026-11-02",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "70952c25800f61ba",
+   "dup_keys": [],
+   "section": "check",
+   "sector": "Hedge fund",
+   "stage": "Established",
+   "high_pay": true,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Python Quantitative Developer",
+   "employer": "Citadel",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 17,
+   "type_name": "Quant research / trading (graduate or intern)",
+   "fit": 1.59,
+   "cv": "General graduate",
+   "why": "\"Selective research master (up to 12 students/year), Holland and TopMaster scholarships\"",
+   "angle": "Hypothesis, model, measured result; Monte Carlo and noise modelling; JAX.",
+   "flags": [
+    "sponsor licence unknown",
+    "ad not read"
+   ],
+   "url": "https://www.citadel.com/careers/details/python-quantitative-developer/",
+   "first_seen": "2026-11-02",
+   "source": "Kadoa Quant Jobs",
+   "ad_read": false,
+   "reviewed": false
+  }
+ ],
+ "deadlines": [
+  {
+   "employer": "Harris Girls Academy Bromley",
+   "scheme": "Graduate Teaching Assistant",
+   "closes": "2026-11-02"
+  },
+  {
+   "employer": "Fossdene Primary School",
+   "scheme": "Teaching Assistant/Playworker (initially within the LARP)",
+   "closes": "2026-11-02"
+  },
+  {
+   "employer": "University of Surrey (incl. Ion Beam Centre)",
+   "scheme": "Data Scientist / Research Officer (050926)",
+   "closes": "2026-11-04"
+  },
+  {
+   "employer": "University of Edinburgh",
+   "scheme": "Research Associate",
+   "closes": "2026-11-04"
+  },
+  {
+   "employer": "The University of Edinburgh",
+   "scheme": "Research Associate",
+   "closes": "2026-11-04"
+  },
+  {
+   "employer": "University of Edinburgh",
+   "scheme": "Research Assistant",
+   "closes": "2026-11-05"
+  },
+  {
+   "employer": "Arcadis",
+   "scheme": "Graduate Flood Risk & Hydrology Engineer",
+   "closes": "2026-11-06"
+  },
+  {
+   "employer": "Arcadis",
+   "scheme": "Graduate Flood Risk & Hydrology Engineer",
+   "closes": "2026-11-06"
+  },
+  {
+   "employer": "University of Bath",
+   "scheme": "Data Analyst (CH14030)",
+   "closes": "2026-11-06"
+  },
+  {
+   "employer": "Arcadis",
+   "scheme": "Graduate Flood Risk & Hydrology Engineer",
+   "closes": "2026-11-06"
+  },
+  {
+   "employer": "Aurora Energy Research",
+   "scheme": "Graduate Analyst Programme (Oxford, 2027)",
+   "closes": "2026-11-08"
+  },
+  {
+   "employer": "Aston Martin F1 Team",
+   "scheme": "Data Science Engineer - Vehicle Science",
+   "closes": "2026-11-08"
+  },
+  {
+   "employer": "Aston Martin F1 Team",
+   "scheme": "Graduate Data Scientist - Vehicle Science",
+   "closes": "2026-11-08"
+  },
+  {
+   "employer": "Rolls-Royce",
+   "scheme": "Quantum Computational Science Specialist",
+   "closes": "2026-11-08"
+  },
+  {
+   "employer": "University of Sheffield",
+   "scheme": "Support Technician (Research & Facilities)",
+   "closes": "2026-11-09"
+  },
+  {
+   "employer": "Royal London",
+   "scheme": "Demographic Risk Analyst",
+   "closes": "2026-11-09"
+  },
+  {
+   "employer": "Essity",
+   "scheme": "Process Engineer",
+   "closes": "2026-11-10"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Bridge and Civil Structures Engineer",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Energy Consultant - Birmingham or Nottingham",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Transport Planner",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Transport Planner",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Civil & Structural Engineer: Energy, Maritime & Civil Infrastructure",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Transport Planner",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Hydrogeologist",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Town Planner - Cardiff or Bristol",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Geotechnical Engineer",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Blackrock",
+   "scheme": "2027 Quantitative Masters Internship Programme - Investments - Quantitative Investing - London",
+   "closes": "2026-11-13"
+  },
+  {
+   "employer": "Physicsworldjobs",
+   "scheme": "University of Oxford, Department of Oncology: MSc Medical Physics with Radiobiology",
+   "closes": "2026-11-13"
+  },
+  {
+   "employer": "Royal Holloway, University of London",
+   "scheme": "Research Assistant (1026-358)",
+   "closes": "2026-11-13"
+  }
+ ],
+ "filtered": [
+  {
+   "title": "Machine Learning Engineer",
+   "employer": "Dex",
+   "reason": "Dex recruiter; ML systems at scale, latency optimisation experience"
+  },
+  {
+   "title": "Quant Researcher (MFT)",
+   "employer": "Dex",
+   "reason": "Dex recruiter; no ad text, experienced MFT quant researcher"
+  },
+  {
+   "title": "High Performance Engineer (up to £140k)",
+   "employer": "Dex",
+   "reason": "Dex recruiter; senior HPC engineer"
+  },
+  {
+   "title": "Founding Engineer - ML Systems (up to £180k)",
+   "employer": "Dex",
+   "reason": "Dex recruiter; founding engineer needing real model engineering experience"
+  },
+  {
+   "title": "Machine Learning Researcher",
+   "employer": "Dex",
+   "reason": "Dex recruiter; production ML infrastructure and time series experience"
+  },
+  {
+   "title": "Graduate Mechanical Engineer (Building Services)",
+   "employer": "targetjobs UK",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate Turbine Design Engineer",
+   "employer": "targetjobs UK",
+   "reason": "score too low"
+  },
+  {
+   "title": "Student Data Specialist (Statutory Returns) (050726)",
+   "employer": "University of Surrey (incl. Ion Beam Centre)",
+   "reason": "score too low"
+  },
+  {
+   "title": "Calibration and Maintenance Engineer - Graduate Programme 2027",
+   "employer": "targetjobs UK",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "KTP Associate: Machine Learning/Computational Modelling Engineer (CC14064)",
+   "employer": "University of Bath",
+   "reason": "degree discipline not accepted"
+  },
+  {
+   "title": "KTP Associate: Machine Learning/Computational Modelling Engineer",
+   "employer": "University of Bath",
+   "reason": "degree discipline not accepted"
+  },
+  {
+   "title": "Graduate E-Mobility Consultant",
+   "employer": "targetjobs UK",
+   "reason": "degree discipline not accepted"
+  },
+  {
+   "title": "Quantitative Research - PhD Graduate",
+   "employer": "targetjobs UK",
+   "reason": "PhD essential"
+  },
+  {
+   "title": "Electro-Optic Seekers & Systems Engineer - Graduate Programme 2027",
+   "employer": "targetjobs UK",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Member of Technical Staff",
+   "employer": "Priora",
+   "reason": "PhD essential"
+  },
+  {
+   "title": "Graduate Waste Water Modeller Belfast",
+   "employer": "targetjobs UK",
+   "reason": "closed 2026-10-12"
+  }
+ ],
+ "filtered_more": "",
+ "cv_version": "",
+ "source_health": [
+  {
+   "source": "Adzuna API",
+   "error": "RuntimeError: ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
+   "days": 21
+  },
+  {
+   "source": "Reed API",
+   "error": "RuntimeError: REED_API_KEY not set",
+   "days": 21
+  },
+  {
+   "source": "Microsoft",
+   "error": "SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /searc",
+   "days": 21
+  },
+  {
+   "source": "ORCA Computing",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 21
+  },
+  {
+   "source": "Modo Energy",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 21
+  },
+  {
+   "source": "jobs.ac.uk - Engineering & Technology",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/engineering-and-technology?forma",
+   "days": 21
+  },
+  {
+   "source": "jobs.ac.uk - Laboratory, Clinical & Technician",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/laboratory-clinical-and-technici",
+   "days": 21
+  },
+  {
+   "source": "jobs.ac.uk - Materials Science",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/materials-science?format=rss",
+   "days": 21
+  },
+  {
+   "source": "jobs.ac.uk - Physical & Environmental Sciences (parent)",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physical-and-environmental-scien",
+   "days": 21
+  },
+  {
+   "source": "University of Cambridge",
+   "error": "ConnectionError: HTTPSConnectionPool(host='jobs.cam.ac.uk', port=443): Max retries exceeded with url: /job/?format=rss&u",
+   "days": 21
+  },
+  {
+   "source": "jobs.ac.uk - Physics & Astronomy",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physics-and-astronomy?format=rss",
+   "days": 21
+  },
+  {
+   "source": "Fractile",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/fractile/jobs?content=true",
+   "days": 4
+  }
+ ],
+ "pipeline": {
+  "ready": {
+   "ready_at": "2026-11-02T08:05:17+00:00",
+   "pending": 20,
+   "ad_text": 19,
+   "gated": 8,
+   "fit_ge_2": 8,
+   "first_seen_days": [
+    "2026-11-02"
+   ],
+   "file": "/Users/danielito/Projects/job-radar/state/pending.jsonl"
+  },
+  "enrich": {
+   "enrich_at": "2026-11-02T08:02:15+00:00",
+   "needed": 17,
+   "seconds": 181,
+   "enriched": 17,
+   "failed": 0,
+   "skipped": 0,
+   "restage_dropped": 0,
+   "linkedin_fetched": 17,
+   "linkedin_blocked": false,
+   "skipped_by_notes": 1,
+   "hosts": {
+    "linkedin.com": {
+     "ok": 17
+    }
+   },
+   "runs": [
+    {
+     "enrich_at": "2026-11-02T08:02:15+00:00",
+     "needed": 17,
+     "seconds": 181,
+     "enriched": 17,
+     "failed": 0,
+     "skipped": 0,
+     "restage_dropped": 0,
+     "linkedin_fetched": 17,
+     "linkedin_blocked": false,
+     "skipped_by_notes": 1,
+     "hosts": {
+      "linkedin.com": {
+       "ok": 17
+      }
+     }
+    }
+   ]
+  }
+ }
+}
