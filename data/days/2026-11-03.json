@@ -1,0 +1,552 @@
+{
+ "schema": 1,
+ "date": "2026-11-03",
+ "generated_at": "2026-11-03T07:53:23+00:00",
+ "status": "ok",
+ "data_refreshed": "2026-11-03",
+ "window_from": "2026-11-02T00:34:17+00:00",
+ "catch_up": true,
+ "days_covered": 2,
+ "first_digest": false,
+ "stats": {
+  "pending": 32,
+  "ad_text": 32,
+  "passed_gates": 14,
+  "kept": 4,
+  "shown": 4,
+  "held_over": 0,
+  "waiting_for_ad": 0,
+  "dropped": 25,
+  "sources_failed": 11,
+  "top": 0,
+  "check": 0,
+  "high_pay": 1,
+  "ideal": 0,
+  "startups": 0
+ },
+ "notes": [
+  "Ad text fetched for 25 postings today"
+ ],
+ "items": [
+  {
+   "key": "892e686674b7f205",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Big tech",
+   "stage": "Established",
+   "high_pay": true,
+   "pay": "£85,797 to £151,436",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Graduate data scientist",
+   "employer": "Bending Spoons",
+   "hub": "Oxford-Harwell",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 3.6,
+   "cv": "Data and machine learning",
+   "why": "\"Acoustic bird/bat classifier (Random Forest on mel spectrograms, 78%, 6 species) fused with radar altitude\"; Bending Spoons hires graduates with little or no experience",
+   "angle": "Builds data models end to end in Python and checks them against real measurements.",
+   "flags": [
+    "sponsor licence unknown",
+    "fixed-term",
+    "£85,797 to £151,436",
+    "role posted once per hub; apply once"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4486022921",
+   "first_seen": "2026-11-03",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "754c9edfbf421c8c",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Structured Credit Quantitative Analyst (Entry/Graduate level considered)",
+   "employer": "targetjobs UK",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 3.6,
+   "cv": "Data and machine learning",
+   "why": "Physics named as an accepted quantitative degree; \"Python scientific stack, Fortran\" and the Monte Carlo inkjet simulator match the NumPy, pandas, SciPy requirement",
+   "angle": "Physicist who writes numerical Python every day and wants to apply it to credit products.",
+   "flags": [
+    "sponsor licence unknown",
+    "employer not named by targetjobs UK; find it before applying",
+    "three office days a week"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4486000847",
+   "first_seen": "2026-11-03",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "2cf222b83ee39321",
+   "dup_keys": [
+    "d4c721b97a42876d",
+    "fe305f42491fba6d"
+   ],
+   "section": "maybe",
+   "sector": "Big tech",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Software Engineering Graduate 2027",
+   "employer": "Ocado Technology",
+   "hub": "Thames Valley",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 2.48,
+   "cv": "Modelling and simulation",
+   "why": "Physics listed among accepted degrees; \"Python scientific stack, Fortran\" and the Monte Carlo inkjet simulator show software and data work",
+   "angle": "Scientific programmer ready to rotate across robotics software and data science.",
+   "flags": [
+    "sponsor licence no",
+    "fixed-term",
+    "2027 intake; check it accepts 2025 graduates"
+   ],
+   "url": "https://careers.ocadogroup.com/jobs/details?gh_jid=5018802101&gh_jid=5018802101",
+   "first_seen": "2026-11-03",
+   "source": "Ocado Technology",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "a2e82e2dc671ccbc",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "£27,511.11",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Graduate Tutor in Maths and Science",
+   "employer": "targetjobs UK",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 2.25,
+   "cv": "General graduate",
+   "why": "\"Science outreach presenter to high-school students; symposium co-organiser\" (ad mentions graduate, teaching)",
+   "angle": "Physics graduate with outreach teaching experience who can tutor maths and science.",
+   "flags": [
+    "sponsor licence unknown",
+    "fixed-term",
+    "£27,511.11",
+    "school employer not named by targetjobs UK",
+    "term time salary"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4486016297",
+   "first_seen": "2026-11-03",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  }
+ ],
+ "deadlines": [
+  {
+   "employer": "University of Surrey (incl. Ion Beam Centre)",
+   "scheme": "Data Scientist / Research Officer (050926)",
+   "closes": "2026-11-04"
+  },
+  {
+   "employer": "University of Edinburgh",
+   "scheme": "Research Associate",
+   "closes": "2026-11-04"
+  },
+  {
+   "employer": "The University of Edinburgh",
+   "scheme": "Research Associate",
+   "closes": "2026-11-04"
+  },
+  {
+   "employer": "University of Edinburgh",
+   "scheme": "Research Assistant",
+   "closes": "2026-11-05"
+  },
+  {
+   "employer": "Arcadis",
+   "scheme": "Graduate Flood Risk & Hydrology Engineer",
+   "closes": "2026-11-06"
+  },
+  {
+   "employer": "Arcadis",
+   "scheme": "Graduate Flood Risk & Hydrology Engineer",
+   "closes": "2026-11-06"
+  },
+  {
+   "employer": "University of Bath",
+   "scheme": "Data Analyst (CH14030)",
+   "closes": "2026-11-06"
+  },
+  {
+   "employer": "Arcadis",
+   "scheme": "Graduate Flood Risk & Hydrology Engineer",
+   "closes": "2026-11-06"
+  },
+  {
+   "employer": "Aurora Energy Research",
+   "scheme": "Graduate Analyst Programme (Oxford, 2027)",
+   "closes": "2026-11-08"
+  },
+  {
+   "employer": "Aston Martin F1 Team",
+   "scheme": "Data Science Engineer - Vehicle Science",
+   "closes": "2026-11-08"
+  },
+  {
+   "employer": "Aston Martin F1 Team",
+   "scheme": "Graduate Data Scientist - Vehicle Science",
+   "closes": "2026-11-08"
+  },
+  {
+   "employer": "Rolls-Royce",
+   "scheme": "Quantum Computational Science Specialist",
+   "closes": "2026-11-08"
+  },
+  {
+   "employer": "University of Sheffield",
+   "scheme": "Support Technician (Research & Facilities)",
+   "closes": "2026-11-09"
+  },
+  {
+   "employer": "Royal London",
+   "scheme": "Demographic Risk Analyst",
+   "closes": "2026-11-09"
+  },
+  {
+   "employer": "Essity",
+   "scheme": "Process Engineer",
+   "closes": "2026-11-10"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Bridge and Civil Structures Engineer",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Energy Consultant - Birmingham or Nottingham",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Transport Planner",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Transport Planner",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Civil & Structural Engineer: Energy, Maritime & Civil Infrastructure",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Transport Planner",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Hydrogeologist",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Town Planner - Cardiff or Bristol",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Geotechnical Engineer",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Blackrock",
+   "scheme": "2027 Quantitative Masters Internship Programme - Investments - Quantitative Investing - London",
+   "closes": "2026-11-13"
+  },
+  {
+   "employer": "Physicsworldjobs",
+   "scheme": "University of Oxford, Department of Oncology: MSc Medical Physics with Radiobiology",
+   "closes": "2026-11-13"
+  },
+  {
+   "employer": "Royal Holloway, University of London",
+   "scheme": "Research Assistant (1026-358)",
+   "closes": "2026-11-13"
+  }
+ ],
+ "filtered": [
+  {
+   "title": "Graduate Engineer - Power (Mechanical / Electrical)",
+   "employer": "RHAELM",
+   "reason": "engineering only degree (mechanical, electrical, energy systems)"
+  },
+  {
+   "title": "Manufacturing Technician",
+   "employer": "Refeyn",
+   "reason": "about 3 years industrial operations experience required"
+  },
+  {
+   "title": "GSI Helmholzzentrum fuer Schwerionenforschung GmbH: Development Engineer or Physicist (all genders)",
+   "employer": "Physicsworldjobs",
+   "reason": "GSI Germany via Physicsworldjobs, non UK, three years superconducting magnet experience"
+  },
+  {
+   "title": "Materials Scientist/Engineer - Plasma Facing Components",
+   "employer": "UKAEA (Culham)",
+   "reason": "senior lead role, Cu alloy heat sink expertise essential"
+  },
+  {
+   "title": "Graduate Engineer (Research and Development)",
+   "employer": "targetjobs UK",
+   "reason": "Siemens Gamesa via targetjobs UK, electrical or electronic engineering or computer science degree only"
+  },
+  {
+   "title": "Graduate data scientist",
+   "employer": "Bending Spoons",
+   "reason": "duplicate of Bending Spoons Graduate data scientist (Oxford-Harwell copy kept)"
+  },
+  {
+   "title": "Rights Lab Research Associate/Fellow in Migration and Anti-trafficking Governance (Part-time, Fixed term) (SOC445026)",
+   "employer": "University of Nottingham",
+   "reason": "score too low"
+  },
+  {
+   "title": "Research Associate - Department of Inflammation and Ageing - 107951 - Grade 6",
+   "employer": "University of Birmingham",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate Structural Engineer",
+   "employer": "targetjobs UK",
+   "reason": "score too low"
+  },
+  {
+   "title": "AI Engineering Internship (2027 start)",
+   "employer": "Cambridge Consultants",
+   "reason": "score too low"
+  },
+  {
+   "title": "Future Graduate Opportunities - Expression of Interest",
+   "employer": "BRUSH careers",
+   "reason": "score too low"
+  },
+  {
+   "title": "Computer Science Tutor - Wokingham",
+   "employer": "Quantum Scholars",
+   "reason": "score too low"
+  },
+  {
+   "title": "Optics Consultant",
+   "employer": "TTP plc",
+   "reason": "score too low"
+  },
+  {
+   "title": "Machine Learning Data Evaluator (Remote)",
+   "employer": "Crewlia",
+   "reason": "score too low"
+  },
+  {
+   "title": "Software Engineer - Trading Operations",
+   "employer": "DRW",
+   "reason": "score too low"
+  },
+  {
+   "title": "Data Research Analyst (Remote)",
+   "employer": "Hired",
+   "reason": "score too low"
+  },
+  {
+   "title": "GRADUATE MACHINE LEARNING RESEARCHER",
+   "employer": "targetjobs UK",
+   "reason": "graduation window excludes 2025"
+  },
+  {
+   "title": "Graduate Account Manager",
+   "employer": "targetjobs UK",
+   "reason": "graduation window excludes 2025"
+  },
+  {
+   "title": "Graduate Engineer",
+   "employer": "targetjobs UK",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "RF Payload Engineer",
+   "employer": "Surrey Satellite Technology Ltd (SSTL)",
+   "reason": "5+ years experience"
+  },
+  {
+   "title": "PhD Graduate Consultant - Physics (Optics) - 2027",
+   "employer": "TTP plc",
+   "reason": "PhD essential"
+  },
+  {
+   "title": "Process / Chemical Engineering Graduate",
+   "employer": "Tarmac",
+   "reason": "degree discipline not accepted"
+  },
+  {
+   "title": "2027 Internship/Graduate - FPGA Engineering",
+   "employer": "targetjobs UK",
+   "reason": "graduation window excludes 2025"
+  },
+  {
+   "title": "Graduate Process Engineer Regulated Water Birmingham",
+   "employer": "targetjobs UK",
+   "reason": "closed 2026-10-12"
+  },
+  {
+   "title": "Technical Graduate Programme",
+   "employer": "targetjobs UK",
+   "reason": "degree discipline not accepted"
+  }
+ ],
+ "filtered_more": "",
+ "cv_version": "",
+ "source_health": [
+  {
+   "source": "Adzuna API",
+   "error": "RuntimeError: ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
+   "days": 22
+  },
+  {
+   "source": "Reed API",
+   "error": "RuntimeError: REED_API_KEY not set",
+   "days": 22
+  },
+  {
+   "source": "Microsoft",
+   "error": "SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /searc",
+   "days": 22
+  },
+  {
+   "source": "ORCA Computing",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 22
+  },
+  {
+   "source": "Modo Energy",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 22
+  },
+  {
+   "source": "jobs.ac.uk - Engineering & Technology",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/engineering-and-technology?forma",
+   "days": 22
+  },
+  {
+   "source": "jobs.ac.uk - Laboratory, Clinical & Technician",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/laboratory-clinical-and-technici",
+   "days": 22
+  },
+  {
+   "source": "University of Cambridge",
+   "error": "ConnectionError: HTTPSConnectionPool(host='jobs.cam.ac.uk', port=443): Max retries exceeded with url: /job/?format=rss&u",
+   "days": 22
+  },
+  {
+   "source": "jobs.ac.uk - Materials Science",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/materials-science?format=rss",
+   "days": 22
+  },
+  {
+   "source": "jobs.ac.uk - Physical & Environmental Sciences (parent)",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physical-and-environmental-scien",
+   "days": 22
+  },
+  {
+   "source": "jobs.ac.uk - Physics & Astronomy",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physics-and-astronomy?format=rss",
+   "days": 22
+  }
+ ],
+ "pipeline": {
+  "ready": {
+   "ready_at": "2026-11-03T06:43:08+00:00",
+   "pending": 32,
+   "ad_text": 32,
+   "gated": 10,
+   "fit_ge_2": 10,
+   "first_seen_days": [
+    "2026-11-03"
+   ],
+   "file": "/Users/danielito/Projects/job-radar/state/pending.jsonl"
+  },
+  "enrich": {
+   "enrich_at": "2026-11-03T06:41:51+00:00",
+   "needed": 25,
+   "seconds": 77,
+   "enriched": 25,
+   "failed": 0,
+   "skipped": 0,
+   "restage_dropped": 0,
+   "linkedin_fetched": 21,
+   "linkedin_blocked": false,
+   "skipped_by_notes": 0,
+   "hosts": {
+    "careers.ukaea.uk": {
+     "ok": 1
+    },
+    "jobs.smartrecruiters.com": {
+     "ok": 2
+    },
+    "linkedin.com": {
+     "ok": 21
+    },
+    "physicsworldjobs.com": {
+     "ok": 1
+    }
+   },
+   "runs": [
+    {
+     "enrich_at": "2026-11-03T06:41:51+00:00",
+     "needed": 25,
+     "seconds": 77,
+     "enriched": 25,
+     "failed": 0,
+     "skipped": 0,
+     "restage_dropped": 0,
+     "linkedin_fetched": 21,
+     "linkedin_blocked": false,
+     "skipped_by_notes": 0,
+     "hosts": {
+      "careers.ukaea.uk": {
+       "ok": 1
+      },
+      "jobs.smartrecruiters.com": {
+       "ok": 2
+      },
+      "linkedin.com": {
+       "ok": 21
+      },
+      "physicsworldjobs.com": {
+       "ok": 1
+      }
+     }
+    }
+   ]
+  }
+ }
+}
