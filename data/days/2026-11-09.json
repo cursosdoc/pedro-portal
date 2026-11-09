@@ -1,0 +1,1099 @@
+{
+ "schema": 1,
+ "date": "2026-11-09",
+ "generated_at": "2026-11-09T16:41:09+00:00",
+ "status": "ok",
+ "data_refreshed": "2026-11-04",
+ "window_from": "2026-11-03T00:30:05+00:00",
+ "catch_up": true,
+ "days_covered": 2,
+ "first_digest": false,
+ "stats": {
+  "pending": 74,
+  "ad_text": 72,
+  "passed_gates": 42,
+  "kept": 17,
+  "shown": 18,
+  "held_over": 0,
+  "waiting_for_ad": 0,
+  "dropped": 54,
+  "sources_failed": 14,
+  "top": 0,
+  "check": 1,
+  "high_pay": 2,
+  "ideal": 0,
+  "startups": 2
+ },
+ "notes": [
+  "Data last refreshed 2026-11-04",
+  "Ad text fetched for 67 postings today"
+ ],
+ "items": [
+  {
+   "key": "a4446e46738a66f8",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Bank quant",
+   "stage": "Established",
+   "high_pay": true,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Quantitative Analyst, Pricing Risk Model Validation",
+   "employer": "Macquarie Group",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 12,
+   "type_name": "Graduate data scientist (scientific data)",
+   "fit": 3.6,
+   "cv": "Data and machine learning",
+   "why": "Degree in physics accepted; \"Inkjet process simulator: droplet flight (Schiller-Naumann drag, Monte Carlo nozzle variation)\" shows Monte Carlo and numerical modelling in Python",
+   "angle": "Built and validated physical models end to end, including a radiometric calibration with 0.05% RMS residual.",
+   "flags": [
+    "prior professional experience not required"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4485077670",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "93bba1223b88a6b9",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Other",
+   "stage": "Startup",
+   "high_pay": false,
+   "pay": "£24,700",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Trainee Field Service Engineer",
+   "employer": "Infinitesima",
+   "hub": "Oxford-Harwell",
+   "closes": "rolling",
+   "type_id": 21,
+   "type_name": "Technical sales / field application / service engineer",
+   "fit": 3.38,
+   "cv": "Lab and vacuum hardware",
+   "why": "\"Maintained and repaired UHV components (gauges, valves, readouts); helped reassemble and test the ZERNIKELEIF facility\" (ad mentions optics, repaired, vacuum)",
+   "angle": "Repaired and recommissioned vacuum and ion-source hardware; explains it well to users.",
+   "flags": [
+    "sponsor licence no",
+    "£24,700"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4487509343",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "fa2447409e7073c0",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Engineering consultancy",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Graduate Water Engineer / Hydraulic modeller ( Water Utilities) - Bristol",
+   "employer": "Arup",
+   "hub": "Bristol-Bath",
+   "closes": "2026-12-18",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 3.12,
+   "cv": "Modelling and simulation",
+   "why": "\"SIMION ion optics and SRIM implantation modelling\" (ad mentions modeller, numerical, python)",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence no",
+    "degree list is civil, environmental or earth sciences; physics not named"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4468176133",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "8b7c6c737f224ef9",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Engineering consultancy",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Graduate Transport Planner (Data Analyst) - Taunton - 2027",
+   "employer": "Stantec",
+   "hub": "UK (unspecified)",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 3.0,
+   "cv": "Data and machine learning",
+   "why": "Physics named among accepted degrees; \"Spiking neural networks in Google JAX (CUBA-LIF, ferroelectric FeLIF); revised training method; 3x accuracy on SHD\"",
+   "angle": "Three end to end data projects with measured results; ready for transport data analytics.",
+   "flags": [
+    "sponsor licence unknown",
+    "2027 start: check graduation year"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4486368844",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "2ace73a0e4d0a547",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Process Engineer",
+   "employer": "microTECH Global LTD",
+   "hub": "UK (unspecified)",
+   "closes": "rolling",
+   "type_id": 4,
+   "type_name": "Process / R&D engineer, thin films and semiconductors",
+   "fit": 2.81,
+   "cv": "Nanomaterials",
+   "why": "\"Graphene by electrochemical exfoliation; UV-Vis and AFM characterisation\" (ad mentions characterization, electrochemical, materials science, semiconductors)",
+   "angle": "Implantation and sputter-gun experience; SRIM-guided process design.",
+   "flags": [
+    "sponsor licence unknown"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4488138128",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "be314d8d3aae0695",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Engineering consultancy",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Graduate Hydrologist",
+   "employer": "Buro Happold",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 2.62,
+   "cv": "Modelling and simulation",
+   "why": "\"SIMION ion optics and SRIM implantation modelling\" (ad mentions models, numerical)",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence no"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4487516472",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "40e45f2a3487d4c1",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Engineering consultancy",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Graduate Hydrologist",
+   "employer": "Buro Happold",
+   "hub": "Bristol-Bath",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 2.62,
+   "cv": "Modelling and simulation",
+   "why": "\"SIMION ion optics and SRIM implantation modelling\" (ad mentions models, numerical)",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence no"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4487516473",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "229d53ceae864d2e",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Machine Learning Researcher",
+   "employer": "Anson McCade",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 12,
+   "type_name": "Graduate data scientist (scientific data)",
+   "fit": 2.61,
+   "cv": "Data and machine learning",
+   "why": "\"Spiking neural networks in Google JAX (CUBA-LIF, ferroelectric FeLIF); revised training method; 3x accuracy on SHD\" (ad mentions machine learning, python, statistics)",
+   "angle": "Three end-to-end data projects with measured results (calibration, classifier, SNN training).",
+   "flags": [
+    "sponsor licence unknown",
+    "PhD desirable",
+    "recruiter ad, employer not named"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4364768772",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "7e0f113816e765e6",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Engineering consultancy",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "2027 Graduate Sustainability Consultant - London",
+   "employer": "Hoare Lea",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 2.6,
+   "cv": "General graduate",
+   "why": "\"Selective research master (up to 12 students/year), Holland and TopMaster scholarships\" (ad mentions analytical, consultant, graduate, problem-solving)",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence no",
+    "2.1 requested (quote UK ENIC comparability)",
+    "degree asked: engineering, architecture or built environment, or similar",
+    "2027 start: check graduation year"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4485520276",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "1089ca12401862b5",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "£35,000",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Renewable Energy Analyst (Remote/Hybrid Working)",
+   "employer": "Renewable Careers",
+   "hub": "UK (unspecified)",
+   "closes": "rolling",
+   "type_id": 15,
+   "type_name": "Renewables / environmental analytics",
+   "fit": 2.51,
+   "cv": "General graduate",
+   "why": "\"IT support lead for an accounting firm's COVID-19 move to digital operations; ran user workshops\" (ad mentions analytical, consultants, graduate, presentations)",
+   "angle": "Built a wildlife collision-risk pipeline for wind turbines (acoustic + radar fusion, ~60% fewer false alerts).",
+   "flags": [
+    "sponsor licence unknown",
+    "2:1 requested (quote UK ENIC comparability)",
+    "£35,000",
+    "recruiter ad, employer not named"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4487238578",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "2ac8236d5fc5e6c2",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Engineering consultancy",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "2027 Graduate Acoustics Engineer - London",
+   "employer": "Hoare Lea",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 2.5,
+   "cv": "General graduate",
+   "why": "\"Selective research master (up to 12 students/year), Holland and TopMaster scholarships\"; acoustics is a stretch from a physics MSc",
+   "angle": "Physics MSc with signal processing on acoustic data; keen to train toward the IOA Diploma.",
+   "flags": [
+    "sponsor licence no",
+    "2.1 requested (quote UK ENIC comparability)",
+    "degree should relate to acoustics; other degrees need an IOA Diploma",
+    "2027 start: check graduation year"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4485065282",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "12fc594bd80d3330",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Engineering consultancy",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "2027 Graduate Sustainability Consultant - Plymouth / Exeter",
+   "employer": "Hoare Lea",
+   "hub": "South West",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 2.5,
+   "cv": "General graduate",
+   "why": "\"Selective research master (up to 12 students/year), Holland and TopMaster scholarships\" (ad mentions analytical, consultant, graduate, problem-solving)",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence no",
+    "2.1 requested (quote UK ENIC comparability)",
+    "degree asked: engineering, architecture or built environment, or similar",
+    "2027 start: check graduation year"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4485046975",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "9f9a6b85490ba8ca",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Graduate Fire Engineer 2027 Start",
+   "employer": "targetjobs UK",
+   "hub": "Edinburgh",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 2.5,
+   "cv": "General graduate",
+   "why": "Ad names Physics among accepted Master's degrees; \"Selective research master (up to 12 students/year), Holland and TopMaster scholarships\"",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence no",
+    "employer: Jensen Hughes (via targetjobs UK)",
+    "Master's within the last two years: MSc Sep 2025 qualifies"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4486328395",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "7f081df91777cffd",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Other",
+   "stage": "Startup",
+   "high_pay": false,
+   "pay": "£45,000",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Founding CTO (Graduate)",
+   "employer": "Future Recruiter AI",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 2.38,
+   "cv": "Modelling and simulation",
+   "why": "\"Python scientific stack, Fortran\" (ad mentions models, python)",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence unknown",
+    "£45,000"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4488795559",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "07ec1c23cff2d483",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Engineering consultancy",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Graduate | Ground Engineering - Cardiff or Bristol",
+   "employer": "Arup",
+   "hub": "South Wales",
+   "closes": "2026-11-20",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 2.31,
+   "cv": "General graduate",
+   "why": "\"Science outreach presenter to high-school students; symposium co-organiser\" (ad mentions consultancy, graduate, presenting)",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence no",
+    "transcript needed"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4467614615",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "5605fd070dac2370",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Founding Engineer",
+   "employer": "Cerebro",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 30,
+   "type_name": "Startup generalist / founding engineer",
+   "fit": 2.23,
+   "cv": "Lab and vacuum hardware",
+   "why": "\"Xe implantation at multiple incidence angles and energies; SRIM predictive models to guide experimental design\" (ad mentions accelerator, lab)",
+   "angle": "Builds and tests hardware and the models around it, and uses AI tooling to move fast: a generalist for a small team.",
+   "flags": [
+    "sponsor licence unknown"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4488865911",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "eab6af3bb98c10db",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Graduate Geo Environmental Consultant",
+   "employer": "Cura Terrae Land & Nature",
+   "hub": "Glasgow",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 2.06,
+   "cv": "General graduate",
+   "why": "\"Three self-directed 2026 technical projects with public code\" (ad mentions consultant, graduate)",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence unknown"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4487244900",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "fa89be3af5caa490",
+   "dup_keys": [],
+   "section": "check",
+   "sector": "Hedge fund",
+   "stage": "Established",
+   "high_pay": true,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Capula Analyst Programme",
+   "employer": "Capula Investment Management LLP",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 19,
+   "type_name": "Strategy / economics / energy consulting graduate",
+   "fit": 1.47,
+   "cv": "General graduate",
+   "why": "\"Selective research master (up to 12 students/year), Holland and TopMaster scholarships\"",
+   "angle": "Structured problem solving from research; energy and climate projects.",
+   "flags": [
+    "sponsor licence unknown",
+    "ad not read"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4485054311",
+   "first_seen": "2026-11-09",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": false,
+   "reviewed": false
+  }
+ ],
+ "deadlines": [
+  {
+   "employer": "University of Sheffield",
+   "scheme": "Support Technician (Research & Facilities)",
+   "closes": "2026-11-09"
+  },
+  {
+   "employer": "Royal London",
+   "scheme": "Demographic Risk Analyst",
+   "closes": "2026-11-09"
+  },
+  {
+   "employer": "Essity",
+   "scheme": "Process Engineer",
+   "closes": "2026-11-10"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Bridge and Civil Structures Engineer",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Energy Consultant - Birmingham or Nottingham",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Transport Planner",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Transport Planner",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Civil & Structural Engineer: Energy, Maritime & Civil Infrastructure",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Transport Planner",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Hydrogeologist",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Town Planner - Cardiff or Bristol",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Geotechnical Engineer",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Blackrock",
+   "scheme": "2027 Quantitative Masters Internship Programme - Investments - Quantitative Investing - London",
+   "closes": "2026-11-13"
+  },
+  {
+   "employer": "Physicsworldjobs",
+   "scheme": "University of Oxford, Department of Oncology: MSc Medical Physics with Radiobiology",
+   "closes": "2026-11-13"
+  },
+  {
+   "employer": "Royal Holloway, University of London",
+   "scheme": "Research Assistant (1026-358)",
+   "closes": "2026-11-13"
+  },
+  {
+   "employer": "WTW",
+   "scheme": "2027 Data Scientist Graduate Programme - Insurance Consulting - London/Reigate",
+   "closes": "2026-11-20"
+  },
+  {
+   "employer": "Aurora Energy Research",
+   "scheme": "Graduate Modelling Programme (Oxford, 2027)",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Aurora Energy Research",
+   "scheme": "Graduate Modelling Programme (Oxford, 2027)",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Anglian Water Services",
+   "scheme": "Graduate Materials Engineer",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "University of Exeter",
+   "scheme": "Graduate Research Assistant",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Arm",
+   "scheme": "Graduate Program - Engineering Pathways",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Arm",
+   "scheme": "Graduate Program - Engineering Pathways",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Edinburgh Napier University",
+   "scheme": "KTP Associates in Cybersecurity/Cryptography Security (Red Team/Blue Team)",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Arm",
+   "scheme": "Graduate Program - Engineering Pathways",
+   "closes": "2026-11-22"
+  }
+ ],
+ "filtered": [
+  {
+   "title": "Placement Simulation & Analytics Engineer",
+   "employer": "targetjobs UK",
+   "reason": "12 month placement for current students"
+  },
+  {
+   "title": "Machine Learning Engineering, Numerical Fluid Dynamics",
+   "employer": "EntroMetrix",
+   "reason": "PhD level degree and production ML experience required"
+  },
+  {
+   "title": "Quantum Engineer - Superconducting Amplifiers & RF Design",
+   "employer": "Oxford Quantum Circuits (OQC)",
+   "reason": "needs proven RF and superconducting amplifier experience"
+  },
+  {
+   "title": "Manufacturing Services Technician",
+   "employer": "Rolls-Royce",
+   "reason": "time served apprenticeship and NVQ required"
+  },
+  {
+   "title": "Founding Engineer - ML Systems (up to £250k)",
+   "employer": "Dex",
+   "reason": "Dex recruiter senior ad (up to 250k)"
+  },
+  {
+   "title": "Lawrence Livermore National Laboratory: Laser and Experimental Systems Engineering Graduate Intern - Summer 2027",
+   "employer": "Physicsworldjobs",
+   "reason": "US internship (LLNL), not UK"
+  },
+  {
+   "title": "Field Service Engineer - Medical",
+   "employer": "Atlas Copco Group",
+   "reason": "time served apprenticeship required"
+  },
+  {
+   "title": "Graduate Manufacturing Process Engineer",
+   "employer": "Escape Recruitment Services",
+   "reason": "mechanical, chemical or manufacturing engineering degree only"
+  },
+  {
+   "title": "Lawrence Livermore National Laboratory: National Security Engineering Division (NSED) Graduate Intern - Summer 2027",
+   "employer": "Physicsworldjobs",
+   "reason": "US internship (LLNL), not UK"
+  },
+  {
+   "title": "Lawrence Livermore National Laboratory: Materials Engineering Division (MED): Graduate Intern - Summer 2027",
+   "employer": "Physicsworldjobs",
+   "reason": "US internship (LLNL), not UK"
+  },
+  {
+   "title": "Graduate Renewable Energy Engineer",
+   "employer": "Renewable Careers",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate Software Engineer/Mission Dev Engineer - London",
+   "employer": "Nominal",
+   "reason": "score too low"
+  },
+  {
+   "title": "Physical Testing Technician",
+   "employer": "Eurofins",
+   "reason": "score too low"
+  },
+  {
+   "title": "Preparation Technician - Twilight Shift",
+   "employer": "Chemtech Environmental Limited",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate Pipelines Engineer",
+   "employer": "Fluor Corporation",
+   "reason": "score too low"
+  },
+  {
+   "title": "Research Associate/ Fellow in Digital Agriculture (Fixed Term) (SCI833526)",
+   "employer": "University of Nottingham",
+   "reason": "score too low"
+  },
+  {
+   "title": "Laboratory Technician",
+   "employer": "Pulsiv",
+   "reason": "score too low"
+  },
+  {
+   "title": "Technical Graduate - Geospatial Software Engineer - Bristol - 2027",
+   "employer": "Women in Tech",
+   "reason": "score too low (title only)"
+  },
+  {
+   "title": "Customer Engineering Services (CES) - Operations Technician",
+   "employer": "BOC UK & Ireland",
+   "reason": "score too low"
+  },
+  {
+   "title": "Lawrence Livermore National Laboratory: Defense Technologies Engineering Division (DTED): Graduate Intern - Summer 2027",
+   "employer": "Physicsworldjobs",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate Regulatory Engineer",
+   "employer": "Vehicle Certification Agency (VCA)",
+   "reason": "score too low"
+  },
+  {
+   "title": "Field Service Engineers - Northern Ireland",
+   "employer": "TOMRA",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate Process Engineer",
+   "employer": "targetjobs UK",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate Design Engineer",
+   "employer": "Costain Group PLC",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate Automated Vehicles Test Engineer",
+   "employer": "Vehicle Certification Agency (VCA)",
+   "reason": "score too low"
+  },
+  {
+   "title": "Lab Technician/ Manufacturing Assistant",
+   "employer": "Specsavers",
+   "reason": "score too low"
+  },
+  {
+   "title": "Research Scientist - Oligonucleotide Synthesis",
+   "employer": "Oxford Nanopore Technologies",
+   "reason": "score too low"
+  },
+  {
+   "title": "2027 UK Graduate Civil and Structural Engineering Career Path: Water",
+   "employer": "Mott MacDonald",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate Scientist, In vitro DMPK",
+   "employer": "targetjobs UK",
+   "reason": "score too low"
+  },
+  {
+   "title": "Quantitative Developer - C++",
+   "employer": "Qube Research & Technologies",
+   "reason": "score too low"
+  },
+  {
+   "title": "Optics Consultant",
+   "employer": "TTP plc",
+   "reason": "score too low"
+  },
+  {
+   "title": "Mobile Service Engineer - Nottingham",
+   "employer": "Terberg DTS (UK)",
+   "reason": "score too low"
+  },
+  {
+   "title": "Founding Engineer (up to £120k)",
+   "employer": "Dex",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate Mechanical Engineer",
+   "employer": "Costain Group PLC",
+   "reason": "score too low"
+  },
+  {
+   "title": "Member of Technical Staff",
+   "employer": "Stealth Startup",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate/ Junior Mechanical Design Engineer",
+   "employer": "TRIUMPH",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Title\n            \n                \n                    Graduate/ Junior Mechanical Design Engineer",
+   "employer": "TRIUMPH Mexicali",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Graduate Mining Engineer",
+   "employer": "Arup",
+   "reason": "degree discipline not accepted"
+  },
+  {
+   "title": "Techno-Economics Graduate",
+   "employer": "Frazer-Nash Consultancy",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Graduate Detector IC Design Engineer",
+   "employer": "Leonardo UK",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Photonic Component Modelling Engineer",
+   "employer": "Salience Labs",
+   "reason": "3+ years experience"
+  },
+  {
+   "title": "Graduate Engineering Programme",
+   "employer": "Rowden",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Techno-Economics Graduate",
+   "employer": "Frazer-Nash Consultancy",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Laboratory Technician",
+   "employer": "Insight Global",
+   "reason": "degree discipline not accepted"
+  },
+  {
+   "title": "The Hong Kong University of Science and Technology: Tenure-track Faculty Positions in Quantum Science and Technology",
+   "employer": "Physicsworldjobs",
+   "reason": "PhD essential"
+  },
+  {
+   "title": "Nuclear Services - Evolve Graduate Programme 2027",
+   "employer": "targetjobs UK",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "The Hong Kong University of Science and Technology: Tenure-track Faculty Positions in Theoretical and Computational Physics",
+   "employer": "Physicsworldjobs",
+   "reason": "PhD essential"
+  },
+  {
+   "title": "Economic Masters Graduate, Senior Analyst, Economic Advisory",
+   "employer": "Deloitte",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "The Hong Kong University of Science and Technology: Tenure-track Faculty Positions in Experimental Condensed Matter Physics",
+   "employer": "Physicsworldjobs",
+   "reason": "PhD essential"
+  },
+  {
+   "title": "Graduate / Junior Mechanical Engineer",
+   "employer": "Accora",
+   "reason": "degree discipline not accepted"
+  },
+  {
+   "title": "2027 Graduate Programme - Transport & Infrastructure - Civil",
+   "employer": "WSP in the UK & Ireland",
+   "reason": "graduation window excludes 2025"
+  },
+  {
+   "title": "2027 Graduate Programme - Transport & Infrastructure - Civil",
+   "employer": "WSP in the UK & Ireland",
+   "reason": "graduation window excludes 2025"
+  },
+  {
+   "title": "Trading Coverage",
+   "employer": "Wematch.live",
+   "reason": "10+ years experience"
+  },
+  {
+   "title": "Founding Engineer - React/Python - £100k-£120k + Equity - London",
+   "employer": "Oliver Bernard",
+   "reason": "6+ years experience"
+  }
+ ],
+ "filtered_more": "",
+ "cv_version": "",
+ "source_health": [
+  {
+   "source": "Adzuna API",
+   "error": "RuntimeError: ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
+   "days": 23
+  },
+  {
+   "source": "Reed API",
+   "error": "RuntimeError: REED_API_KEY not set",
+   "days": 23
+  },
+  {
+   "source": "Microsoft",
+   "error": "SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /searc",
+   "days": 23
+  },
+  {
+   "source": "ORCA Computing",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 23
+  },
+  {
+   "source": "Modo Energy",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 23
+  },
+  {
+   "source": "jobs.ac.uk - Engineering & Technology",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/engineering-and-technology?forma",
+   "days": 23
+  },
+  {
+   "source": "jobs.ac.uk - Laboratory, Clinical & Technician",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/laboratory-clinical-and-technici",
+   "days": 23
+  },
+  {
+   "source": "jobs.ac.uk - Materials Science",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/materials-science?format=rss",
+   "days": 23
+  },
+  {
+   "source": "jobs.ac.uk - Physical & Environmental Sciences (parent)",
+   "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))",
+   "days": 23
+  },
+  {
+   "source": "jobs.ac.uk - Physics & Astronomy",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physics-and-astronomy?format=rss",
+   "days": 23
+  },
+  {
+   "source": "University of Cambridge",
+   "error": "ConnectionError: HTTPSConnectionPool(host='jobs.cam.ac.uk', port=443): Max retries exceeded with url: /job/?format=rss&u",
+   "days": 23
+  }
+ ],
+ "pipeline": {
+  "ready": {
+   "ready_at": "2026-11-09T16:39:32+00:00",
+   "pending": 74,
+   "ad_text": 72,
+   "gated": 19,
+   "fit_ge_2": 27,
+   "first_seen_days": [
+    "2026-11-09"
+   ],
+   "file": "/Users/danielito/Projects/job-radar/state/pending.jsonl"
+  },
+  "enrich": {
+   "enrich_at": "2026-11-09T16:35:33+00:00",
+   "needed": 69,
+   "seconds": 224,
+   "enriched": 67,
+   "failed": 2,
+   "skipped": 0,
+   "restage_dropped": 0,
+   "linkedin_fetched": 60,
+   "linkedin_blocked": false,
+   "skipped_by_notes": 0,
+   "hosts": {
+    "jobs.smartrecruiters.com": {
+     "ok": 1
+    },
+    "leonardocompany.wd3.myworkdayjobs.com": {
+     "ok": 1
+    },
+    "linkedin.com": {
+     "ok": 58,
+     "404": 2
+    },
+    "physicsworldjobs.com": {
+     "ok": 7
+    }
+   },
+   "runs": [
+    {
+     "enrich_at": "2026-11-09T16:35:33+00:00",
+     "needed": 69,
+     "seconds": 224,
+     "enriched": 67,
+     "failed": 2,
+     "skipped": 0,
+     "restage_dropped": 0,
+     "linkedin_fetched": 60,
+     "linkedin_blocked": false,
+     "skipped_by_notes": 0,
+     "hosts": {
+      "jobs.smartrecruiters.com": {
+       "ok": 1
+      },
+      "leonardocompany.wd3.myworkdayjobs.com": {
+       "ok": 1
+      },
+      "linkedin.com": {
+       "ok": 58,
+       "404": 2
+      },
+      "physicsworldjobs.com": {
+       "ok": 7
+      }
+     }
+    }
+   ]
+  }
+ }
+}
