@@ -105,10 +105,20 @@
       <p><b>Angle</b>${esc(it.angle)}</p>
       ${(it.flags || []).length ? `<div class="flags">${it.flags.map((f) => `<span class="flag">${esc(f)}</span>`).join('')}</div>` : ''}
       <div class="actions">
-        ${it.url ? `<a class="apply" href="${esc(it.url)}" target="_blank" rel="noopener">Read ad / apply ↗</a>` : ''}
+        ${adLinks(it)}
         <label><input type="checkbox" class="appliedBox" ${done ? 'checked' : ''}> Applied</label>
       </div>
     </article>`;
+  }
+
+  /* Direct (employer's own ad / ATS) and LinkedIn links, whichever exist. Older day files only have url. */
+  function adLinks(it) {
+    const links = [];
+    if (it.url_direct) links.push(['Direct', it.url_direct, 'Employer’s own ad / application page']);
+    if (it.url_linkedin) links.push(['LinkedIn', it.url_linkedin, 'Same ad on LinkedIn']);
+    if (!links.length && it.url) links.push(['Read ad / apply', it.url, '']);
+    return links.map(([label, href, title]) =>
+      `<a class="apply" href="${esc(href)}" target="_blank" rel="noopener"${title ? ` title="${esc(title)}"` : ''}>${esc(label)} ↗</a>`).join('');
   }
 
   function wireApplied(root) {
@@ -136,7 +146,7 @@
   function rowHtml(i, withSeen) {
     return `<tr class="${applied[i.key] ? 'applied' : ''}">
       <td class="num"><span class="fit ${fitClass(i)}">${esc(i.fit)}</span></td>
-      <td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="emp">${esc(i.employer)}${i.sector && i.sector !== 'Other' ? ' · ' + esc(i.sector) : ''}${i.stage && STARTUPISH.has(i.stage) ? ' · <span class="st">' + esc(i.stage) + '</span>' : ''}${i.ideal ? ' · <span class="id">★ Ideal role</span>' : ''}${i.high_pay ? ' · <span class="hp">High pay</span>' : ''}${i.ad_read === false ? ' · <span class="warn">ad not read</span>' : ''}</div></td>
+      <td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>${i.url_direct && i.url_linkedin ? ` <a class="muted" href="${esc(i.url_linkedin)}" target="_blank" rel="noopener" title="Same ad on LinkedIn">LinkedIn ↗</a>` : ''}<div class="emp">${esc(i.employer)}${i.sector && i.sector !== 'Other' ? ' · ' + esc(i.sector) : ''}${i.stage && STARTUPISH.has(i.stage) ? ' · <span class="st">' + esc(i.stage) + '</span>' : ''}${i.ideal ? ' · <span class="id">★ Ideal role</span>' : ''}${i.high_pay ? ' · <span class="hp">High pay</span>' : ''}${i.ad_read === false ? ' · <span class="warn">ad not read</span>' : ''}</div></td>
       <td>${esc(i.hub)}</td><td>${esc(i.cv)}</td>
       <td class="num">${isDate(i.closes) ? esc(fmtDay(i.closes, { weekday: undefined, year: undefined })) : 'rolling'}</td>
       ${withSeen ? `<td class="num"><a href="#/day/${i.date}">${esc(fmtDay(i.date, { weekday: undefined, year: undefined }))}</a></td>` : ''}

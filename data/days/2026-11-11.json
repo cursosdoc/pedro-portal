@@ -1,0 +1,706 @@
+{
+ "schema": 1,
+ "date": "2026-11-11",
+ "generated_at": "2026-11-11T07:54:05+00:00",
+ "status": "ok",
+ "data_refreshed": "2026-11-11",
+ "window_from": "2026-11-10T00:30:06+00:00",
+ "catch_up": true,
+ "days_covered": 2,
+ "first_digest": false,
+ "stats": {
+  "pending": 43,
+  "ad_text": 23,
+  "passed_gates": 26,
+  "kept": 6,
+  "shown": 8,
+  "held_over": 0,
+  "waiting_for_ad": 0,
+  "dropped": 34,
+  "sources_failed": 11,
+  "top": 0,
+  "check": 2,
+  "high_pay": 2,
+  "ideal": 0,
+  "startups": 1
+ },
+ "notes": [
+  "Ad text fetched for 16 postings today"
+ ],
+ "items": [
+  {
+   "key": "ab84f83d2148abcb",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Materials and batteries",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Technician / Researcher - Composites Product Development",
+   "employer": "Syensqo",
+   "hub": "UK (unspecified)",
+   "closes": "rolling",
+   "type_id": 2,
+   "type_name": "Research / facility technician, experimental officer",
+   "fit": 3.8,
+   "cv": "Nanomaterials",
+   "why": "Ad names Physics and Materials Science and wants lab characterisation plus Python for data analysis; profile: \"Graphene by electrochemical exfoliation; UV-Vis and AFM characterisation\".",
+   "angle": "Hands-on materials synthesis and characterisation, with Python for analysing and automating the results.",
+   "flags": [
+    "sponsor licence unknown"
+   ],
+   "url": "https://career55.sapsf.eu/career?company=syensqo&career_ns=job_listing&career_job_req_id=35274&lang=en_GB&source=Indeed",
+   "url_direct": "https://career55.sapsf.eu/career?company=syensqo&career_ns=job_listing&career_job_req_id=35274&lang=en_GB&source=Indeed",
+   "url_linkedin": "",
+   "first_seen": "2026-11-11",
+   "source": "Indeed UK (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "ff3ef21431c80265",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Quant trading",
+   "stage": "Startup",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Graduate Machine Learning Researcher",
+   "employer": "targetjobs UK",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 3.6,
+   "cv": "Data and machine learning",
+   "why": "Ad asks a PhD or research Masters in a quantitative subject and Python modelling; profile: \"Spiking neural networks in Google JAX (CUBA-LIF, ferroelectric FeLIF); revised training method; 3x accuracy on SHD\".",
+   "angle": "Research master with end to end ML projects in Python; keen to own models from design to production.",
+   "flags": [
+    "sponsor licence unknown",
+    "employer is Longshot (sports betting quant modelling) via targetjobs UK",
+    "uncapped bonus"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4487886248",
+   "url_direct": "",
+   "url_linkedin": "https://www.linkedin.com/jobs/view/4487886248",
+   "first_seen": "2026-11-11",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "881d5e8b8d28cd08",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Technical Graduate (Mining, Metals and Minerals)",
+   "employer": "targetjobs UK",
+   "hub": "Manchester-Cheshire",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 3.2,
+   "cv": "General graduate",
+   "why": "Structured technical graduate programme with data analysis and reporting; profile: \"Selective research master (up to 12 students/year), Holland and TopMaster scholarships\" and \"Four languages\" for a global inspection business.",
+   "angle": "Research master graduate with lab and data skills and four languages, keen on international travel.",
+   "flags": [
+    "sponsor licence unknown",
+    "employer is Alfred H Knight (Liverpool) via targetjobs UK",
+    "degree subjects not stated; check"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4487873820",
+   "url_direct": "",
+   "url_linkedin": "https://www.linkedin.com/jobs/view/4487873820",
+   "first_seen": "2026-11-11",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "c5d2779fe0354f29",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Materials and batteries",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Graduate Chemist",
+   "employer": "targetjobs UK",
+   "hub": "UK (unspecified)",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 3.2,
+   "cv": "Nanomaterials",
+   "why": "Rotational R&D graduate programme open to Materials Science or related degrees; profile: \"Graphene-coated electrodes by spray-coating for molecular electronics\".",
+   "angle": "Coatings and nanomaterials lab work from the research master; ready for rotations across R&D.",
+   "flags": [
+    "sponsor licence unknown",
+    "employer is Synthomer (Ignite Graduate Leadership Programme) via targetjobs UK"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4487888194",
+   "url_direct": "",
+   "url_linkedin": "https://www.linkedin.com/jobs/view/4487888194",
+   "first_seen": "2026-11-11",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "f4bab640004e7692",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Big tech",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Data Infrastructure and AI Engineer",
+   "employer": "Huawei Technologies Research & Development (UK) Ltd",
+   "hub": "Edinburgh",
+   "closes": "rolling",
+   "type_id": 12,
+   "type_name": "Graduate data scientist (scientific data)",
+   "fit": 2.4,
+   "cv": "Data and machine learning",
+   "why": "\"Spiking neural networks in Google JAX (CUBA-LIF, ferroelectric FeLIF); revised training method; 3x accuracy on SHD\" (ad mentions deep learning, python, tensorflow)",
+   "angle": "Three end-to-end data projects with measured results (calibration, classifier, SNN training).",
+   "flags": [
+    "sponsor licence unknown",
+    "PhD desirable",
+    "LLM quantization and on-device inference skills listed as required; research heavy"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4488645791",
+   "url_direct": "",
+   "url_linkedin": "https://www.linkedin.com/jobs/view/4488645791",
+   "first_seen": "2026-11-11",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "a3d860ee3f6fa639",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Semiconductors",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Graduate Manufacturing Technician",
+   "employer": "Teledyne e2v",
+   "hub": "Birmingham-Midlands",
+   "closes": "rolling",
+   "type_id": 2,
+   "type_name": "Research / facility technician, experimental officer",
+   "fit": 2.19,
+   "cv": "Lab and vacuum hardware",
+   "why": "\"Maintained and repaired UHV components (gauges, valves, readouts); helped reassemble and test the ZERNIKELEIF facility\" (ad mentions assembly, hands-on, repair)",
+   "angle": "Hands-on vacuum maintenance and instrument reassembly; comfortable owning shared equipment.",
+   "flags": [
+    "sponsor licence unknown",
+    "Teledyne Microwave UK, Lincoln: radar products; check security clearance",
+    "degree list is engineering or related; physics may count"
+   ],
+   "url": "https://flir.wd1.myworkdayjobs.com/en-US/flircareers/job/UK---Lincoln/Graduate-Manufacturing-Technician_REQ37557",
+   "url_direct": "https://flir.wd1.myworkdayjobs.com/en-US/flircareers/job/UK---Lincoln/Graduate-Manufacturing-Technician_REQ37557",
+   "url_linkedin": "",
+   "first_seen": "2026-11-11",
+   "source": "Teledyne e2v",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "99447fa780b9ce62",
+   "dup_keys": [],
+   "section": "check",
+   "sector": "Hedge fund",
+   "stage": "Established",
+   "high_pay": true,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Quantitative Research Analyst  - University Graduate (Europe)",
+   "employer": "Citadel",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 2.44,
+   "cv": "General graduate",
+   "why": "\"Selective research master (up to 12 students/year), Holland and TopMaster scholarships\"",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence unknown",
+    "ad not read"
+   ],
+   "url": "https://www.citadel.com/careers/details/quantitative-research-analyst-university-graduate-europe/",
+   "url_direct": "https://www.citadel.com/careers/details/quantitative-research-analyst-university-graduate-europe/",
+   "url_linkedin": "",
+   "first_seen": "2026-11-11",
+   "source": "Kadoa Quant Jobs",
+   "ad_read": false,
+   "reviewed": false
+  },
+  {
+   "key": "1a761171837df0cf",
+   "dup_keys": [],
+   "section": "check",
+   "sector": "Hedge fund",
+   "stage": "Established",
+   "high_pay": true,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Python Quantitative Developer",
+   "employer": "Citadel",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 17,
+   "type_name": "Quant research / trading (graduate or intern)",
+   "fit": 1.59,
+   "cv": "General graduate",
+   "why": "\"Selective research master (up to 12 students/year), Holland and TopMaster scholarships\"",
+   "angle": "Hypothesis, model, measured result; Monte Carlo and noise modelling; JAX.",
+   "flags": [
+    "sponsor licence unknown",
+    "ad not read"
+   ],
+   "url": "https://www.citadel.com/careers/details/python-quantitative-developer/",
+   "url_direct": "https://www.citadel.com/careers/details/python-quantitative-developer/",
+   "url_linkedin": "",
+   "first_seen": "2026-11-11",
+   "source": "Kadoa Quant Jobs",
+   "ad_read": false,
+   "reviewed": false
+  }
+ ],
+ "deadlines": [
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Bridge and Civil Structures Engineer",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Energy Consultant - Birmingham or Nottingham",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Transport Planner",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Transport Planner",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Civil & Structural Engineer: Energy, Maritime & Civil Infrastructure",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Transport Planner",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Hydrogeologist",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Town Planner - Cardiff or Bristol",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Geotechnical Engineer",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Blackrock",
+   "scheme": "2027 Quantitative Masters Internship Programme - Investments - Quantitative Investing - London",
+   "closes": "2026-11-13"
+  },
+  {
+   "employer": "Physicsworldjobs",
+   "scheme": "University of Oxford, Department of Oncology: MSc Medical Physics with Radiobiology",
+   "closes": "2026-11-13"
+  },
+  {
+   "employer": "Royal Holloway, University of London",
+   "scheme": "Research Assistant (1026-358)",
+   "closes": "2026-11-13"
+  },
+  {
+   "employer": "WTW",
+   "scheme": "2027 Data Scientist Graduate Programme - Insurance Consulting - London/Reigate",
+   "closes": "2026-11-20"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate | Ground Engineering - Cardiff or Bristol",
+   "closes": "2026-11-20"
+  },
+  {
+   "employer": "Newcastle University",
+   "scheme": "Botanical Research Technician",
+   "closes": "2026-11-20"
+  },
+  {
+   "employer": "Aurora Energy Research",
+   "scheme": "Graduate Modelling Programme (Oxford, 2027)",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Aurora Energy Research",
+   "scheme": "Graduate Modelling Programme (Oxford, 2027)",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Anglian Water Services",
+   "scheme": "Graduate Materials Engineer",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "University of Exeter",
+   "scheme": "Graduate Research Assistant",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Arm",
+   "scheme": "Graduate Program - Engineering Pathways",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Arm",
+   "scheme": "Graduate Program - Engineering Pathways",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Edinburgh Napier University",
+   "scheme": "KTP Associates in Cybersecurity/Cryptography Security (Red Team/Blue Team)",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Arm",
+   "scheme": "Graduate Program - Engineering Pathways",
+   "closes": "2026-11-22"
+  }
+ ],
+ "filtered": [
+  {
+   "title": "ELI Beamlines (ELI ERIC): Scientist in Experimental High-Power Laser-Matter Interaction Physics (348)",
+   "employer": "Physicsworldjobs",
+   "reason": "PhD required; ELI Beamlines is in the Czech Republic"
+  },
+  {
+   "title": "Laboratory Technician - In Vivo Genetic Toxicology",
+   "employer": "Labcorp",
+   "reason": "biology or biochemistry degree only; in vivo toxicology off profile"
+  },
+  {
+   "title": "Data Scientist (mid-snr)",
+   "employer": "Ocado Technology",
+   "reason": "mid to senior data scientist; experience with BigQuery, OR-Tools and SimPy essential"
+  },
+  {
+   "title": "Quantitative Research Analyst  - University Graduate (US)",
+   "employer": "Citadel",
+   "reason": "US graduate role"
+  },
+  {
+   "title": "Field Service Engineer",
+   "employer": "Scientific Safety Alliance, an Inc. 5000 Company",
+   "reason": "recognised electronics qualification and instrumentation field experience essential"
+  },
+  {
+   "title": "Graduate Process Engineer",
+   "employer": "targetjobs UK",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate Design Engineer",
+   "employer": "targetjobs UK",
+   "reason": "score too low"
+  },
+  {
+   "title": "Software Engineer - University Graduate (US)",
+   "employer": "Citadel",
+   "reason": "score too low (title only)"
+  },
+  {
+   "title": "Software Engineer - University Graduate (Europe)",
+   "employer": "Citadel",
+   "reason": "score too low (title only)"
+  },
+  {
+   "title": "Machine Learning Researcher - PhD Intern (US)",
+   "employer": "Citadel",
+   "reason": "score too low (title only)"
+  },
+  {
+   "title": "Quantitative Researcher - PhD Intern (Europe)",
+   "employer": "Citadel",
+   "reason": "score too low (title only)"
+  },
+  {
+   "title": "Quantitative Research Engineer - PhD Intern (US)",
+   "employer": "Citadel",
+   "reason": "score too low (title only)"
+  },
+  {
+   "title": "Quantitative Researcher - PhD Intern (US)",
+   "employer": "Citadel",
+   "reason": "score too low (title only)"
+  },
+  {
+   "title": "Quantitative Trader: Equity Quantitative Research - Intern (US)",
+   "employer": "Citadel",
+   "reason": "score too low (title only)"
+  },
+  {
+   "title": "Quantitative Research Engineer - PHD Intern (Europe)",
+   "employer": "Citadel",
+   "reason": "score too low (title only)"
+  },
+  {
+   "title": "Quantitative Research Analyst Intern - BS/MS (Europe)",
+   "employer": "Citadel",
+   "reason": "score too low (title only)"
+  },
+  {
+   "title": "Quantitative Research Analyst - Intern (US)",
+   "employer": "Citadel",
+   "reason": "score too low (title only)"
+  },
+  {
+   "title": "Sector Data Analyst - Intern (Europe)",
+   "employer": "Citadel",
+   "reason": "score too low (title only)"
+  },
+  {
+   "title": "Electrical, Control & Instrumentation Engineer",
+   "employer": "UKAEA (Culham)",
+   "reason": "score too low"
+  },
+  {
+   "title": "Investment & Trading - Intern (Europe)",
+   "employer": "Citadel",
+   "reason": "score too low (title only)"
+  },
+  {
+   "title": "One to one Teaching Assistant",
+   "employer": "St Botolph's Church of England Voluntary Controlled Primary School",
+   "reason": "score too low"
+  },
+  {
+   "title": "Modelling Software Engineer",
+   "employer": "Aurora Energy Research",
+   "reason": "score too low"
+  },
+  {
+   "title": "Online Science Tutor (KS3 & GCSE) - Remote, Evenings - Start This Week",
+   "employer": "Super Learner Club",
+   "reason": "score too low"
+  },
+  {
+   "title": "Delegated Authority Technician",
+   "employer": "Aon",
+   "reason": "score too low"
+  },
+  {
+   "title": "AI EPR Product Specialist - HealthTech - Remote - £80,000-£100,000 + Bonus",
+   "employer": "Hunter Bond",
+   "reason": "score too low"
+  },
+  {
+   "title": "European Synchrotron Radiation Facility: Beamline Scientist for the Time-Resolved Ultrasmall-Angle Scattering Beamline ID02",
+   "employer": "Physicsworldjobs",
+   "reason": "PhD essential"
+  },
+  {
+   "title": "Graduate VHDL Design Engineer",
+   "employer": "targetjobs UK",
+   "reason": "degree discipline not accepted"
+  },
+  {
+   "title": "Quantitative Researcher - PhD Graduate (Europe)",
+   "employer": "Citadel",
+   "reason": "PhD essential"
+  },
+  {
+   "title": "Quantitative Researcher - PhD Graduate (US)",
+   "employer": "Citadel",
+   "reason": "PhD essential"
+  },
+  {
+   "title": "Quantitative Research Engineer - PhD Graduate (US)",
+   "employer": "Citadel",
+   "reason": "PhD essential"
+  },
+  {
+   "title": "Machine Learning Researcher - PhD Graduate (US)",
+   "employer": "Citadel",
+   "reason": "PhD essential"
+  },
+  {
+   "title": "2027 Graduate Civil Engineer",
+   "employer": "targetjobs UK",
+   "reason": "degree discipline not accepted"
+  },
+  {
+   "title": "Service Engineer",
+   "employer": "Teledyne e2v",
+   "reason": "3+ years experience"
+  },
+  {
+   "title": "Quantitative Researcher - Post-Doctoral Intern (US)",
+   "employer": "Citadel",
+   "reason": "PhD essential"
+  }
+ ],
+ "filtered_more": "",
+ "cv_version": "",
+ "source_health": [
+  {
+   "source": "Adzuna API",
+   "error": "RuntimeError: ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
+   "days": 25
+  },
+  {
+   "source": "Reed API",
+   "error": "RuntimeError: REED_API_KEY not set",
+   "days": 25
+  },
+  {
+   "source": "Microsoft",
+   "error": "SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /searc",
+   "days": 25
+  },
+  {
+   "source": "ORCA Computing",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 25
+  },
+  {
+   "source": "Modo Energy",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 25
+  },
+  {
+   "source": "jobs.ac.uk - Engineering & Technology",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/engineering-and-technology?forma",
+   "days": 25
+  },
+  {
+   "source": "jobs.ac.uk - Laboratory, Clinical & Technician",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/laboratory-clinical-and-technici",
+   "days": 25
+  },
+  {
+   "source": "jobs.ac.uk - Materials Science",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/materials-science?format=rss",
+   "days": 25
+  },
+  {
+   "source": "jobs.ac.uk - Physical & Environmental Sciences (parent)",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physical-and-environmental-scien",
+   "days": 25
+  },
+  {
+   "source": "jobs.ac.uk - Physics & Astronomy",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physics-and-astronomy?format=rss",
+   "days": 25
+  },
+  {
+   "source": "University of Cambridge",
+   "error": "ConnectionError: HTTPSConnectionPool(host='jobs.cam.ac.uk', port=443): Max retries exceeded with url: /job/?format=rss&u",
+   "days": 25
+  }
+ ],
+ "pipeline": {
+  "ready": {
+   "ready_at": "2026-11-11T06:42:01+00:00",
+   "pending": 43,
+   "ad_text": 23,
+   "gated": 9,
+   "fit_ge_2": 13,
+   "first_seen_days": [
+    "2026-11-11"
+   ],
+   "file": "/Users/danielito/Projects/job-radar/state/pending.jsonl"
+  },
+  "enrich": {
+   "enrich_at": "2026-11-11T06:41:22+00:00",
+   "needed": 16,
+   "seconds": 38,
+   "enriched": 16,
+   "failed": 0,
+   "skipped": 0,
+   "restage_dropped": 0,
+   "linkedin_fetched": 11,
+   "linkedin_blocked": false,
+   "skipped_by_notes": 20,
+   "hosts": {
+    "careers.ukaea.uk": {
+     "ok": 1
+    },
+    "flir.wd1.myworkdayjobs.com": {
+     "ok": 2
+    },
+    "linkedin.com": {
+     "ok": 11
+    },
+    "physicsworldjobs.com": {
+     "ok": 2
+    }
+   },
+   "runs": [
+    {
+     "enrich_at": "2026-11-11T06:41:22+00:00",
+     "needed": 16,
+     "seconds": 38,
+     "enriched": 16,
+     "failed": 0,
+     "skipped": 0,
+     "restage_dropped": 0,
+     "linkedin_fetched": 11,
+     "linkedin_blocked": false,
+     "skipped_by_notes": 20,
+     "hosts": {
+      "careers.ukaea.uk": {
+       "ok": 1
+      },
+      "flir.wd1.myworkdayjobs.com": {
+       "ok": 2
+      },
+      "linkedin.com": {
+       "ok": 11
+      },
+      "physicsworldjobs.com": {
+       "ok": 2
+      }
+     }
+    }
+   ]
+  }
+ }
+}
