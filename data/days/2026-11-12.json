@@ -1,0 +1,428 @@
+{
+ "schema": 1,
+ "date": "2026-11-12",
+ "generated_at": "2026-11-12T07:53:42+00:00",
+ "status": "ok",
+ "data_refreshed": "2026-11-12",
+ "window_from": "2026-11-11T00:30:05+00:00",
+ "catch_up": true,
+ "days_covered": 2,
+ "first_digest": false,
+ "stats": {
+  "pending": 19,
+  "ad_text": 18,
+  "passed_gates": 10,
+  "kept": 2,
+  "shown": 2,
+  "held_over": 0,
+  "waiting_for_ad": 0,
+  "dropped": 17,
+  "sources_failed": 11,
+  "top": 1,
+  "check": 0,
+  "high_pay": 0,
+  "ideal": 0,
+  "startups": 0
+ },
+ "notes": [
+  "Ad text fetched for 17 postings today"
+ ],
+ "items": [
+  {
+   "key": "6680f6eeed15559f",
+   "dup_keys": [],
+   "section": "top",
+   "sector": "University",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Nanofabrication Technician",
+   "employer": "University of Southampton",
+   "hub": "Southampton-Solent",
+   "closes": "rolling",
+   "type_id": 2,
+   "type_name": "Research / facility technician, experimental officer",
+   "fit": 4.5,
+   "cv": "Nanomaterials",
+   "why": "Cleanroom device fabrication for a photonics project; profile: \"Graphene-coated electrodes by spray-coating for molecular electronics\" and \"ECRIS source operation, sputter gun\".",
+   "angle": "Hands-on thin film and nanomaterial device fabrication with vacuum deposition, ready to run shared cleanroom tools.",
+   "flags": [
+    "sponsor licence unknown"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4490088096",
+   "url_direct": "",
+   "url_linkedin": "https://www.linkedin.com/jobs/view/4490088096",
+   "first_seen": "2026-11-12",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "1d2d0a9f6846af91",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Insurance and risk",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "title": "Aon Graduate Programme 2027 - Insurance Actuarial Consulting - Modelling and Technology",
+   "employer": "targetjobs UK",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 2.75,
+   "cv": "General graduate",
+   "why": "Graduate actuarial modelling and technology programme for recent graduates; profile: \"Inkjet process simulator: droplet flight (Schiller-Naumann drag, Monte Carlo nozzle variation)\" and \"Python scientific stack, Fortran\".",
+   "angle": "Physics research master who builds Monte Carlo models in Python, keen to start actuarial exams.",
+   "flags": [
+    "sponsor licence unknown",
+    "2:1 requested (quote UK ENIC comparability)",
+    "employer is Aon via targetjobs UK",
+    "2027 programme; check 2025 graduates are eligible",
+    "degree subjects not stated; check"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4489053878",
+   "url_direct": "",
+   "url_linkedin": "https://www.linkedin.com/jobs/view/4489053878",
+   "first_seen": "2026-11-12",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  }
+ ],
+ "deadlines": [
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Bridge and Civil Structures Engineer",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Energy Consultant - Birmingham or Nottingham",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Transport Planner",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Transport Planner",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Civil & Structural Engineer: Energy, Maritime & Civil Infrastructure",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Transport Planner",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Hydrogeologist",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Town Planner - Cardiff or Bristol",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate Geotechnical Engineer",
+   "closes": "2026-11-12"
+  },
+  {
+   "employer": "Blackrock",
+   "scheme": "2027 Quantitative Masters Internship Programme - Investments - Quantitative Investing - London",
+   "closes": "2026-11-13"
+  },
+  {
+   "employer": "Physicsworldjobs",
+   "scheme": "University of Oxford, Department of Oncology: MSc Medical Physics with Radiobiology",
+   "closes": "2026-11-13"
+  },
+  {
+   "employer": "Royal Holloway, University of London",
+   "scheme": "Research Assistant (1026-358)",
+   "closes": "2026-11-13"
+  },
+  {
+   "employer": "WTW",
+   "scheme": "2027 Data Scientist Graduate Programme - Insurance Consulting - London/Reigate",
+   "closes": "2026-11-20"
+  },
+  {
+   "employer": "Arup",
+   "scheme": "Graduate | Ground Engineering - Cardiff or Bristol",
+   "closes": "2026-11-20"
+  },
+  {
+   "employer": "Newcastle University",
+   "scheme": "Botanical Research Technician",
+   "closes": "2026-11-20"
+  },
+  {
+   "employer": "Aurora Energy Research",
+   "scheme": "Graduate Modelling Programme (Oxford, 2027)",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Aurora Energy Research",
+   "scheme": "Graduate Modelling Programme (Oxford, 2027)",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Anglian Water Services",
+   "scheme": "Graduate Materials Engineer",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "University of Exeter",
+   "scheme": "Graduate Research Assistant",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Arm",
+   "scheme": "Graduate Program - Engineering Pathways",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Arm",
+   "scheme": "Graduate Program - Engineering Pathways",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Edinburgh Napier University",
+   "scheme": "KTP Associates in Cybersecurity/Cryptography Security (Red Team/Blue Team)",
+   "closes": "2026-11-22"
+  },
+  {
+   "employer": "Arm",
+   "scheme": "Graduate Program - Engineering Pathways",
+   "closes": "2026-11-22"
+  }
+ ],
+ "filtered": [
+  {
+   "title": "Founding Engineer - ML Systems (up to £250k)",
+   "employer": "Dex",
+   "reason": "Dex recruiter senior founding engineer ad (up to 250k)"
+  },
+  {
+   "title": "ML Engineer",
+   "employer": "Haystack",
+   "reason": "lead level ML engineer, mentoring senior data scientists"
+  },
+  {
+   "title": "Graduate - Trainee Process Engineering Manager",
+   "employer": "targetjobs UK",
+   "reason": "engineering degree only; driving licence required"
+  },
+  {
+   "title": "Research Associate, UK & Ireland",
+   "employer": "Aurora Energy Research",
+   "reason": "at least 3 years experience required"
+  },
+  {
+   "title": "Member of Technical Staff - Reinforcement Learning (up to £300k)",
+   "employer": "Dex",
+   "reason": "Dex recruiter senior RL ad (up to 300k)"
+  },
+  {
+   "title": "Graduate Engineer",
+   "employer": "targetjobs UK",
+   "reason": "civil, mechanical or structural engineering degree only"
+  },
+  {
+   "title": "Higher Level Teaching Assistant",
+   "employer": "St Michael's CofE Academy",
+   "reason": "score too low (title only)"
+  },
+  {
+   "title": "Sterile Services Technician with Additional Duties",
+   "employer": "Betsi Cadwaladr University Health Board",
+   "reason": "score too low"
+  },
+  {
+   "title": "Teaching Assistants (inclusive of SEN)",
+   "employer": "St Michael's CofE Academy",
+   "reason": "score too low"
+  },
+  {
+   "title": "2027 Structural Engineering (CEMC) Graduate",
+   "employer": "targetjobs UK",
+   "reason": "score too low"
+  },
+  {
+   "title": "2027 UK Graduate Hydrogeologist Career Path: Water",
+   "employer": "targetjobs UK",
+   "reason": "score too low"
+  },
+  {
+   "title": "Test Technician",
+   "employer": "Teledyne e2v",
+   "reason": "score too low"
+  },
+  {
+   "title": "264204 (KA) Specialist Healthcare Scientist - Imaging Physics",
+   "employer": "NHS Scotland",
+   "reason": "score too low"
+  },
+  {
+   "title": "TAE Technologies: Sales Engineer",
+   "employer": "Physicsworldjobs",
+   "reason": "score too low"
+  },
+  {
+   "title": "Graduate/ Junior Mechanical Design Engineer",
+   "employer": "targetjobs UK",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Graduate - Mission Operations Engineer",
+   "employer": "Nominal",
+   "reason": "security clearance or UK nationals only"
+  },
+  {
+   "title": "Process Engineer",
+   "employer": "CSL",
+   "reason": "3+ years experience"
+  }
+ ],
+ "filtered_more": "",
+ "cv_version": "",
+ "source_health": [
+  {
+   "source": "Adzuna API",
+   "error": "RuntimeError: ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
+   "days": 26
+  },
+  {
+   "source": "Reed API",
+   "error": "RuntimeError: REED_API_KEY not set",
+   "days": 26
+  },
+  {
+   "source": "Microsoft",
+   "error": "SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /searc",
+   "days": 26
+  },
+  {
+   "source": "ORCA Computing",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 26
+  },
+  {
+   "source": "Modo Energy",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 26
+  },
+  {
+   "source": "jobs.ac.uk - Laboratory, Clinical & Technician",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/laboratory-clinical-and-technici",
+   "days": 26
+  },
+  {
+   "source": "jobs.ac.uk - Engineering & Technology",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/engineering-and-technology?forma",
+   "days": 26
+  },
+  {
+   "source": "jobs.ac.uk - Materials Science",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/materials-science?format=rss",
+   "days": 26
+  },
+  {
+   "source": "jobs.ac.uk - Physical & Environmental Sciences (parent)",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physical-and-environmental-scien",
+   "days": 26
+  },
+  {
+   "source": "University of Cambridge",
+   "error": "ConnectionError: HTTPSConnectionPool(host='jobs.cam.ac.uk', port=443): Max retries exceeded with url: /job/?format=rss&u",
+   "days": 26
+  },
+  {
+   "source": "jobs.ac.uk - Physics & Astronomy",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physics-and-astronomy?format=rss",
+   "days": 26
+  }
+ ],
+ "pipeline": {
+  "ready": {
+   "ready_at": "2026-11-12T06:42:37+00:00",
+   "pending": 19,
+   "ad_text": 18,
+   "gated": 3,
+   "fit_ge_2": 8,
+   "first_seen_days": [
+    "2026-11-12"
+   ],
+   "file": "/Users/danielito/Projects/job-radar/state/pending.jsonl"
+  },
+  "enrich": {
+   "enrich_at": "2026-11-12T06:41:44+00:00",
+   "needed": 17,
+   "seconds": 51,
+   "enriched": 17,
+   "failed": 0,
+   "skipped": 0,
+   "restage_dropped": 0,
+   "linkedin_fetched": 14,
+   "linkedin_blocked": false,
+   "skipped_by_notes": 0,
+   "hosts": {
+    "flir.wd1.myworkdayjobs.com": {
+     "ok": 1
+    },
+    "linkedin.com": {
+     "ok": 14
+    },
+    "physicsworldjobs.com": {
+     "ok": 1
+    },
+    "teaching-vacancies.service.gov.uk": {
+     "ok": 1
+    }
+   },
+   "runs": [
+    {
+     "enrich_at": "2026-11-12T06:41:44+00:00",
+     "needed": 17,
+     "seconds": 51,
+     "enriched": 17,
+     "failed": 0,
+     "skipped": 0,
+     "restage_dropped": 0,
+     "linkedin_fetched": 14,
+     "linkedin_blocked": false,
+     "skipped_by_notes": 0,
+     "hosts": {
+      "flir.wd1.myworkdayjobs.com": {
+       "ok": 1
+      },
+      "linkedin.com": {
+       "ok": 14
+      },
+      "physicsworldjobs.com": {
+       "ok": 1
+      },
+      "teaching-vacancies.service.gov.uk": {
+       "ok": 1
+      }
+     }
+    }
+   ]
+  }
+ }
+}
