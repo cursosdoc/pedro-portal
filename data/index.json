@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-13T16:57:47Z",
+ "updated": "2026-11-16T19:38:36Z",
  "days": [
+  {
+   "date": "2026-11-16",
+   "status": "ok",
+   "shown": 9,
+   "top": 0,
+   "ideal": 0,
+   "kept": 8,
+   "pending": 35,
+   "catch_up": true
+  },
+  {
+   "date": "2026-11-15",
+   "status": "ok",
+   "shown": 0,
+   "top": 0,
+   "ideal": 0,
+   "kept": 0,
+   "pending": 2,
+   "catch_up": true
+  },
+  {
+   "date": "2026-11-14",
+   "status": "ok",
+   "shown": 7,
+   "top": 2,
+   "ideal": 0,
+   "kept": 7,
+   "pending": 42,
+   "catch_up": true
+  },
   {
    "date": "2026-11-13",
    "status": "ok",
