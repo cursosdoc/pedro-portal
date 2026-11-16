@@ -1,224 +1,223 @@
 {
- "schema": 1,
- "date": "2026-11-15",
- "generated_at": "2026-11-16T00:41:30+00:00",
- "status": "ok",
- "data_refreshed": "2026-11-15",
- "window_from": "2026-11-14T00:30:05+00:00",
- "catch_up": true,
- "days_covered": 2,
- "first_digest": false,
- "stats": {
-  "pending": 2,
-  "ad_text": 2,
-  "passed_gates": 2,
-  "kept": 0,
-  "shown": 0,
-  "held_over": 0,
-  "waiting_for_ad": 0,
-  "dropped": 2,
-  "sources_failed": 11,
-  "top": 0,
-  "check": 0,
-  "high_pay": 0,
-  "ideal": 0,
-  "startups": 0
- },
- "notes": [
-  "site not published: git push blocked (403) from the Cowork device shell; publish from a Mac terminal",
-  "Ad text fetched for 2 postings today"
- ],
- "items": [],
- "deadlines": [
-  {
-   "employer": "WTW",
-   "scheme": "2027 Data Scientist Graduate Programme - Insurance Consulting - London/Reigate",
-   "closes": "2026-11-20"
+  "schema": 1,
+  "date": "2026-11-15",
+  "generated_at": "2026-11-16T00:41:30+00:00",
+  "status": "ok",
+  "data_refreshed": "2026-11-15",
+  "window_from": "2026-11-14T00:30:05+00:00",
+  "catch_up": true,
+  "days_covered": 2,
+  "first_digest": false,
+  "stats": {
+    "pending": 2,
+    "ad_text": 2,
+    "passed_gates": 2,
+    "kept": 0,
+    "shown": 0,
+    "held_over": 0,
+    "waiting_for_ad": 0,
+    "dropped": 2,
+    "sources_failed": 11,
+    "top": 0,
+    "check": 0,
+    "high_pay": 0,
+    "ideal": 0,
+    "startups": 0
   },
-  {
-   "employer": "Arup",
-   "scheme": "Graduate | Ground Engineering - Cardiff or Bristol",
-   "closes": "2026-11-20"
-  },
-  {
-   "employer": "Newcastle University",
-   "scheme": "Botanical Research Technician",
-   "closes": "2026-11-20"
-  },
-  {
-   "employer": "Aurora Energy Research",
-   "scheme": "Graduate Modelling Programme (Oxford, 2027)",
-   "closes": "2026-11-22"
-  },
-  {
-   "employer": "Aurora Energy Research",
-   "scheme": "Graduate Modelling Programme (Oxford, 2027)",
-   "closes": "2026-11-22"
-  },
-  {
-   "employer": "Anglian Water Services",
-   "scheme": "Graduate Materials Engineer",
-   "closes": "2026-11-22"
-  },
-  {
-   "employer": "University of Exeter",
-   "scheme": "Graduate Research Assistant",
-   "closes": "2026-11-22"
-  },
-  {
-   "employer": "Arm",
-   "scheme": "Graduate Program - Engineering Pathways",
-   "closes": "2026-11-22"
-  },
-  {
-   "employer": "Arm",
-   "scheme": "Graduate Program - Engineering Pathways",
-   "closes": "2026-11-22"
-  },
-  {
-   "employer": "Edinburgh Napier University",
-   "scheme": "KTP Associates in Cybersecurity/Cryptography Security (Red Team/Blue Team)",
-   "closes": "2026-11-22"
-  },
-  {
-   "employer": "Arm",
-   "scheme": "Graduate Program - Engineering Pathways",
-   "closes": "2026-11-22"
-  },
-  {
-   "employer": "Aurora Energy Research",
-   "scheme": "Graduate Software Engineering Programme (Oxford, 2027)",
-   "closes": "2026-11-29"
-  },
-  {
-   "employer": "Aurora Energy Research",
-   "scheme": "Graduate Software Engineering Programme (Oxford, 2027)",
-   "closes": "2026-11-29"
-  },
-  {
-   "employer": "Physicsworldjobs",
-   "scheme": "CERN: Control Software Engineer - Particle Accelerators  (TE-MPE-CB-2026-213-LD)",
-   "closes": "2026-11-29"
-  }
- ],
- "filtered": [
-  {
-   "title": "Trainee Decontamination Technician",
-   "employer": "Ramsay Health Care UK",
-   "reason": "score too low"
-  },
-  {
-   "title": "AI EPR Product Specialist - HealthTech - Remote - £80,000-£100,000 + Bonus",
-   "employer": "Hunter Bond",
-   "reason": "score too low"
-  }
- ],
- "filtered_more": "",
- "cv_version": "",
- "source_health": [
-  {
-   "source": "Adzuna API",
-   "error": "RuntimeError: ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
-   "days": 29
-  },
-  {
-   "source": "Reed API",
-   "error": "RuntimeError: REED_API_KEY not set",
-   "days": 29
-  },
-  {
-   "source": "Microsoft",
-   "error": "SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /searc",
-   "days": 29
-  },
-  {
-   "source": "ORCA Computing",
-   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
-   "days": 29
-  },
-  {
-   "source": "Modo Energy",
-   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
-   "days": 29
-  },
-  {
-   "source": "jobs.ac.uk - Engineering & Technology",
-   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/engineering-and-technology?forma",
-   "days": 29
-  },
-  {
-   "source": "jobs.ac.uk - Laboratory, Clinical & Technician",
-   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/laboratory-clinical-and-technici",
-   "days": 29
-  },
-  {
-   "source": "jobs.ac.uk - Materials Science",
-   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/materials-science?format=rss",
-   "days": 29
-  },
-  {
-   "source": "jobs.ac.uk - Physical & Environmental Sciences (parent)",
-   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physical-and-environmental-scien",
-   "days": 29
-  },
-  {
-   "source": "University of Cambridge",
-   "error": "ConnectionError: HTTPSConnectionPool(host='jobs.cam.ac.uk', port=443): Max retries exceeded with url: /job/?format=rss&u",
-   "days": 29
-  },
-  {
-   "source": "jobs.ac.uk - Physics & Astronomy",
-   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physics-and-astronomy?format=rss",
-   "days": 29
-  }
- ],
- "pipeline": {
-  "ready": {
-   "ready_at": "2026-11-15T08:38:56+00:00",
-   "pending": 2,
-   "ad_text": 2,
-   "gated": 0,
-   "fit_ge_2": 0,
-   "first_seen_days": [
-    "2026-11-15"
-   ],
-   "file": "/Users/danielito/Projects/job-radar/state/pending.jsonl"
-  },
-  "enrich": {
-   "enrich_at": "2026-11-15T08:38:47+00:00",
-   "needed": 2,
-   "seconds": 8,
-   "enriched": 2,
-   "failed": 0,
-   "skipped": 0,
-   "restage_dropped": 0,
-   "linkedin_fetched": 2,
-   "linkedin_blocked": false,
-   "skipped_by_notes": 0,
-   "hosts": {
-    "linkedin.com": {
-     "ok": 2
-    }
-   },
-   "runs": [
+  "notes": [
+    "Ad text fetched for 2 postings today"
+  ],
+  "items": [],
+  "deadlines": [
     {
-     "enrich_at": "2026-11-15T08:38:47+00:00",
-     "needed": 2,
-     "seconds": 8,
-     "enriched": 2,
-     "failed": 0,
-     "skipped": 0,
-     "restage_dropped": 0,
-     "linkedin_fetched": 2,
-     "linkedin_blocked": false,
-     "skipped_by_notes": 0,
-     "hosts": {
-      "linkedin.com": {
-       "ok": 2
-      }
-     }
+      "employer": "WTW",
+      "scheme": "2027 Data Scientist Graduate Programme - Insurance Consulting - London/Reigate",
+      "closes": "2026-11-20"
+    },
+    {
+      "employer": "Arup",
+      "scheme": "Graduate | Ground Engineering - Cardiff or Bristol",
+      "closes": "2026-11-20"
+    },
+    {
+      "employer": "Newcastle University",
+      "scheme": "Botanical Research Technician",
+      "closes": "2026-11-20"
+    },
+    {
+      "employer": "Aurora Energy Research",
+      "scheme": "Graduate Modelling Programme (Oxford, 2027)",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Aurora Energy Research",
+      "scheme": "Graduate Modelling Programme (Oxford, 2027)",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Anglian Water Services",
+      "scheme": "Graduate Materials Engineer",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "University of Exeter",
+      "scheme": "Graduate Research Assistant",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Arm",
+      "scheme": "Graduate Program - Engineering Pathways",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Arm",
+      "scheme": "Graduate Program - Engineering Pathways",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Edinburgh Napier University",
+      "scheme": "KTP Associates in Cybersecurity/Cryptography Security (Red Team/Blue Team)",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Arm",
+      "scheme": "Graduate Program - Engineering Pathways",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Aurora Energy Research",
+      "scheme": "Graduate Software Engineering Programme (Oxford, 2027)",
+      "closes": "2026-11-29"
+    },
+    {
+      "employer": "Aurora Energy Research",
+      "scheme": "Graduate Software Engineering Programme (Oxford, 2027)",
+      "closes": "2026-11-29"
+    },
+    {
+      "employer": "Physicsworldjobs",
+      "scheme": "CERN: Control Software Engineer - Particle Accelerators  (TE-MPE-CB-2026-213-LD)",
+      "closes": "2026-11-29"
     }
-   ]
+  ],
+  "filtered": [
+    {
+      "title": "Trainee Decontamination Technician",
+      "employer": "Ramsay Health Care UK",
+      "reason": "score too low"
+    },
+    {
+      "title": "AI EPR Product Specialist - HealthTech - Remote - £80,000-£100,000 + Bonus",
+      "employer": "Hunter Bond",
+      "reason": "score too low"
+    }
+  ],
+  "filtered_more": "",
+  "cv_version": "",
+  "source_health": [
+    {
+      "source": "Adzuna API",
+      "error": "RuntimeError: ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
+      "days": 29
+    },
+    {
+      "source": "Reed API",
+      "error": "RuntimeError: REED_API_KEY not set",
+      "days": 29
+    },
+    {
+      "source": "Microsoft",
+      "error": "SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /searc",
+      "days": 29
+    },
+    {
+      "source": "ORCA Computing",
+      "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+      "days": 29
+    },
+    {
+      "source": "Modo Energy",
+      "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+      "days": 29
+    },
+    {
+      "source": "jobs.ac.uk - Engineering & Technology",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/engineering-and-technology?forma",
+      "days": 29
+    },
+    {
+      "source": "jobs.ac.uk - Laboratory, Clinical & Technician",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/laboratory-clinical-and-technici",
+      "days": 29
+    },
+    {
+      "source": "jobs.ac.uk - Materials Science",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/materials-science?format=rss",
+      "days": 29
+    },
+    {
+      "source": "jobs.ac.uk - Physical & Environmental Sciences (parent)",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physical-and-environmental-scien",
+      "days": 29
+    },
+    {
+      "source": "University of Cambridge",
+      "error": "ConnectionError: HTTPSConnectionPool(host='jobs.cam.ac.uk', port=443): Max retries exceeded with url: /job/?format=rss&u",
+      "days": 29
+    },
+    {
+      "source": "jobs.ac.uk - Physics & Astronomy",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physics-and-astronomy?format=rss",
+      "days": 29
+    }
+  ],
+  "pipeline": {
+    "ready": {
+      "ready_at": "2026-11-15T08:38:56+00:00",
+      "pending": 2,
+      "ad_text": 2,
+      "gated": 0,
+      "fit_ge_2": 0,
+      "first_seen_days": [
+        "2026-11-15"
+      ],
+      "file": "/Users/danielito/Projects/job-radar/state/pending.jsonl"
+    },
+    "enrich": {
+      "enrich_at": "2026-11-15T08:38:47+00:00",
+      "needed": 2,
+      "seconds": 8,
+      "enriched": 2,
+      "failed": 0,
+      "skipped": 0,
+      "restage_dropped": 0,
+      "linkedin_fetched": 2,
+      "linkedin_blocked": false,
+      "skipped_by_notes": 0,
+      "hosts": {
+        "linkedin.com": {
+          "ok": 2
+        }
+      },
+      "runs": [
+        {
+          "enrich_at": "2026-11-15T08:38:47+00:00",
+          "needed": 2,
+          "seconds": 8,
+          "enriched": 2,
+          "failed": 0,
+          "skipped": 0,
+          "restage_dropped": 0,
+          "linkedin_fetched": 2,
+          "linkedin_blocked": false,
+          "skipped_by_notes": 0,
+          "hosts": {
+            "linkedin.com": {
+              "ok": 2
+            }
+          }
+        }
+      ]
+    }
   }
- }
 }
