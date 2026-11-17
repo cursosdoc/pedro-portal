@@ -1,0 +1,517 @@
+{
+  "schema": 1,
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T07:54:24+00:00",
+  "status": "ok",
+  "data_refreshed": "2026-11-17",
+  "window_from": "2026-11-16T00:35:34+00:00",
+  "catch_up": true,
+  "days_covered": 2,
+  "first_digest": false,
+  "stats": {
+    "pending": 22,
+    "ad_text": 22,
+    "passed_gates": 8,
+    "kept": 6,
+    "shown": 6,
+    "held_over": 0,
+    "waiting_for_ad": 0,
+    "dropped": 16,
+    "sources_failed": 11,
+    "top": 1,
+    "check": 0,
+    "high_pay": 0,
+    "ideal": 0,
+    "startups": 2
+  },
+  "notes": [
+    "Ad text fetched for 18 postings today"
+  ],
+  "items": [
+    {
+      "key": "8788ab18dcd06465",
+      "dup_keys": [],
+      "section": "top",
+      "sector": "Space and Earth observation",
+      "stage": "Scale-up",
+      "high_pay": false,
+      "pay": "",
+      "ideal": false,
+      "ideal_why": "",
+      "title": "Satellite Payload Processing Engineer",
+      "employer": "Open Cosmos",
+      "hub": "Oxford-Harwell",
+      "closes": "rolling",
+      "type_id": 9,
+      "type_name": "Calibration, metrology or Earth-observation scientist",
+      "fit": 4.38,
+      "cv": "Data and machine learning",
+      "why": "\"Push-broom imaging spectrometer forward model and radiometric calibration; 5 noise sources; 0.05% RMS radiometric residual, 6 pm RMS wavelength accuracy (github.com/pf-oc/tropomi-cal-sim)\" (ad mentions calibrated, classification, python, satellite)",
+      "angle": "TROPOMI-style push-broom spectrometer calibration pipeline: 0.05% RMS radiometric residual.",
+      "flags": [
+        "sponsor licence unknown"
+      ],
+      "url": "https://careers.open-cosmos.com/jobs/8749710-satellite-payload-processing-engineer",
+      "url_direct": "https://careers.open-cosmos.com/jobs/8749710-satellite-payload-processing-engineer",
+      "url_linkedin": "",
+      "first_seen": "2026-11-17",
+      "source": "Open Cosmos",
+      "ad_read": true,
+      "reviewed": false
+    },
+    {
+      "key": "f40dcf28cfa8f6b0",
+      "dup_keys": [],
+      "section": "worth",
+      "sector": "University",
+      "stage": "Public and academic",
+      "high_pay": false,
+      "pay": "",
+      "ideal": false,
+      "ideal_why": "",
+      "title": "Nanofabrication Technician",
+      "employer": "Cyber Security Academy Southampton",
+      "hub": "UK (unspecified)",
+      "closes": "rolling",
+      "type_id": 2,
+      "type_name": "Research / facility technician, experimental officer",
+      "fit": 3.54,
+      "cv": "Lab and vacuum hardware",
+      "why": "\"Xe implantation at multiple incidence angles and energies; SRIM predictive models to guide experimental design\" (ad mentions cleanroom, laboratory)",
+      "angle": "Hands-on vacuum maintenance and instrument reassembly; comfortable owning shared equipment.",
+      "flags": [
+        "sponsor licence unknown",
+        "employer is the University of Southampton",
+        "may be the same Southampton nanofabrication technician ad shown on 12 Nov"
+      ],
+      "url": "https://www.linkedin.com/jobs/view/4490151701",
+      "url_direct": "",
+      "url_linkedin": "https://www.linkedin.com/jobs/view/4490151701",
+      "first_seen": "2026-11-17",
+      "source": "LinkedIn (JobSpy)",
+      "ad_read": true,
+      "reviewed": true
+    },
+    {
+      "key": "c1c4b424ec2df481",
+      "dup_keys": [],
+      "section": "maybe",
+      "sector": "University",
+      "stage": "Public and academic",
+      "high_pay": false,
+      "pay": "",
+      "ideal": false,
+      "ideal_why": "",
+      "title": "Research Associate in Machine Learning/Statistics",
+      "employer": "The University of Manchester",
+      "hub": "Manchester-Cheshire",
+      "closes": "rolling",
+      "type_id": 12,
+      "type_name": "Graduate data scientist (scientific data)",
+      "fit": 2.94,
+      "cv": "Data and machine learning",
+      "why": "\"Push-broom imaging spectrometer forward model and radiometric calibration; 5 noise sources; 0.05% RMS radiometric residual, 6 pm RMS wavelength accuracy (github.com/pf-oc/tropomi-cal-sim)\" (ad mentions data science, machine learning, statistics)",
+      "angle": "Three end-to-end data projects with measured results (calibration, classifier, SNN training).",
+      "flags": [
+        "sponsor licence unknown",
+        "prediction modelling and health data experience essential"
+      ],
+      "url": "https://www.linkedin.com/jobs/view/4490958322",
+      "url_direct": "",
+      "url_linkedin": "https://www.linkedin.com/jobs/view/4490958322",
+      "first_seen": "2026-11-17",
+      "source": "LinkedIn (JobSpy)",
+      "ad_read": true,
+      "reviewed": true
+    },
+    {
+      "key": "44146cf742f283e3",
+      "dup_keys": [],
+      "section": "maybe",
+      "sector": "Defence tech",
+      "stage": "Scale-up",
+      "high_pay": false,
+      "pay": "",
+      "ideal": false,
+      "ideal_why": "",
+      "title": "Simulation Architect - Defence & Combat Systems",
+      "employer": "Helsing",
+      "hub": "London",
+      "closes": "rolling",
+      "type_id": 8,
+      "type_name": "Modelling / simulation engineer",
+      "fit": 2.8,
+      "cv": "Modelling and simulation",
+      "why": "\"Inkjet process simulator: droplet flight (Schiller-Naumann drag, Monte Carlo nozzle variation), impact/spreading (Pasandideh-Fard), fixation (Antoine evaporation, latex film formation); operating-window maps (github.com/pf-oc/inkjet-process-sim)\" (ad mentions c++, matlab, models, monte carlo)",
+      "angle": "Built a full process chain model from first principles with Monte Carlo variation and operating window maps.",
+      "flags": [
+        "sponsor licence unknown",
+        "Architect title suggests a senior role; check the experience asked",
+        "security clearance check (Helsing defence)"
+      ],
+      "url": "https://helsing.ai/jobs/5037050101?gh_jid=5037050101",
+      "url_direct": "https://helsing.ai/jobs/5037050101?gh_jid=5037050101",
+      "url_linkedin": "",
+      "first_seen": "2026-11-17",
+      "source": "Helsing",
+      "ad_read": true,
+      "reviewed": true
+    },
+    {
+      "key": "b00e0ad71579393a",
+      "dup_keys": [],
+      "section": "maybe",
+      "sector": "Engineering consultancy",
+      "stage": "Established",
+      "high_pay": false,
+      "pay": "",
+      "ideal": false,
+      "ideal_why": "",
+      "title": "Graduate Geographic Information Systems (GIS)",
+      "employer": "targetjobs UK",
+      "hub": "Surrey-Sussex",
+      "closes": "rolling",
+      "type_id": 7,
+      "type_name": "National lab / science graduate scheme",
+      "fit": 2.5,
+      "cv": "Data and machine learning",
+      "why": "\"Acoustic bird/bat classifier (Random Forest on mel spectrograms, 78%, 6 species) fused with radar altitude for wind-turbine collision risk; ~60% fewer false alerts (github.com/pf-oc/acoustic-wildlife-classifier)\" (ad mentions classification, data science)",
+      "angle": "Built data pipelines that fuse acoustic and radar data into spatial risk maps for wind farms.",
+      "flags": [
+        "sponsor licence no",
+        "2:1 requested (quote UK ENIC comparability)",
+        "employer is Fluor (via targetjobs UK)",
+        "check degree disciplines and start date"
+      ],
+      "url": "https://www.linkedin.com/jobs/view/4490174512",
+      "url_direct": "",
+      "url_linkedin": "https://www.linkedin.com/jobs/view/4490174512",
+      "first_seen": "2026-11-17",
+      "source": "LinkedIn (JobSpy)",
+      "ad_read": true,
+      "reviewed": true
+    },
+    {
+      "key": "0125e37ee9effac9",
+      "dup_keys": [],
+      "section": "maybe",
+      "sector": "Aerospace, defence and industrial",
+      "stage": "Established",
+      "high_pay": false,
+      "pay": "",
+      "ideal": false,
+      "ideal_why": "",
+      "title": "Application Engineer Graduate",
+      "employer": "targetjobs UK",
+      "hub": "UK (unspecified)",
+      "closes": "rolling",
+      "type_id": 3,
+      "type_name": "Instrument / application scientist",
+      "fit": 2.48,
+      "cv": "Modelling and simulation",
+      "why": "\"Push-broom imaging spectrometer forward model and radiometric calibration; 5 noise sources; 0.05% RMS radiometric residual, 6 pm RMS wavelength accuracy (github.com/pf-oc/tropomi-cal-sim)\" (ad mentions calibration)",
+      "angle": "Calibration and forward modelling experience (0.05% RMS radiometric residual) applied to vehicle dynamics calibration.",
+      "flags": [
+        "sponsor licence no",
+        "employer is Bosch (via targetjobs UK)",
+        "starts September 2027; check 'relevant field' accepts physics"
+      ],
+      "url": "https://www.linkedin.com/jobs/view/4490183261",
+      "url_direct": "",
+      "url_linkedin": "https://www.linkedin.com/jobs/view/4490183261",
+      "first_seen": "2026-11-17",
+      "source": "LinkedIn (JobSpy)",
+      "ad_read": true,
+      "reviewed": true
+    }
+  ],
+  "deadlines": [
+    {
+      "employer": "WTW",
+      "scheme": "2027 Data Scientist Graduate Programme - Insurance Consulting - London/Reigate",
+      "closes": "2026-11-20"
+    },
+    {
+      "employer": "Arup",
+      "scheme": "Graduate | Ground Engineering - Cardiff or Bristol",
+      "closes": "2026-11-20"
+    },
+    {
+      "employer": "Newcastle University",
+      "scheme": "Botanical Research Technician",
+      "closes": "2026-11-20"
+    },
+    {
+      "employer": "Aurora Energy Research",
+      "scheme": "Graduate Modelling Programme (Oxford, 2027)",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Aurora Energy Research",
+      "scheme": "Graduate Modelling Programme (Oxford, 2027)",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Anglian Water Services",
+      "scheme": "Graduate Materials Engineer",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "University of Exeter",
+      "scheme": "Graduate Research Assistant",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Arm",
+      "scheme": "Graduate Program - Engineering Pathways",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Arm",
+      "scheme": "Graduate Program - Engineering Pathways",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Edinburgh Napier University",
+      "scheme": "KTP Associates in Cybersecurity/Cryptography Security (Red Team/Blue Team)",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Arm",
+      "scheme": "Graduate Program - Engineering Pathways",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "targetjobs UK",
+      "scheme": "2027 Quantitative Analytics Associate Graduate Programme",
+      "closes": "2026-11-27"
+    },
+    {
+      "employer": "Aurora Energy Research",
+      "scheme": "Graduate Software Engineering Programme (Oxford, 2027)",
+      "closes": "2026-11-29"
+    },
+    {
+      "employer": "Aurora Energy Research",
+      "scheme": "Graduate Software Engineering Programme (Oxford, 2027)",
+      "closes": "2026-11-29"
+    },
+    {
+      "employer": "Physicsworldjobs",
+      "scheme": "CERN: Control Software Engineer - Particle Accelerators  (TE-MPE-CB-2026-213-LD)",
+      "closes": "2026-11-29"
+    },
+    {
+      "employer": "Ramboll",
+      "scheme": "Impact Assessment Graduate 2027",
+      "closes": "2026-12-01"
+    },
+    {
+      "employer": "Ramboll",
+      "scheme": "Impact Assessment Graduate 2027",
+      "closes": "2026-12-01"
+    }
+  ],
+  "filtered": [
+    {
+      "title": "Chemical Engineer Consultant - Energy & Process Technologies",
+      "employer": "TTP plc",
+      "reason": "TTP consultant: industry chemical engineering experience or PhD in Chemical Engineering"
+    },
+    {
+      "title": "Support / Maintenance Engineer (Mechanical Bias or Multi-skilled) - Commutable from Oxford, Swindon, Cheltenham, Banbury - Various shifts",
+      "employer": "Abbott",
+      "reason": "maintenance engineer needs engineering apprenticeship or HNC and manufacturing experience"
+    },
+    {
+      "title": "Research Associate in Machine Learning for Digital Phenotyping",
+      "employer": "The University of Manchester",
+      "reason": "PhD in artificial intelligence required"
+    },
+    {
+      "title": "Roswell Park Comprehensive Cancer Center: Medical Physicist III",
+      "employer": "Physicsworldjobs",
+      "reason": "US role (Roswell Park via Physicsworldjobs), PhD and 3 years clinical experience"
+    },
+    {
+      "title": "Graduate Chemist",
+      "employer": "targetjobs UK",
+      "reason": "score too low"
+    },
+    {
+      "title": "Graduate Scientist, In vitro DMPK",
+      "employer": "targetjobs UK",
+      "reason": "score too low"
+    },
+    {
+      "title": "Graduate Electronic Security Designer (Summer 2027)",
+      "employer": "Thornton Tomasetti",
+      "reason": "security clearance or UK nationals only"
+    },
+    {
+      "title": "Graduate Electrical Energy Engineer",
+      "employer": "targetjobs UK",
+      "reason": "degree discipline not accepted"
+    },
+    {
+      "title": "Graduate Structural Engineer (Summer 2027)",
+      "employer": "Thornton Tomasetti",
+      "reason": "security clearance or UK nationals only"
+    },
+    {
+      "title": "Graduate Decommissioning & Dismantling Engineer",
+      "employer": "targetjobs UK",
+      "reason": "security clearance or UK nationals only"
+    },
+    {
+      "title": "Full-time Electrical Engineering or Engineering Physics Faculty",
+      "employer": "Student Activities Board",
+      "reason": "PhD essential"
+    },
+    {
+      "title": "Full-Time Mechanical, or Biomedical Engineering, or Engineering Physics Faculty",
+      "employer": "Student Activities Board",
+      "reason": "PhD essential"
+    },
+    {
+      "title": "Graduate Structural Engineer (Summer 2027)",
+      "employer": "Thornton Tomasetti",
+      "reason": "security clearance or UK nationals only"
+    },
+    {
+      "title": "Graduate Water Catchment Scientist Peterborough - March 2027 Start Date",
+      "employer": "targetjobs UK",
+      "reason": "closed 2026-10-12"
+    },
+    {
+      "title": "Chemical Process Engineer",
+      "employer": "DATS Recruitment",
+      "reason": "3+ years experience"
+    },
+    {
+      "title": "Graduate FPGA/Firmware Engineer",
+      "employer": "targetjobs UK",
+      "reason": "security clearance or UK nationals only"
+    }
+  ],
+  "filtered_more": "",
+  "cv_version": "",
+  "source_health": [
+    {
+      "source": "Adzuna API",
+      "error": "RuntimeError: ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
+      "days": 31
+    },
+    {
+      "source": "Reed API",
+      "error": "RuntimeError: REED_API_KEY not set",
+      "days": 31
+    },
+    {
+      "source": "Microsoft",
+      "error": "SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /searc",
+      "days": 31
+    },
+    {
+      "source": "ORCA Computing",
+      "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+      "days": 31
+    },
+    {
+      "source": "Modo Energy",
+      "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+      "days": 31
+    },
+    {
+      "source": "jobs.ac.uk - Laboratory, Clinical & Technician",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/laboratory-clinical-and-technici",
+      "days": 31
+    },
+    {
+      "source": "jobs.ac.uk - Engineering & Technology",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/engineering-and-technology?forma",
+      "days": 31
+    },
+    {
+      "source": "University of Cambridge",
+      "error": "ConnectionError: HTTPSConnectionPool(host='jobs.cam.ac.uk', port=443): Max retries exceeded with url: /job/?format=rss&u",
+      "days": 31
+    },
+    {
+      "source": "jobs.ac.uk - Materials Science",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/materials-science?format=rss",
+      "days": 31
+    },
+    {
+      "source": "jobs.ac.uk - Physical & Environmental Sciences (parent)",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physical-and-environmental-scien",
+      "days": 31
+    },
+    {
+      "source": "jobs.ac.uk - Physics & Astronomy",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physics-and-astronomy?format=rss",
+      "days": 31
+    }
+  ],
+  "pipeline": {
+    "ready": {
+      "ready_at": "2026-11-17T06:42:03+00:00",
+      "pending": 22,
+      "ad_text": 22,
+      "gated": 10,
+      "fit_ge_2": 10,
+      "first_seen_days": [
+        "2026-11-17"
+      ],
+      "file": "/Users/danielito/Projects/job-radar/state/pending.jsonl"
+    },
+    "enrich": {
+      "enrich_at": "2026-11-17T06:40:57+00:00",
+      "needed": 18,
+      "seconds": 65,
+      "enriched": 18,
+      "failed": 0,
+      "skipped": 0,
+      "restage_dropped": 0,
+      "linkedin_fetched": 16,
+      "linkedin_blocked": false,
+      "skipped_by_notes": 0,
+      "hosts": {
+        "jobs.smartrecruiters.com": {
+          "ok": 1
+        },
+        "linkedin.com": {
+          "ok": 16
+        },
+        "physicsworldjobs.com": {
+          "ok": 1
+        }
+      },
+      "runs": [
+        {
+          "enrich_at": "2026-11-17T06:40:57+00:00",
+          "needed": 18,
+          "seconds": 65,
+          "enriched": 18,
+          "failed": 0,
+          "skipped": 0,
+          "restage_dropped": 0,
+          "linkedin_fetched": 16,
+          "linkedin_blocked": false,
+          "skipped_by_notes": 0,
+          "hosts": {
+            "jobs.smartrecruiters.com": {
+              "ok": 1
+            },
+            "linkedin.com": {
+              "ok": 16
+            },
+            "physicsworldjobs.com": {
+              "ok": 1
+            }
+          }
+        }
+      ]
+    }
+  }
+}
