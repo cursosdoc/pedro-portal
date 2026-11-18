@@ -1,0 +1,381 @@
+{
+  "schema": 1,
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T07:53:17+00:00",
+  "status": "ok",
+  "data_refreshed": "2026-11-18",
+  "window_from": "2026-11-17T00:30:04+00:00",
+  "catch_up": true,
+  "days_covered": 2,
+  "first_digest": false,
+  "stats": {
+    "pending": 18,
+    "ad_text": 18,
+    "passed_gates": 5,
+    "kept": 2,
+    "shown": 2,
+    "held_over": 0,
+    "waiting_for_ad": 0,
+    "dropped": 16,
+    "sources_failed": 11,
+    "top": 0,
+    "check": 0,
+    "high_pay": 0,
+    "ideal": 0,
+    "startups": 1
+  },
+  "notes": [
+    "Ad text fetched for 15 postings today"
+  ],
+  "items": [
+    {
+      "key": "f2981526f53dc24a",
+      "dup_keys": [],
+      "section": "worth",
+      "sector": "Other",
+      "stage": "Unknown",
+      "high_pay": false,
+      "pay": "",
+      "ideal": false,
+      "ideal_why": "",
+      "title": "Physics Masters",
+      "employer": "Alignerr",
+      "hub": "Cambridge",
+      "closes": "rolling",
+      "type_id": 13,
+      "type_name": "Physics-informed / scientific ML engineer",
+      "fit": 3.0,
+      "cv": "General graduate",
+      "why": "Asks a Master's in Physics, Applied Physics or a related field; Pedro has a Bachelor in Physics and \"Selective research master (up to 12 students/year), Holland and TopMaster scholarships\"",
+      "angle": "Physics trained research master who writes rigorous step by step solutions and builds first principles simulators.",
+      "flags": [
+        "sponsor licence unknown",
+        "contract AI training gig (Alignerr), not a permanent role"
+      ],
+      "url": "https://www.linkedin.com/jobs/view/4490848013",
+      "url_direct": "",
+      "url_linkedin": "https://www.linkedin.com/jobs/view/4490848013",
+      "first_seen": "2026-11-18",
+      "source": "LinkedIn (JobSpy)",
+      "ad_read": true,
+      "reviewed": true
+    },
+    {
+      "key": "97fd3b90c3195a5a",
+      "dup_keys": [],
+      "section": "worth",
+      "sector": "Semiconductors",
+      "stage": "Scale-up",
+      "high_pay": false,
+      "pay": "",
+      "ideal": false,
+      "ideal_why": "",
+      "title": "Graduate, Manufacturing Operations (Product Test) 2027",
+      "employer": "targetjobs UK",
+      "hub": "Bristol-Bath",
+      "closes": "rolling",
+      "type_id": 7,
+      "type_name": "National lab / science graduate scheme",
+      "fit": 3.0,
+      "cv": "Lab and vacuum hardware",
+      "why": "Accepts a Master's in Physics; hands on product test fits \"Maintained and repaired UHV components (gauges, valves, readouts); helped reassemble and test the ZERNIKELEIF facility\"",
+      "angle": "Hands on hardware test and repair experience from rebuilding and testing an ultra high vacuum ion beam facility.",
+      "flags": [
+        "sponsor licence no",
+        "employer is Graphcore (via targetjobs UK)",
+        "2027 graduate programme; check it accepts a 2025 graduate",
+        "applications close 29 November 2026"
+      ],
+      "url": "https://www.linkedin.com/jobs/view/4491476767",
+      "url_direct": "",
+      "url_linkedin": "https://www.linkedin.com/jobs/view/4491476767",
+      "first_seen": "2026-11-18",
+      "source": "LinkedIn (JobSpy)",
+      "ad_read": true,
+      "reviewed": true
+    }
+  ],
+  "deadlines": [
+    {
+      "employer": "WTW",
+      "scheme": "2027 Data Scientist Graduate Programme - Insurance Consulting - London/Reigate",
+      "closes": "2026-11-20"
+    },
+    {
+      "employer": "Arup",
+      "scheme": "Graduate | Ground Engineering - Cardiff or Bristol",
+      "closes": "2026-11-20"
+    },
+    {
+      "employer": "Newcastle University",
+      "scheme": "Botanical Research Technician",
+      "closes": "2026-11-20"
+    },
+    {
+      "employer": "Aurora Energy Research",
+      "scheme": "Graduate Modelling Programme (Oxford, 2027)",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Aurora Energy Research",
+      "scheme": "Graduate Modelling Programme (Oxford, 2027)",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Anglian Water Services",
+      "scheme": "Graduate Materials Engineer",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "University of Exeter",
+      "scheme": "Graduate Research Assistant",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Arm",
+      "scheme": "Graduate Program - Engineering Pathways",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Arm",
+      "scheme": "Graduate Program - Engineering Pathways",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Edinburgh Napier University",
+      "scheme": "KTP Associates in Cybersecurity/Cryptography Security (Red Team/Blue Team)",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Arm",
+      "scheme": "Graduate Program - Engineering Pathways",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "targetjobs UK",
+      "scheme": "2027 Quantitative Analytics Associate Graduate Programme",
+      "closes": "2026-11-27"
+    },
+    {
+      "employer": "Aurora Energy Research",
+      "scheme": "Graduate Software Engineering Programme (Oxford, 2027)",
+      "closes": "2026-11-29"
+    },
+    {
+      "employer": "Aurora Energy Research",
+      "scheme": "Graduate Software Engineering Programme (Oxford, 2027)",
+      "closes": "2026-11-29"
+    },
+    {
+      "employer": "Physicsworldjobs",
+      "scheme": "CERN: Control Software Engineer - Particle Accelerators  (TE-MPE-CB-2026-213-LD)",
+      "closes": "2026-11-29"
+    },
+    {
+      "employer": "Ramboll",
+      "scheme": "Impact Assessment Graduate 2027",
+      "closes": "2026-12-01"
+    },
+    {
+      "employer": "Ramboll",
+      "scheme": "Impact Assessment Graduate 2027",
+      "closes": "2026-12-01"
+    }
+  ],
+  "filtered": [
+    {
+      "title": "ML Engineer - Simulation & Robotics (up to £100k)",
+      "employer": "Dex",
+      "reason": "Dex recruiter ad at senior pay (up to 100k), production ML or robotics experience asked, not graduate"
+    },
+    {
+      "title": "GPU Internships - Architecture Validation, Performance Modelling & Platform Architecture",
+      "employer": "targetjobs UK",
+      "reason": "Apple GPU internships via targetjobs UK, student internship, hardware architecture modelling experience preferred"
+    },
+    {
+      "title": "Founding Engineer - ML Systems (up to £250k)",
+      "employer": "Dex",
+      "reason": "Dex recruiter ad, founding engineer at up to 250k, real model engineering experience asked"
+    },
+    {
+      "title": "Member of Technical Staff - Reinforcement Learning (up to £300k)",
+      "employer": "Dex",
+      "reason": "Dex recruiter ad, Member of Technical Staff in large scale RL at up to 300k"
+    },
+    {
+      "title": "Simulation Software Engineer Student Placement",
+      "employer": "targetjobs UK",
+      "reason": "student placement for current undergraduates"
+    },
+    {
+      "title": "Graduate Engineer",
+      "employer": "Cala Consulting",
+      "reason": "recruiter ad (Cala Consulting): engineering qualification and manufacturing engineering experience essential, Northern Ireland"
+    },
+    {
+      "title": "Tax - Tax Research & Development Graduate Trainee - Milton Keynes - September 2027",
+      "employer": "targetjobs UK",
+      "reason": "score too low"
+    },
+    {
+      "title": "Teaching Assistant",
+      "employer": "St Stephen's CofE Primary School",
+      "reason": "score too low"
+    },
+    {
+      "title": "Field Service Engineer",
+      "employer": "SER",
+      "reason": "score too low"
+    },
+    {
+      "title": "Field Service Engineer - Customer Service",
+      "employer": "Telstar",
+      "reason": "degree discipline not accepted"
+    },
+    {
+      "title": "Systems Engineering Graduate Programme",
+      "employer": "Babcock International Group",
+      "reason": "security clearance or UK nationals only"
+    },
+    {
+      "title": "Graduate Civil/Structural Engineers",
+      "employer": "targetjobs UK",
+      "reason": "degree discipline not accepted"
+    },
+    {
+      "title": "Applications Engineer",
+      "employer": "Renishaw",
+      "reason": "degree discipline not accepted"
+    },
+    {
+      "title": "Graduate Process Engineer",
+      "employer": "GHD",
+      "reason": "degree discipline not accepted"
+    },
+    {
+      "title": "Metrology Engineer",
+      "employer": "Moog Inc.",
+      "reason": "3+ years experience"
+    },
+    {
+      "title": "Systematic Trader - Commodities / FX",
+      "employer": "Man Group (incl. Man AHL)",
+      "reason": "3+ years experience"
+    }
+  ],
+  "filtered_more": "",
+  "cv_version": "",
+  "source_health": [
+    {
+      "source": "Adzuna API",
+      "error": "RuntimeError: ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
+      "days": 32
+    },
+    {
+      "source": "Reed API",
+      "error": "RuntimeError: REED_API_KEY not set",
+      "days": 32
+    },
+    {
+      "source": "Microsoft",
+      "error": "SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /searc",
+      "days": 32
+    },
+    {
+      "source": "ORCA Computing",
+      "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+      "days": 32
+    },
+    {
+      "source": "Modo Energy",
+      "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+      "days": 32
+    },
+    {
+      "source": "jobs.ac.uk - Engineering & Technology",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/engineering-and-technology?forma",
+      "days": 32
+    },
+    {
+      "source": "jobs.ac.uk - Laboratory, Clinical & Technician",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/laboratory-clinical-and-technici",
+      "days": 32
+    },
+    {
+      "source": "jobs.ac.uk - Materials Science",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/materials-science?format=rss",
+      "days": 32
+    },
+    {
+      "source": "jobs.ac.uk - Physical & Environmental Sciences (parent)",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physical-and-environmental-scien",
+      "days": 32
+    },
+    {
+      "source": "jobs.ac.uk - Physics & Astronomy",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physics-and-astronomy?format=rss",
+      "days": 32
+    },
+    {
+      "source": "University of Cambridge",
+      "error": "ConnectionError: HTTPSConnectionPool(host='jobs.cam.ac.uk', port=443): Max retries exceeded with url: /job/?format=rss&u",
+      "days": 32
+    }
+  ],
+  "pipeline": {
+    "ready": {
+      "ready_at": "2026-11-18T06:42:15+00:00",
+      "pending": 18,
+      "ad_text": 18,
+      "gated": 7,
+      "fit_ge_2": 8,
+      "first_seen_days": [
+        "2026-11-18"
+      ],
+      "file": "/Users/danielito/Projects/job-radar/state/pending.jsonl"
+    },
+    "enrich": {
+      "enrich_at": "2026-11-18T06:41:20+00:00",
+      "needed": 15,
+      "seconds": 54,
+      "enriched": 15,
+      "failed": 0,
+      "skipped": 0,
+      "restage_dropped": 0,
+      "linkedin_fetched": 14,
+      "linkedin_blocked": false,
+      "skipped_by_notes": 0,
+      "hosts": {
+        "linkedin.com": {
+          "ok": 14
+        },
+        "renishaw.wd3.myworkdayjobs.com": {
+          "ok": 1
+        }
+      },
+      "runs": [
+        {
+          "enrich_at": "2026-11-18T06:41:20+00:00",
+          "needed": 15,
+          "seconds": 54,
+          "enriched": 15,
+          "failed": 0,
+          "skipped": 0,
+          "restage_dropped": 0,
+          "linkedin_fetched": 14,
+          "linkedin_blocked": false,
+          "skipped_by_notes": 0,
+          "hosts": {
+            "linkedin.com": {
+              "ok": 14
+            },
+            "renishaw.wd3.myworkdayjobs.com": {
+              "ok": 1
+            }
+          }
+        }
+      ]
+    }
+  }
+}
