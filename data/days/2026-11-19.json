@@ -1,0 +1,343 @@
+{
+  "schema": 1,
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T07:53:14+00:00",
+  "status": "ok",
+  "data_refreshed": "2026-11-19",
+  "window_from": "2026-11-18T00:30:06+00:00",
+  "catch_up": true,
+  "days_covered": 2,
+  "first_digest": false,
+  "stats": {
+    "pending": 13,
+    "ad_text": 13,
+    "passed_gates": 8,
+    "kept": 2,
+    "shown": 2,
+    "held_over": 0,
+    "waiting_for_ad": 0,
+    "dropped": 10,
+    "sources_failed": 11,
+    "top": 0,
+    "check": 0,
+    "high_pay": 0,
+    "ideal": 0,
+    "startups": 0
+  },
+  "notes": [
+    "Ad text fetched for 6 postings today"
+  ],
+  "items": [
+    {
+      "key": "d2ef81d6c9bd8513",
+      "dup_keys": [],
+      "section": "maybe",
+      "sector": "Aerospace, defence and industrial",
+      "stage": "Established",
+      "high_pay": false,
+      "pay": "",
+      "ideal": false,
+      "ideal_why": "",
+      "title": "Data Scientist (Machine Learning & AI)",
+      "employer": "SRT Marine Systems plc",
+      "hub": "Bristol-Bath",
+      "closes": "rolling",
+      "type_id": 12,
+      "type_name": "Graduate data scientist (scientific data)",
+      "fit": 2.75,
+      "cv": "Data and machine learning",
+      "why": "\"Acoustic bird/bat classifier (Random Forest on mel spectrograms, 78%, 6 species) fused with radar altitude for wind-turbine collision risk; ~60% fewer false alerts (github.com/pf-oc/acoustic-wildlife-classifier)\" (ad mentions data scientist, machine learning, python, radar)",
+      "angle": "Three end-to-end data projects with measured results (calibration, classifier, SNN training).",
+      "flags": [
+        "sponsor licence unknown",
+        "asks commercial ML deployment experience and AWS or MLOps"
+      ],
+      "url": "https://www.linkedin.com/jobs/view/4488414185",
+      "url_direct": "",
+      "url_linkedin": "https://www.linkedin.com/jobs/view/4488414185",
+      "first_seen": "2026-11-19",
+      "source": "LinkedIn (JobSpy)",
+      "ad_read": true,
+      "reviewed": true
+    },
+    {
+      "key": "f9ea06c4df2648ac",
+      "dup_keys": [],
+      "section": "maybe",
+      "sector": "Other",
+      "stage": "Unknown",
+      "high_pay": false,
+      "pay": "",
+      "ideal": false,
+      "ideal_why": "",
+      "title": "Data Scientist",
+      "employer": "CEERISK Arabia",
+      "hub": "London",
+      "closes": "rolling",
+      "type_id": 12,
+      "type_name": "Graduate data scientist (scientific data)",
+      "fit": 2.75,
+      "cv": "Data and machine learning",
+      "why": "\"Spiking neural networks in Google JAX (CUBA-LIF, ferroelectric FeLIF); revised training method; 3x accuracy on SHD\" (ad mentions data analytics, data scientist, machine learning, python)",
+      "angle": "Three end-to-end data projects with measured results (calibration, classifier, SNN training).",
+      "flags": [
+        "sponsor licence unknown",
+        "check employer and location: name suggests a Saudi firm"
+      ],
+      "url": "https://www.linkedin.com/jobs/view/4492104697",
+      "url_direct": "",
+      "url_linkedin": "https://www.linkedin.com/jobs/view/4492104697",
+      "first_seen": "2026-11-19",
+      "source": "LinkedIn (JobSpy)",
+      "ad_read": true,
+      "reviewed": true
+    }
+  ],
+  "deadlines": [
+    {
+      "employer": "WTW",
+      "scheme": "2027 Data Scientist Graduate Programme - Insurance Consulting - London/Reigate",
+      "closes": "2026-11-20"
+    },
+    {
+      "employer": "Arup",
+      "scheme": "Graduate | Ground Engineering - Cardiff or Bristol",
+      "closes": "2026-11-20"
+    },
+    {
+      "employer": "Newcastle University",
+      "scheme": "Botanical Research Technician",
+      "closes": "2026-11-20"
+    },
+    {
+      "employer": "Aurora Energy Research",
+      "scheme": "Graduate Modelling Programme (Oxford, 2027)",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Aurora Energy Research",
+      "scheme": "Graduate Modelling Programme (Oxford, 2027)",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Anglian Water Services",
+      "scheme": "Graduate Materials Engineer",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "University of Exeter",
+      "scheme": "Graduate Research Assistant",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Arm",
+      "scheme": "Graduate Program - Engineering Pathways",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Arm",
+      "scheme": "Graduate Program - Engineering Pathways",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Edinburgh Napier University",
+      "scheme": "KTP Associates in Cybersecurity/Cryptography Security (Red Team/Blue Team)",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "Arm",
+      "scheme": "Graduate Program - Engineering Pathways",
+      "closes": "2026-11-22"
+    },
+    {
+      "employer": "targetjobs UK",
+      "scheme": "2027 Quantitative Analytics Associate Graduate Programme",
+      "closes": "2026-11-27"
+    },
+    {
+      "employer": "Aurora Energy Research",
+      "scheme": "Graduate Software Engineering Programme (Oxford, 2027)",
+      "closes": "2026-11-29"
+    },
+    {
+      "employer": "Aurora Energy Research",
+      "scheme": "Graduate Software Engineering Programme (Oxford, 2027)",
+      "closes": "2026-11-29"
+    },
+    {
+      "employer": "Physicsworldjobs",
+      "scheme": "CERN: Control Software Engineer - Particle Accelerators  (TE-MPE-CB-2026-213-LD)",
+      "closes": "2026-11-29"
+    },
+    {
+      "employer": "Ramboll",
+      "scheme": "Impact Assessment Graduate 2027",
+      "closes": "2026-12-01"
+    },
+    {
+      "employer": "Ramboll",
+      "scheme": "Impact Assessment Graduate 2027",
+      "closes": "2026-12-01"
+    }
+  ],
+  "filtered": [
+    {
+      "title": "Quantum Analogue IC Design Engineer",
+      "employer": "IonQ (incl. Oxford Ionics)",
+      "reason": "5+ years experience"
+    },
+    {
+      "title": "Advanced R&D Scientist, Quantum Chemistry Applications",
+      "employer": "Quantinuum",
+      "reason": "PhD in computational physics or chemistry listed under Requirements, plus publication record"
+    },
+    {
+      "title": "Administrative Assistant to Biological Physics",
+      "employer": "University of Oxford",
+      "reason": "score too low"
+    },
+    {
+      "title": "Equity Index Options Trader",
+      "employer": "DRW",
+      "reason": "score too low"
+    },
+    {
+      "title": "Field Service Engineer UK",
+      "employer": "Thermo Fisher Scientific",
+      "reason": "score too low"
+    },
+    {
+      "title": "Field Service Engineer - Electromechanical - South Coast",
+      "employer": "Carbon",
+      "reason": "score too low"
+    },
+    {
+      "title": "Product Specialist , Quartex",
+      "employer": "AM",
+      "reason": "score too low"
+    },
+    {
+      "title": "Consultant, Digital Strategy",
+      "employer": "Baringa",
+      "reason": "score too low"
+    },
+    {
+      "title": "Sustainability Graduate Programme",
+      "employer": "targetjobs UK",
+      "reason": "security clearance or UK nationals only"
+    },
+    {
+      "title": "Hardware Engineering Graduate - Robotics & Automation 2027",
+      "employer": "Ocado Technology",
+      "reason": "degree discipline not accepted"
+    }
+  ],
+  "filtered_more": "",
+  "cv_version": "",
+  "source_health": [
+    {
+      "source": "Adzuna API",
+      "error": "RuntimeError: ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
+      "days": 33
+    },
+    {
+      "source": "Reed API",
+      "error": "RuntimeError: REED_API_KEY not set",
+      "days": 33
+    },
+    {
+      "source": "Microsoft",
+      "error": "SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /searc",
+      "days": 33
+    },
+    {
+      "source": "ORCA Computing",
+      "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+      "days": 33
+    },
+    {
+      "source": "Modo Energy",
+      "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+      "days": 33
+    },
+    {
+      "source": "jobs.ac.uk - Engineering & Technology",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/engineering-and-technology?forma",
+      "days": 33
+    },
+    {
+      "source": "jobs.ac.uk - Laboratory, Clinical & Technician",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/laboratory-clinical-and-technici",
+      "days": 33
+    },
+    {
+      "source": "jobs.ac.uk - Materials Science",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/materials-science?format=rss",
+      "days": 33
+    },
+    {
+      "source": "jobs.ac.uk - Physical & Environmental Sciences (parent)",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physical-and-environmental-scien",
+      "days": 33
+    },
+    {
+      "source": "University of Cambridge",
+      "error": "ConnectionError: HTTPSConnectionPool(host='jobs.cam.ac.uk', port=443): Max retries exceeded with url: /job/?format=rss&u",
+      "days": 33
+    },
+    {
+      "source": "jobs.ac.uk - Physics & Astronomy",
+      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physics-and-astronomy?format=rss",
+      "days": 33
+    }
+  ],
+  "pipeline": {
+    "ready": {
+      "ready_at": "2026-11-19T06:41:02+00:00",
+      "pending": 13,
+      "ad_text": 13,
+      "gated": 3,
+      "fit_ge_2": 4,
+      "first_seen_days": [
+        "2026-11-19"
+      ],
+      "file": "/Users/danielito/Projects/job-radar/state/pending.jsonl"
+    },
+    "enrich": {
+      "enrich_at": "2026-11-19T06:40:41+00:00",
+      "needed": 6,
+      "seconds": 20,
+      "enriched": 6,
+      "failed": 0,
+      "skipped": 0,
+      "restage_dropped": 0,
+      "linkedin_fetched": 6,
+      "linkedin_blocked": false,
+      "skipped_by_notes": 0,
+      "hosts": {
+        "linkedin.com": {
+          "ok": 6
+        }
+      },
+      "runs": [
+        {
+          "enrich_at": "2026-11-19T06:40:41+00:00",
+          "needed": 6,
+          "seconds": 20,
+          "enriched": 6,
+          "failed": 0,
+          "skipped": 0,
+          "restage_dropped": 0,
+          "linkedin_fetched": 6,
+          "linkedin_blocked": false,
+          "skipped_by_notes": 0,
+          "hosts": {
+            "linkedin.com": {
+              "ok": 6
+            }
+          }
+        }
+      ]
+    }
+  }
+}
