@@ -1,38 +1,39 @@
 {
  "schema": 1,
  "date": "2026-11-23",
- "generated_at": "2026-11-23T20:04:25+00:00",
+ "generated_at": "2026-11-23T20:14:48+00:00",
  "status": "ok",
  "data_refreshed": "2026-11-23",
- "window_from": "2026-11-23T00:30:08+00:00",
+ "window_from": "2026-11-23T12:32:08+00:00",
  "catch_up": false,
  "days_covered": 1,
  "first_digest": false,
  "stats": {
-  "pending": 132,
-  "ad_text": 129,
-  "passed_gates": 97,
-  "kept": 57,
-  "shown": 101,
+  "pending": 206,
+  "ad_text": 173,
+  "passed_gates": 123,
+  "kept": 65,
+  "shown": 133,
   "held_over": 0,
   "waiting_for_ad": 0,
-  "low": 44,
+  "low": 68,
   "removed": 2,
-  "excluded": 7,
+  "excluded": 30,
+  "excluded_location": 17,
   "dropped": 2,
-  "sources_failed": 12,
+  "sources_failed": 11,
   "top": 2,
   "check": 0,
-  "high_pay": 4,
+  "high_pay": 10,
   "ideal": 0,
-  "broad": 47,
-  "startups": 7
+  "broad": 48,
+  "startups": 12
  },
  "notes": [
-  "47 broad entry-level roles (graduate schemes, trainee and entry-level programmes open to many degree backgrounds): see their own section.",
-  "7 excluded for seniority or experience (more than 2 years required); not listed.",
-  "44 unlikely fits (gate, low score or reviewer call) are listed at the bottom with the reason, not hidden.",
-  "Ad text fetched for 20 postings today"
+  "48 broad entry-level roles (graduate schemes, trainee and entry-level programmes open to many degree backgrounds): see their own section.",
+  "30 excluded, not listed: 13 for seniority or experience (more than 2 years); 17 EU postings without a visa or relocation sponsorship offer.",
+  "68 unlikely fits (gate, low score or reviewer call) are listed at the bottom with the reason, not hidden.",
+  "Ad text fetched for 123 postings today"
  ],
  "items": [
   {
@@ -106,6 +107,118 @@
    "reviewed": true
   },
   {
+   "key": "286a84aedef89ce8",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Defence tech",
+   "stage": "Scale-up",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "",
+   "broad": false,
+   "broad_why": "",
+   "title": "Simulation Engineer",
+   "employer": "Helsing",
+   "hub": "EU (Germany)",
+   "closes": "rolling",
+   "type_id": 8,
+   "type_name": "Modelling / simulation engineer",
+   "fit": 3.94,
+   "cv": "Modelling and simulation",
+   "why": "\"Inkjet process simulator: droplet flight (Schiller-Naumann drag, Monte Carlo nozzle variation), impact/spreading (Pasandideh-Fard), fixation (Antoine evaporation, latex film formation); operating-window maps (github.com/pf-oc/inkjet-process-sim)\" (ad mentions c++, cfd, fea, matlab)",
+   "angle": "Built a full inkjet process chain model from first principles and produced operating-window maps.",
+   "flags": [
+    "sponsor licence unknown",
+    "first-class requested (quote UK ENIC comparability)",
+    "EU (Germany): ad offers \"relocation support\"",
+    "dated 2026-09-10, first seen 2026-11-23; may be an older ad",
+    "Helsing (defence): check security clearance and seniority; no years stated"
+   ],
+   "url": "https://helsing.ai/jobs/4972086101?gh_jid=4972086101",
+   "url_direct": "https://helsing.ai/jobs/4972086101?gh_jid=4972086101",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Helsing",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "178076da41236b70",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Defence tech",
+   "stage": "Scale-up",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "",
+   "broad": false,
+   "broad_why": "",
+   "title": "Simulation Engineer - Space",
+   "employer": "Helsing",
+   "hub": "EU (Germany)",
+   "closes": "rolling",
+   "type_id": 8,
+   "type_name": "Modelling / simulation engineer",
+   "fit": 3.94,
+   "cv": "Modelling and simulation",
+   "why": "\"Inkjet process simulator: droplet flight (Schiller-Naumann drag, Monte Carlo nozzle variation), impact/spreading (Pasandideh-Fard), fixation (Antoine evaporation, latex film formation); operating-window maps (github.com/pf-oc/inkjet-process-sim)\" (ad mentions c++, models, monte carlo, python)",
+   "angle": "Built a full inkjet process chain model from first principles and produced operating-window maps.",
+   "flags": [
+    "sponsor licence unknown",
+    "EU (Germany): ad offers \"relocation support\"",
+    "dated 2026-09-10, first seen 2026-11-23; may be an older ad",
+    "Helsing (defence): check security clearance and seniority; no years stated"
+   ],
+   "url": "https://helsing.ai/jobs/4972255101?gh_jid=4972255101",
+   "url_direct": "https://helsing.ai/jobs/4972255101?gh_jid=4972255101",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Helsing",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "1ce1045810e90ff9",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Defence tech",
+   "stage": "Scale-up",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "",
+   "broad": false,
+   "broad_why": "",
+   "title": "Flight Dynamics Modelling Engineer",
+   "employer": "Helsing",
+   "hub": "EU (Germany)",
+   "closes": "rolling",
+   "type_id": 8,
+   "type_name": "Modelling / simulation engineer",
+   "fit": 3.6,
+   "cv": "Modelling and simulation",
+   "why": "\"Inkjet process simulator: droplet flight (Schiller-Naumann drag, Monte Carlo nozzle variation), impact/spreading (Pasandideh-Fard), fixation (Antoine evaporation, latex film formation); operating-window maps (github.com/pf-oc/inkjet-process-sim)\" (ad mentions c++, first principles, matlab, modelling)",
+   "angle": "Built a full inkjet process chain model from first principles and produced operating-window maps.",
+   "flags": [
+    "sponsor licence unknown",
+    "EU (Germany): ad offers \"relocation support\"",
+    "dated 2026-10-01, first seen 2026-11-23; may be an older ad",
+    "Helsing (defence): check security clearance; asks aerodynamics and stability and control grounding from an engineering degree"
+   ],
+   "url": "https://helsing.ai/jobs/4995452101?gh_jid=4995452101",
+   "url_direct": "https://helsing.ai/jobs/4995452101?gh_jid=4995452101",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Helsing",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
    "key": "0358fdc1d985f8a5",
    "dup_keys": [],
    "section": "worth",
@@ -141,9 +254,86 @@
    "reviewed": true
   },
   {
+   "key": "16c25ed32219e08f",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Quant trading",
+   "stage": "Established",
+   "high_pay": true,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "",
+   "broad": true,
+   "broad_why": "graduate; open to a mixed list of degrees",
+   "title": "Graduate Quantitative Researcher (2027 Start)",
+   "employer": "Optiver",
+   "hub": "EU (Netherlands)",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 3.38,
+   "cv": "Data and machine learning",
+   "why": "\"Spiking neural networks in Google JAX (CUBA-LIF, ferroelectric FeLIF); revised training method; 3x accuracy on SHD\" (ad mentions deep learning, machine learning, python, statistical)",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence unknown",
+    "first-class requested (quote UK ENIC comparability)",
+    "EU (Netherlands): ad offers \"relocation package\"",
+    "dated 2026-08-17, first seen 2026-11-23; may be an older ad",
+    "2027 start: check the graduation year they accept"
+   ],
+   "url": "https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/amsterdam/graduate-quantitative-researcher-2027-start/",
+   "url_direct": "https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/amsterdam/graduate-quantitative-researcher-2027-start/",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Kadoa Quant Jobs",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "78d2e0a01a0d8de8",
+   "dup_keys": [],
+   "section": "worth",
+   "sector": "Quantum",
+   "stage": "Startup",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "",
+   "broad": false,
+   "broad_why": "",
+   "title": "Quantum Operator (f/m/d)",
+   "employer": "Universal Quantum",
+   "hub": "EU (Germany)",
+   "closes": "rolling",
+   "type_id": 11,
+   "type_name": "Quantum hardware engineer / technician",
+   "fit": 3.38,
+   "cv": "Lab and vacuum hardware",
+   "why": "\"Maintained and repaired UHV components (gauges, valves, readouts); helped reassemble and test the ZERNIKELEIF facility\" (ad mentions experimental, laser, maintain, ultra-high vacuum)",
+   "angle": "UHV, ion sources and beam alignment are the daily toolkit of trapped-ion and neutral-atom labs.",
+   "flags": [
+    "sponsor licence unknown",
+    "EU (Germany): ad offers \"relocation allowance\"",
+    "dated 2026-08-31, first seen 2026-11-23; may be an older ad",
+    "asks a Master's in AMO physics plus at least 2 years of hands-on lab experience; research master lab projects may count",
+    "trapped ion or neutral atom hardware"
+   ],
+   "url": "https://apply.workable.com/j/C0CAF18EDB",
+   "url_direct": "https://apply.workable.com/j/C0CAF18EDB",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Universal Quantum",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
    "key": "6b7e1edeec265753",
    "dup_keys": [
-    "d14757a09ca63198"
+    "d14757a09ca63198",
+    "d3d777da3e27bf37"
    ],
    "section": "worth",
    "sector": "Hedge fund",
@@ -356,6 +546,43 @@
    "source": "LinkedIn (JobSpy)",
    "ad_read": true,
    "reviewed": false
+  },
+  {
+   "key": "90c6dcd287136412",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Scientific AI",
+   "stage": "Scale-up",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "",
+   "broad": false,
+   "broad_why": "",
+   "title": "Data Scientist, Data Quality & Provenance",
+   "employer": "Wayve",
+   "hub": "EU (Germany)",
+   "closes": "rolling",
+   "type_id": 12,
+   "type_name": "Graduate data scientist (scientific data)",
+   "fit": 2.87,
+   "cv": "Data and machine learning",
+   "why": "\"Spiking neural networks in Google JAX (CUBA-LIF, ferroelectric FeLIF); revised training method; 3x accuracy on SHD\" (ad mentions data scientist, ml, python, statistically)",
+   "angle": "Three end-to-end data projects with measured results (calibration, classifier, SNN training).",
+   "flags": [
+    "sponsor licence unknown",
+    "EU (Germany): ad offers \"relocation support\"",
+    "dated 2026-10-02, first seen 2026-11-23; may be an older ad",
+    "asks practical experience with annotator modelling and labelled dataset QA"
+   ],
+   "url": "https://jobs.ashbyhq.com/wayve/4cf45aa3-fccf-4d28-aaaa-0fb0732b8de1",
+   "url_direct": "https://jobs.ashbyhq.com/wayve/4cf45aa3-fccf-4d28-aaaa-0fb0732b8de1",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Wayve",
+   "ad_read": true,
+   "reviewed": true
   },
   {
    "key": "e402d63ccbf2036c",
@@ -853,6 +1080,80 @@
    "source": "Indeed UK (JobSpy)",
    "ad_read": true,
    "reviewed": false
+  },
+  {
+   "key": "39b77217c89bfea9",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "",
+   "broad": false,
+   "broad_why": "",
+   "title": "Human Performance Research Associate : 26-03534",
+   "employer": "Akraya, Inc.",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 17,
+   "type_name": "Quant research / trading (graduate or intern)",
+   "fit": 2.04,
+   "cv": "Lab and vacuum hardware",
+   "why": "\"Xe implantation at multiple incidence angles and energies; SRIM predictive models to guide experimental design\" (ad mentions hands-on, troubleshooting)",
+   "angle": "Hypothesis, model, measured result; Monte Carlo and noise modelling; JAX.",
+   "flags": [
+    "sponsor licence unknown",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad",
+    "recruiter ad (Akraya) for a contract role"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4493697391",
+   "url_direct": "",
+   "url_linkedin": "https://www.linkedin.com/jobs/view/4493697391",
+   "first_seen": "2026-11-23",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "2cfa19195ba79954",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "University",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "£45,399- £59,484 per annum",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "",
+   "broad": false,
+   "broad_why": "",
+   "title": "RESEARCH ASSISTANT / ASSOCIATE IN MATHEMATICAL IMMUNOLOGY",
+   "employer": "Imperial College London",
+   "hub": "London",
+   "closes": "2026-12-07",
+   "type_id": 1,
+   "type_name": "Research assistant (no PhD)",
+   "fit": 2.0,
+   "cv": "Data and machine learning",
+   "why": "\"Push-broom imaging spectrometer forward model and radiometric calibration; 5 noise sources; 0.05% RMS radiometric residual, 6 pm RMS wavelength accuracy (github.com/pf-oc/tropomi-cal-sim)\" (ad mentions ml)",
+   "angle": "Lab independence from the first semester; rebuilt and extended a UHV ion-beam facility.",
+   "flags": [
+    "sponsor licence unknown",
+    "fixed-term",
+    "£45,399- £59,484 per annum",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad",
+    "mathematical immunology; check whether a PhD is needed for the Associate grade"
+   ],
+   "url": "https://www.imperial.ac.uk/jobs/search-jobs/description/index.php?jobId=30109&jobTitle=RESEARCH+ASSISTANT+%2F+ASSOCIATE+IN+MATHEMATICAL+IMMUNOLOGY",
+   "url_direct": "https://www.imperial.ac.uk/jobs/search-jobs/description/index.php?jobId=30109&jobTitle=RESEARCH+ASSISTANT+%2F+ASSOCIATE+IN+MATHEMATICAL+IMMUNOLOGY",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Indeed UK (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
   },
   {
    "key": "23fcff882e15378d",
@@ -2096,6 +2397,110 @@
    "reviewed": true
   },
   {
+   "key": "5af0422c6cb7b943",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Instruments and vacuum",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "security clearance or UK nationals only",
+   "broad": false,
+   "broad_why": "",
+   "title": "Graduate Scientist",
+   "employer": "National Physical Laboratory",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 5,
+   "type_name": "Materials / characterisation scientist (industry)",
+   "fit": 4.62,
+   "cv": "Data and machine learning",
+   "why": "\"Acoustic bird/bat classifier (Random Forest on mel spectrograms, 78%, 6 species) fused with radar altitude for wind-turbine collision risk; ~60% fewer false alerts (github.com/pf-oc/acoustic-wildlife-classifier)\" (ad mentions acoustics, data science, earth observation, machine learning)",
+   "angle": "Synthesis-to-measurement loop on 2D materials (exfoliation, spray-coating, AFM/STM, UV-Vis, FT-IR).",
+   "flags": [
+    "sponsor licence no",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://nplweb.eploy.net/vacancies/3069/graduate-scientist.html?source=Indeed",
+   "url_direct": "https://nplweb.eploy.net/vacancies/3069/graduate-scientist.html?source=Indeed",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Indeed UK (JobSpy)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "ed1658f2989bc139",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "reviewer: Eutelsat 3 to 4 month internship for current students (same role as earlier today)",
+   "broad": false,
+   "broad_why": "",
+   "title": "Satellite Systems Modelling Engineering Intern",
+   "employer": "Eutelsat",
+   "hub": "London",
+   "closes": "rolling",
+   "type_id": 8,
+   "type_name": "Modelling / simulation engineer",
+   "fit": 4.38,
+   "cv": "Modelling and simulation",
+   "why": "\"Inkjet process simulator: droplet flight (Schiller-Naumann drag, Monte Carlo nozzle variation), impact/spreading (Pasandideh-Fard), fixation (Antoine evaporation, latex film formation); operating-window maps (github.com/pf-oc/inkjet-process-sim)\" (ad mentions c++, matlab, modelling, python)",
+   "angle": "Built a full inkjet process chain model from first principles and produced operating-window maps.",
+   "flags": [
+    "sponsor licence unknown",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4492604815",
+   "url_direct": "",
+   "url_linkedin": "https://www.linkedin.com/jobs/view/4492604815",
+   "first_seen": "2026-11-23",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "2a2bbc49ac9773d1",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "PhD essential",
+   "broad": false,
+   "broad_why": "",
+   "title": "Columbia University, Department of Astronomy and Astrophysics: Postdoctoral Research Scientist",
+   "employer": "Physicsworldjobs",
+   "hub": "UK (unspecified)",
+   "closes": "2027-02-21",
+   "type_id": 13,
+   "type_name": "Physics-informed / scientific ML engineer",
+   "fit": 3.6,
+   "cv": "Lab and vacuum hardware",
+   "why": "\"Xe implantation at multiple incidence angles and energies; SRIM predictive models to guide experimental design\" (ad mentions accelerator, detectors, laboratory, vacuum)",
+   "angle": "JAX training of physics-based neuron models plus first-principles simulators.",
+   "flags": [
+    "sponsor licence unknown"
+   ],
+   "url": "https://www.physicsworldjobs.com/job/34565/postdoctoral-research-scientist/?TrackID=10&utm_source=rss&utm_medium=feed&utm_campaign=general",
+   "url_direct": "https://www.physicsworldjobs.com/job/34565/postdoctoral-research-scientist/?TrackID=10&utm_source=rss&utm_medium=feed&utm_campaign=general",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Physics World Jobs (IOP Publishing)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
    "key": "ca43ff71c31b5175",
    "dup_keys": [],
    "section": "low",
@@ -2162,6 +2567,77 @@
    "url_linkedin": "",
    "first_seen": "2026-11-23",
    "source": "Cambridge Consultants",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "8b177c8a5110d0b9",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "reviewer: electronics or electrical engineering degree asked; several years of power systems experience preferred",
+   "broad": false,
+   "broad_why": "",
+   "title": "Training & Application Engineer Protection / Digital Protection Testing (f/m/x)",
+   "employer": "OMICRON electronics",
+   "hub": "UK (unspecified)",
+   "closes": "rolling",
+   "type_id": 3,
+   "type_name": "Instrument / application scientist",
+   "fit": 2.31,
+   "cv": "General graduate",
+   "why": "\"IT support lead for an accounting firm's COVID-19 move to digital operations; ran user workshops\" (ad mentions consultation, graduate, presentations)",
+   "angle": "Daily user of the instrument class they sell (AFM, STM, LEIS, ion sources); can explain results to customers.",
+   "flags": [
+    "sponsor licence unknown",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4493619572",
+   "url_direct": "",
+   "url_linkedin": "https://www.linkedin.com/jobs/view/4493619572",
+   "first_seen": "2026-11-23",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
+  },
+  {
+   "key": "20dbc7ed408c9606",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Aerospace, defence and industrial",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "£ 53,000",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "security clearance or UK nationals only",
+   "broad": false,
+   "broad_why": "",
+   "title": "System Performance Engineer",
+   "employer": "MBDA",
+   "hub": "Bristol-Bath",
+   "closes": "rolling",
+   "type_id": 8,
+   "type_name": "Modelling / simulation engineer",
+   "fit": 2.31,
+   "cv": "Modelling and simulation",
+   "why": "\"Inkjet process simulator: droplet flight (Schiller-Naumann drag, Monte Carlo nozzle variation), impact/spreading (Pasandideh-Fard), fixation (Antoine evaporation, latex film formation); operating-window maps (github.com/pf-oc/inkjet-process-sim)\" (ad mentions matlab, models, simulation)",
+   "angle": "Built a full inkjet process chain model from first principles and produced operating-window maps.",
+   "flags": [
+    "sponsor licence unknown",
+    "£ 53,000",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4494031523",
+   "url_direct": "",
+   "url_linkedin": "https://www.linkedin.com/jobs/view/4494031523",
+   "first_seen": "2026-11-23",
+   "source": "LinkedIn (JobSpy)",
    "ad_read": true,
    "reviewed": false
   },
@@ -2234,6 +2710,42 @@
    "source": "Johnson Matthey",
    "ad_read": true,
    "reviewed": true
+  },
+  {
+   "key": "83276d5c081a3ffe",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Aerospace, defence and industrial",
+   "stage": "Established",
+   "high_pay": false,
+   "pay": "£ 53,000",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "security clearance or UK nationals only",
+   "broad": false,
+   "broad_why": "",
+   "title": "System Performance Engineer",
+   "employer": "MBDA",
+   "hub": "Thames Valley",
+   "closes": "rolling",
+   "type_id": 8,
+   "type_name": "Modelling / simulation engineer",
+   "fit": 2.08,
+   "cv": "Modelling and simulation",
+   "why": "\"Inkjet process simulator: droplet flight (Schiller-Naumann drag, Monte Carlo nozzle variation), impact/spreading (Pasandideh-Fard), fixation (Antoine evaporation, latex film formation); operating-window maps (github.com/pf-oc/inkjet-process-sim)\" (ad mentions matlab, models, simulation)",
+   "angle": "Built a full inkjet process chain model from first principles and produced operating-window maps.",
+   "flags": [
+    "sponsor licence unknown",
+    "£ 53,000",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4494021919",
+   "url_direct": "",
+   "url_linkedin": "https://www.linkedin.com/jobs/view/4494021919",
+   "first_seen": "2026-11-23",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": false
   },
   {
    "key": "db222674b42a2226",
@@ -2344,6 +2856,45 @@
    "reviewed": false
   },
   {
+   "key": "62edc7aa0fff35e3",
+   "dup_keys": [
+    "6fca90386ebffa15"
+   ],
+   "section": "low",
+   "sector": "Quant trading",
+   "stage": "Established",
+   "high_pay": true,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score",
+   "broad": false,
+   "broad_why": "",
+   "title": "Data Engineer - Trading",
+   "employer": "Optiver",
+   "hub": "EU (Netherlands)",
+   "closes": "rolling",
+   "type_id": 17,
+   "type_name": "Quant research / trading (graduate or intern)",
+   "fit": 1.83,
+   "cv": "Lab and vacuum hardware",
+   "why": "\"Xe implantation at multiple incidence angles and energies; SRIM predictive models to guide experimental design\" (ad mentions experimental, maintain)",
+   "angle": "Hypothesis, model, measured result; Monte Carlo and noise modelling; JAX.",
+   "flags": [
+    "sponsor licence unknown",
+    "first-class requested (quote UK ENIC comparability)",
+    "EU (Netherlands): ad offers \"relocation package\"",
+    "dated 2026-09-25, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://www.optiver.com/join-us/jobs/technology/amsterdam/data-engineer-trading/",
+   "url_direct": "https://www.optiver.com/join-us/jobs/technology/amsterdam/data-engineer-trading/",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Kadoa Quant Jobs",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
    "key": "acd6ae369eefc20c",
    "dup_keys": [],
    "section": "low",
@@ -2446,6 +2997,43 @@
    ],
    "url": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-2-alexandra-park-junior-school",
    "url_direct": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-2-alexandra-park-junior-school",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Teaching Vacancies API (DfE)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "4b14716e6f799284",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Teaching",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "£18,378 per annum",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score",
+   "broad": false,
+   "broad_why": "",
+   "title": "Teaching Assistant SEND Support",
+   "employer": "Carlinghow Academy",
+   "hub": "UK (unspecified)",
+   "closes": "2026-12-04",
+   "type_id": 25,
+   "type_name": "Teaching route (cover supervisor, unqualified teacher, physics PGCE)",
+   "fit": 1.8,
+   "cv": "General graduate",
+   "why": "\"IT support lead for an accounting firm's COVID-19 move to digital operations; ran user workshops\" (ad mentions language, teaching)",
+   "angle": "STEM outreach to high-school students; workshop facilitation.",
+   "flags": [
+    "sponsor licence unknown",
+    "fixed-term",
+    "£18,378 per annum",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-send-support-carlinghow-academy",
+   "url_direct": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-send-support-carlinghow-academy",
    "url_linkedin": "",
    "first_seen": "2026-11-23",
    "source": "Teaching Vacancies API (DfE)",
@@ -2598,6 +3186,79 @@
    "reviewed": false
   },
   {
+   "key": "f415a9aa3eff23e1",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Teaching",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score (title only, ad not read)",
+   "broad": false,
+   "broad_why": "",
+   "title": "Teaching Assistant",
+   "employer": "Tupton Hall School",
+   "hub": "UK (unspecified)",
+   "closes": "2027-01-03",
+   "type_id": 25,
+   "type_name": "Teaching route (cover supervisor, unqualified teacher, physics PGCE)",
+   "fit": 1.74,
+   "cv": "General graduate",
+   "why": "\"IT support lead for an accounting firm's COVID-19 move to digital operations; ran user workshops\" (ad mentions teaching)",
+   "angle": "STEM outreach to high-school students; workshop facilitation.",
+   "flags": [
+    "sponsor licence unknown",
+    "ad not read",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-be2e4860-32b1-4bd3-b859-7b9c99e040d0",
+   "url_direct": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-be2e4860-32b1-4bd3-b859-7b9c99e040d0",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Teaching Vacancies API (DfE)",
+   "ad_read": false,
+   "reviewed": false
+  },
+  {
+   "key": "5f2e96a9dfcd83c7",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Teaching",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score (title only, ad not read)",
+   "broad": false,
+   "broad_why": "",
+   "title": "Teaching Assistants",
+   "employer": "Grade-Ruan CofE Primary School",
+   "hub": "UK (unspecified)",
+   "closes": "2026-12-07",
+   "type_id": 25,
+   "type_name": "Teaching route (cover supervisor, unqualified teacher, physics PGCE)",
+   "fit": 1.74,
+   "cv": "General graduate",
+   "why": "\"IT support lead for an accounting firm's COVID-19 move to digital operations; ran user workshops\" (ad mentions teaching)",
+   "angle": "STEM outreach to high-school students; workshop facilitation.",
+   "flags": [
+    "sponsor licence unknown",
+    "fixed-term",
+    "ad not read",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistants-grade-ruan-cofe-primary-school",
+   "url_direct": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistants-grade-ruan-cofe-primary-school",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Teaching Vacancies API (DfE)",
+   "ad_read": false,
+   "reviewed": false
+  },
+  {
    "key": "bc6f39024d7cf28c",
    "dup_keys": [],
    "section": "low",
@@ -2696,6 +3357,77 @@
    ],
    "url": "https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-40ea1796-ed20-4462-a6fd-787245642a66",
    "url_direct": "https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-40ea1796-ed20-4462-a6fd-787245642a66",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Teaching Vacancies API (DfE)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "929c59c024f25f0f",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Teaching",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score",
+   "broad": false,
+   "broad_why": "",
+   "title": "Teaching Assistant - Temporary until Summer 2027",
+   "employer": "Brookfield Primary Academy",
+   "hub": "UK (unspecified)",
+   "closes": "2026-12-04",
+   "type_id": 25,
+   "type_name": "Teaching route (cover supervisor, unqualified teacher, physics PGCE)",
+   "fit": 1.67,
+   "cv": "General graduate",
+   "why": "\"IT support lead for an accounting firm's COVID-19 move to digital operations; ran user workshops\" (ad mentions graduate, teaching)",
+   "angle": "STEM outreach to high-school students; workshop facilitation.",
+   "flags": [
+    "sponsor licence unknown",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-temporary-until-summer-2027",
+   "url_direct": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-temporary-until-summer-2027",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Teaching Vacancies API (DfE)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "4182f9b4eb24ea4d",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Teaching",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "£25,154.00 - £27,287.00",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score",
+   "broad": false,
+   "broad_why": "",
+   "title": "SEND Tutor",
+   "employer": "Redborne Upper School and Community College",
+   "hub": "UK (unspecified)",
+   "closes": "2026-12-06",
+   "type_id": 23,
+   "type_name": "Tutoring (physics, maths, Spanish)",
+   "fit": 1.67,
+   "cv": "General graduate",
+   "why": "\"Science outreach presenter to high-school students; symposium co-organiser\" (ad mentions graduate, teaching)",
+   "angle": "Outreach presenting and workshop delivery.",
+   "flags": [
+    "sponsor licence unknown",
+    "£25,154.00 - £27,287.00",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://teaching-vacancies.service.gov.uk/jobs/send-tutor-redborne-upper-school-and-community-college",
+   "url_direct": "https://teaching-vacancies.service.gov.uk/jobs/send-tutor-redborne-upper-school-and-community-college",
    "url_linkedin": "",
    "first_seen": "2026-11-23",
    "source": "Teaching Vacancies API (DfE)",
@@ -2840,6 +3572,45 @@
    "url_linkedin": "",
    "first_seen": "2026-11-23",
    "source": "Teaching Vacancies API (DfE)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "4590413f5186d752",
+   "dup_keys": [
+    "cc09df292d0f1d64"
+   ],
+   "section": "low",
+   "sector": "Quant trading",
+   "stage": "Established",
+   "high_pay": true,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score",
+   "broad": false,
+   "broad_why": "",
+   "title": "European Bonds Trader / German Bunds Trader",
+   "employer": "Optiver",
+   "hub": "EU (Netherlands)",
+   "closes": "rolling",
+   "type_id": 17,
+   "type_name": "Quant research / trading (graduate or intern)",
+   "fit": 1.47,
+   "cv": "Modelling and simulation",
+   "why": "\"Python scientific stack, Fortran\" (ad mentions models, python)",
+   "angle": "Hypothesis, model, measured result; Monte Carlo and noise modelling; JAX.",
+   "flags": [
+    "sponsor licence unknown",
+    "first-class requested (quote UK ENIC comparability)",
+    "EU (Netherlands): ad offers \"relocation package\"",
+    "dated 2025-11-14, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://www.optiver.com/join-us/jobs/trading/amsterdam/european-bonds-trader-german-bunds-trader/",
+   "url_direct": "https://www.optiver.com/join-us/jobs/trading/amsterdam/european-bonds-trader-german-bunds-trader/",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Kadoa Quant Jobs",
    "ad_read": true,
    "reviewed": false
   },
@@ -3272,6 +4043,294 @@
    "reviewed": false
   },
   {
+   "key": "f33dcdc91d616311",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Teaching",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "£18,378 per annum",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score",
+   "broad": false,
+   "broad_why": "",
+   "title": "Teaching Assistant",
+   "employer": "Carlinghow Academy",
+   "hub": "UK (unspecified)",
+   "closes": "2026-12-04",
+   "type_id": 25,
+   "type_name": "Teaching route (cover supervisor, unqualified teacher, physics PGCE)",
+   "fit": 1.4,
+   "cv": "General graduate",
+   "why": "\"IT support lead for an accounting firm's COVID-19 move to digital operations; ran user workshops\" (ad mentions teaching)",
+   "angle": "STEM outreach to high-school students; workshop facilitation.",
+   "flags": [
+    "sponsor licence unknown",
+    "fixed-term",
+    "£18,378 per annum",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-carlinghow-academy",
+   "url_direct": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-carlinghow-academy",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Teaching Vacancies API (DfE)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "e7e83e042ae7ed7f",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Teaching",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score",
+   "broad": false,
+   "broad_why": "",
+   "title": "Teaching Assistant Level 2 - Westcliff Primary Academy",
+   "employer": "Westcliff Primary Academy",
+   "hub": "UK (unspecified)",
+   "closes": "2026-12-07",
+   "type_id": 25,
+   "type_name": "Teaching route (cover supervisor, unqualified teacher, physics PGCE)",
+   "fit": 1.4,
+   "cv": "General graduate",
+   "why": "\"Science outreach presenter to high-school students; symposium co-organiser\" (ad mentions teaching)",
+   "angle": "STEM outreach to high-school students; workshop facilitation.",
+   "flags": [
+    "sponsor licence unknown",
+    "first class requested (quote UK ENIC comparability)",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-2-westcliff-primary-academy-westcliff-primary-academy",
+   "url_direct": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-2-westcliff-primary-academy-westcliff-primary-academy",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Teaching Vacancies API (DfE)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "3bfe1f6ce313a675",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Teaching",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score",
+   "broad": false,
+   "broad_why": "",
+   "title": "Teaching Assistant",
+   "employer": "Cloudside Academy",
+   "hub": "Birmingham-Midlands",
+   "closes": "2026-12-07",
+   "type_id": 25,
+   "type_name": "Teaching route (cover supervisor, unqualified teacher, physics PGCE)",
+   "fit": 1.4,
+   "cv": "General graduate",
+   "why": "\"IT support lead for an accounting firm's COVID-19 move to digital operations; ran user workshops\" (ad mentions teaching)",
+   "angle": "STEM outreach to high-school students; workshop facilitation.",
+   "flags": [
+    "sponsor licence unknown",
+    "fixed-term",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-927cbc68-47b7-4255-b467-f15f5aa98f8c",
+   "url_direct": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-927cbc68-47b7-4255-b467-f15f5aa98f8c",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Teaching Vacancies API (DfE)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "da95f2ec17f2759c",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Teaching",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "£22,705 to £23,433",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score",
+   "broad": false,
+   "broad_why": "",
+   "title": "Teaching Assistant",
+   "employer": "Lowe's Wong Anglican Methodist Junior School",
+   "hub": "UK (unspecified)",
+   "closes": "2026-12-07",
+   "type_id": 25,
+   "type_name": "Teaching route (cover supervisor, unqualified teacher, physics PGCE)",
+   "fit": 1.4,
+   "cv": "General graduate",
+   "why": "\"Science outreach presenter to high-school students; symposium co-organiser\" (ad mentions teaching)",
+   "angle": "STEM outreach to high-school students; workshop facilitation.",
+   "flags": [
+    "sponsor licence unknown",
+    "£22,705 to £23,433",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-lowe-s-wong-anglican-methodist-junior-school",
+   "url_direct": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-lowe-s-wong-anglican-methodist-junior-school",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Teaching Vacancies API (DfE)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "4223a39a5cce4398",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Teaching",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "£26,017 per annum",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score",
+   "broad": false,
+   "broad_why": "",
+   "title": "Teaching Assistant and Midday Supervisory Assistant",
+   "employer": "Freshwater & Yarmouth Church of England Aided Primary School",
+   "hub": "UK (unspecified)",
+   "closes": "2026-12-09",
+   "type_id": 25,
+   "type_name": "Teaching route (cover supervisor, unqualified teacher, physics PGCE)",
+   "fit": 1.4,
+   "cv": "General graduate",
+   "why": "\"IT support lead for an accounting firm's COVID-19 move to digital operations; ran user workshops\" (ad mentions teaching)",
+   "angle": "STEM outreach to high-school students; workshop facilitation.",
+   "flags": [
+    "sponsor licence unknown",
+    "£26,017 per annum",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-and-midday-supervisory-assistant-freshwater-yarmouth-church-of-england-aided-primary-school",
+   "url_direct": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-and-midday-supervisory-assistant-freshwater-yarmouth-church-of-england-aided-primary-school",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Teaching Vacancies API (DfE)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "eff73849c099c086",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Teaching",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score",
+   "broad": false,
+   "broad_why": "",
+   "title": "Teaching Assistant",
+   "employer": "Highcliffe School",
+   "hub": "UK (unspecified)",
+   "closes": "2027-01-06",
+   "type_id": 25,
+   "type_name": "Teaching route (cover supervisor, unqualified teacher, physics PGCE)",
+   "fit": 1.4,
+   "cv": "General graduate",
+   "why": "\"Science outreach presenter to high-school students; symposium co-organiser\" (ad mentions teaching)",
+   "angle": "STEM outreach to high-school students; workshop facilitation.",
+   "flags": [
+    "sponsor licence unknown",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-521f99f7-f2ec-42d6-9bd3-be668dcf42c9",
+   "url_direct": "https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-521f99f7-f2ec-42d6-9bd3-be668dcf42c9",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Teaching Vacancies API (DfE)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "a77e3156d58d6b1c",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Teaching",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score",
+   "broad": false,
+   "broad_why": "",
+   "title": "Early Years Teaching Assistant",
+   "employer": "Green Oaks Primary Academy",
+   "hub": "UK (unspecified)",
+   "closes": "2026-11-27",
+   "type_id": 25,
+   "type_name": "Teaching route (cover supervisor, unqualified teacher, physics PGCE)",
+   "fit": 1.4,
+   "cv": "General graduate",
+   "why": "\"IT support lead for an accounting firm's COVID-19 move to digital operations; ran user workshops\" (ad mentions teaching)",
+   "angle": "STEM outreach to high-school students; workshop facilitation.",
+   "flags": [
+    "sponsor licence unknown",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://teaching-vacancies.service.gov.uk/jobs/early-years-teaching-assistant-green-oaks-primary-academy",
+   "url_direct": "https://teaching-vacancies.service.gov.uk/jobs/early-years-teaching-assistant-green-oaks-primary-academy",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Teaching Vacancies API (DfE)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "8ebf78e80561279f",
+   "dup_keys": [
+    "c733092a29e47bbf"
+   ],
+   "section": "low",
+   "sector": "Teaching",
+   "stage": "Public and academic",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score",
+   "broad": false,
+   "broad_why": "",
+   "title": "SEN Teaching Assistant",
+   "employer": "Blackwater Community Primary School",
+   "hub": "UK (unspecified)",
+   "closes": "2026-12-09",
+   "type_id": 25,
+   "type_name": "Teaching route (cover supervisor, unqualified teacher, physics PGCE)",
+   "fit": 1.4,
+   "cv": "General graduate",
+   "why": "\"IT support lead for an accounting firm's COVID-19 move to digital operations; ran user workshops\" (ad mentions teaching)",
+   "angle": "STEM outreach to high-school students; workshop facilitation.",
+   "flags": [
+    "sponsor licence unknown",
+    "dated 2026-11-23, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://teaching-vacancies.service.gov.uk/jobs/sen-teaching-assistant-9e9505d2-f8fa-4b45-bc2d-14e61dfdd9bf",
+   "url_direct": "https://teaching-vacancies.service.gov.uk/jobs/sen-teaching-assistant-9e9505d2-f8fa-4b45-bc2d-14e61dfdd9bf",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Teaching Vacancies API (DfE)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
    "key": "f329f17c862d32dc",
    "dup_keys": [],
    "section": "low",
@@ -3409,6 +4468,84 @@
    "url_linkedin": "",
    "first_seen": "2026-11-23",
    "source": "Teaching Vacancies API (DfE)",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "95c8c51379722b56",
+   "dup_keys": [
+    "aba0b21c0ce9307b"
+   ],
+   "section": "low",
+   "sector": "Quant trading",
+   "stage": "Established",
+   "high_pay": true,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score",
+   "broad": false,
+   "broad_why": "",
+   "title": "Quantitative Developer - Pricing Data",
+   "employer": "Optiver",
+   "hub": "EU (Netherlands)",
+   "closes": "rolling",
+   "type_id": 17,
+   "type_name": "Quant research / trading (graduate or intern)",
+   "fit": 1.22,
+   "cv": "Modelling and simulation",
+   "why": "\"Python scientific stack, Fortran\" (ad mentions c++, python)",
+   "angle": "Hypothesis, model, measured result; Monte Carlo and noise modelling; JAX.",
+   "flags": [
+    "sponsor licence unknown",
+    "first-class requested (quote UK ENIC comparability)",
+    "EU (Netherlands): ad offers \"relocation package\"",
+    "dated 2026-07-14, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://www.optiver.com/join-us/jobs/technology/amsterdam/quantitative-developer-pricing-data/",
+   "url_direct": "https://www.optiver.com/join-us/jobs/technology/amsterdam/quantitative-developer-pricing-data/",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Kadoa Quant Jobs",
+   "ad_read": true,
+   "reviewed": false
+  },
+  {
+   "key": "869a3082a4930071",
+   "dup_keys": [
+    "370d53281be1f6a4"
+   ],
+   "section": "low",
+   "sector": "Quant trading",
+   "stage": "Established",
+   "high_pay": true,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score",
+   "broad": false,
+   "broad_why": "",
+   "title": "Graduate FPGA Engineer (2027 Start)",
+   "employer": "Optiver",
+   "hub": "EU (Netherlands)",
+   "closes": "rolling",
+   "type_id": 7,
+   "type_name": "National lab / science graduate scheme",
+   "fit": 1.18,
+   "cv": "Nanomaterials",
+   "why": "\"Graphene by electrochemical exfoliation; UV-Vis and AFM characterisation\" (ad mentions nanosecond)",
+   "angle": "Research master with two embedded lab projects; ready for structured rotations.",
+   "flags": [
+    "sponsor licence unknown",
+    "first-class requested (quote UK ENIC comparability)",
+    "EU (Netherlands): ad offers \"relocation package\"",
+    "dated 2026-08-17, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://www.optiver.com/join-us/jobs/technology/amsterdam/graduate-fpga-engineer-2027-start/",
+   "url_direct": "https://www.optiver.com/join-us/jobs/technology/amsterdam/graduate-fpga-engineer-2027-start/",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Kadoa Quant Jobs",
    "ad_read": true,
    "reviewed": false
   },
@@ -3657,6 +4794,43 @@
    "source": "Teaching Vacancies API (DfE)",
    "ad_read": true,
    "reviewed": false
+  },
+  {
+   "key": "2a114a99fae57aca",
+   "dup_keys": [],
+   "section": "low",
+   "sector": "Quant trading",
+   "stage": "Established",
+   "high_pay": true,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "low_reason": "low fit score",
+   "broad": false,
+   "broad_why": "",
+   "title": "Procurement Analyst",
+   "employer": "Optiver",
+   "hub": "EU (Netherlands)",
+   "closes": "rolling",
+   "type_id": 15,
+   "type_name": "Renewables / environmental analytics",
+   "fit": 0.33,
+   "cv": "Lab and vacuum hardware",
+   "why": "\"Xe implantation at multiple incidence angles and energies; SRIM predictive models to guide experimental design\" (ad mentions hands-on)",
+   "angle": "Built a wildlife collision-risk pipeline for wind turbines (acoustic + radar fusion, ~60% fewer false alerts).",
+   "flags": [
+    "sponsor licence unknown",
+    "first-class requested (quote UK ENIC comparability)",
+    "EU (Netherlands): ad offers \"relocation package\"",
+    "dated 2026-10-29, first seen 2026-11-23; may be an older ad"
+   ],
+   "url": "https://www.optiver.com/join-us/jobs/8905991002/?gh_jid=8905991002",
+   "url_direct": "https://www.optiver.com/join-us/jobs/8905991002/?gh_jid=8905991002",
+   "url_linkedin": "",
+   "first_seen": "2026-11-23",
+   "source": "Optiver",
+   "ad_read": true,
+   "reviewed": false
   }
  ],
  "deadlines": [
@@ -3724,71 +4898,71 @@
   }
  ],
  "filtered_more": "",
- "cv_version": "4 of the 8 strongest matches suit the data and machine learning CV. Lead it with: Spiking neural networks in Google JAX (CUBA-LIF, ferroelectric FeLIF); Push-broom imaging spectrometer forward model and radiometric calibration.",
+ "cv_version": "5 of the 13 strongest matches suit the data and machine learning CV. Lead it with: Spiking neural networks in Google JAX (CUBA-LIF, ferroelectric FeLIF); Push-broom imaging spectrometer forward model and radiometric calibration.",
  "source_health": [
   {
    "source": "Reed API",
    "error": "RuntimeError: REED_API_KEY not set",
-   "days": 38
+   "days": 39
   },
   {
    "source": "Adzuna API",
    "error": "RuntimeError: ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
-   "days": 38
+   "days": 39
   },
   {
    "source": "Microsoft",
    "error": "SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /searc",
-   "days": 38
+   "days": 39
   },
   {
    "source": "ORCA Computing",
    "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
-   "days": 38
+   "days": 39
   },
   {
    "source": "Modo Energy",
    "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
-   "days": 38
+   "days": 39
   },
   {
    "source": "jobs.ac.uk - Engineering & Technology",
    "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/engineering-and-technology?forma",
-   "days": 38
+   "days": 39
   },
   {
    "source": "jobs.ac.uk - Laboratory, Clinical & Technician",
    "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/laboratory-clinical-and-technici",
-   "days": 38
+   "days": 39
   },
   {
    "source": "jobs.ac.uk - Materials Science",
    "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/materials-science?format=rss",
-   "days": 38
+   "days": 39
   },
   {
    "source": "jobs.ac.uk - Physical & Environmental Sciences (parent)",
    "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physical-and-environmental-scien",
-   "days": 38
+   "days": 39
   },
   {
    "source": "jobs.ac.uk - Physics & Astronomy",
    "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physics-and-astronomy?format=rss",
-   "days": 38
+   "days": 39
   },
   {
    "source": "University of Cambridge",
    "error": "ConnectionError: HTTPSConnectionPool(host='jobs.cam.ac.uk', port=443): Max retries exceeded with url: /job/?format=rss&u",
-   "days": 38
+   "days": 39
   }
  ],
  "pipeline": {
   "ready": {
-   "ready_at": "2026-11-23T20:04:15+00:00",
-   "pending": 132,
-   "ad_text": 129,
-   "gated": 3,
-   "fit_ge_2": 27,
+   "ready_at": "2026-11-23T20:14:17+00:00",
+   "pending": 206,
+   "ad_text": 173,
+   "gated": 10,
+   "fit_ge_2": 46,
    "first_seen_days": [
     "2026-10-15",
     "2026-10-17",
@@ -3811,25 +4985,78 @@
    "file": "/Users/danielito/Projects/job-radar/state/pending.jsonl"
   },
   "enrich": {
-   "enrich_at": "2026-11-23T19:22:22+00:00",
-   "needed": 20,
-   "seconds": 5,
-   "enriched": 20,
-   "failed": 0,
+   "enrich_at": "2026-11-23T20:12:49+00:00",
+   "needed": 146,
+   "seconds": 36,
+   "enriched": 123,
+   "failed": 23,
    "skipped": 0,
-   "restage_dropped": 0,
-   "linkedin_fetched": 8,
+   "restage_dropped": 86,
+   "linkedin_fetched": 13,
    "linkedin_blocked": false,
-   "skipped_by_notes": 0,
+   "skipped_by_notes": 5,
    "hosts": {
-    "flir.wd1.myworkdayjobs.com": {
+    "careers.point72.com": {
+     "443": 1
+    },
+    "careers.sig.com": {
+     "ok": 22
+    },
+    "drw.com": {
+     "ok": 1
+    },
+    "gevernova.wd5.myworkdayjobs.com": {
+     "ok": 2
+    },
+    "imc.com": {
+     "ok": 13,
+     "404": 7
+    },
+    "job-boards.eu.greenhouse.io": {
+     "ok": 4
+    },
+    "job-boards.greenhouse.io": {
+     "ok": 16
+    },
+    "jobs.cfm.com": {
+     "ok": 16
+    },
+    "jpmc.fa.oraclecloud.com": {
+     "ok": 3
+    },
+    "jumptrading.com": {
      "ok": 1
     },
     "linkedin.com": {
+     "ok": 5
+    },
+    "mlp.eightfold.ai": {
      "ok": 2
     },
+    "optiver.com": {
+     "ok": 13,
+     "404": 1
+    },
+    "physicsworldjobs.com": {
+     "ok": 1
+    },
+    "qube-rt.com": {
+     "too_short": 12
+    },
+    "squarepoint-capital.com": {
+     "too_short": 1
+    },
     "teaching-vacancies.service.gov.uk": {
-     "ok": 3
+     "ok": 2
+    },
+    "tower-research.com": {
+     "too_short": 1
+    },
+    "wellington.wd5.myworkdayjobs.com": {
+     "ok": 1
+    },
+    "worldquant.com": {
+     "ok": 1
     }
    },
    "runs": [
@@ -3919,6 +5146,82 @@
       },
       "teaching-vacancies.service.gov.uk": {
        "ok": 3
+      }
+     }
+    },
+    {
+     "enrich_at": "2026-11-23T20:12:49+00:00",
+     "needed": 126,
+     "seconds": 36,
+     "enriched": 103,
+     "failed": 23,
+     "skipped": 0,
+     "restage_dropped": 86,
+     "linkedin_fetched": 5,
+     "linkedin_blocked": false,
+     "skipped_by_notes": 5,
+     "hosts": {
+      "careers.point72.com": {
+       "443": 1
+      },
+      "careers.sig.com": {
+       "ok": 22
+      },
+      "drw.com": {
+       "ok": 1
+      },
+      "gevernova.wd5.myworkdayjobs.com": {
+       "ok": 2
+      },
+      "imc.com": {
+       "ok": 13,
+       "404": 7
+      },
+      "job-boards.eu.greenhouse.io": {
+       "ok": 4
+      },
+      "job-boards.greenhouse.io": {
+       "ok": 16
+      },
+      "jobs.cfm.com": {
+       "ok": 16
+      },
+      "jpmc.fa.oraclecloud.com": {
+       "ok": 3
+      },
+      "jumptrading.com": {
+       "ok": 1
+      },
+      "linkedin.com": {
+       "ok": 5
+      },
+      "mlp.eightfold.ai": {
+       "ok": 2
+      },
+      "optiver.com": {
+       "ok": 13,
+       "404": 1
+      },
+      "physicsworldjobs.com": {
+       "ok": 1
+      },
+      "qube-rt.com": {
+       "too_short": 12
+      },
+      "squarepoint-capital.com": {
+       "too_short": 1
+      },
+      "teaching-vacancies.service.gov.uk": {
+       "ok": 2
+      },
+      "tower-research.com": {
+       "too_short": 1
+      },
+      "wellington.wd5.myworkdayjobs.com": {
+       "ok": 1
+      },
+      "worldquant.com": {
+       "ok": 1
       }
      }
     }
