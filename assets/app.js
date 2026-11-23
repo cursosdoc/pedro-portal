@@ -77,6 +77,7 @@
   function labelChips(it) {
     const out = [];
     if (it.ideal) out.push(`<span class="tag ideal" title="${esc(it.ideal_why || 'Hands-on vacuum and beam work at junior level')}">★ Ideal role</span>`);
+    if (it.broad) out.push(`<span class="tag broad" title="${esc(it.broad_why || 'Entry-level programme open to many degree backgrounds')}">◆ Broad entry-level</span>`);
     if (it.high_pay) out.push('<span class="tag pay" title="High-paying sector or employer">High pay</span>');
     if (it.pay) out.push(`<span class="tag">${esc(it.pay)}</span>`);
     if (it.stage && it.stage !== 'Unknown') out.push(`<span class="tag ${STARTUPISH.has(it.stage) ? 'stage' : ''}">${esc(it.stage)}</span>`);
@@ -88,7 +89,7 @@
     const soon = isDate(it.closes) && daysUntil(it.closes) >= 0 && daysUntil(it.closes) <= 7;
     const closes = isDate(it.closes) ? 'closes ' + fmtDay(it.closes, { weekday: undefined }) : 'rolling';
     const done = !!applied[it.key];
-    return `<article class="card ${cls} ${it.ideal ? 'ideal' : ''} ${done ? 'applied' : ''}" data-key="${esc(it.key)}">
+    return `<article class="card ${cls} ${it.ideal ? 'ideal' : ''} ${it.broad ? 'broad' : ''} ${done ? 'applied' : ''}" data-key="${esc(it.key)}">
       <div class="head">
         <div><h3>${esc(it.title)}</h3><div class="emp">${esc(it.employer)} · ${esc(it.hub)}</div></div>
         <span class="fit ${cls}" title="Fit score">${esc(it.fit)}/5</span>
@@ -101,6 +102,7 @@
         ${date ? `<span class="tag">seen ${esc(fmtDay(date, { weekday: undefined, year: undefined }))}</span>` : ''}
       </div>
       ${it.ideal && it.ideal_why ? `<p><b>Ideal</b>${esc(it.ideal_why)}</p>` : ''}
+      ${it.broad && it.broad_why ? `<p><b>Broad</b>${esc(it.broad_why)}</p>` : ''}
       <p><b>Why</b>${esc(it.why)}</p>
       <p><b>Angle</b>${esc(it.angle)}</p>
       ${(it.flags || []).length ? `<div class="flags">${it.flags.map((f) => `<span class="flag">${esc(f)}</span>`).join('')}</div>` : ''}
@@ -146,7 +148,7 @@
   function rowHtml(i, withSeen) {
     return `<tr class="${applied[i.key] ? 'applied' : ''}">
       <td class="num"><span class="fit ${fitClass(i)}">${esc(i.fit)}</span></td>
-      <td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>${i.url_direct && i.url_linkedin ? ` <a class="muted" href="${esc(i.url_linkedin)}" target="_blank" rel="noopener" title="Same ad on LinkedIn">LinkedIn ↗</a>` : ''}<div class="emp">${esc(i.employer)}${i.sector && i.sector !== 'Other' ? ' · ' + esc(i.sector) : ''}${i.stage && STARTUPISH.has(i.stage) ? ' · <span class="st">' + esc(i.stage) + '</span>' : ''}${i.ideal ? ' · <span class="id">★ Ideal role</span>' : ''}${i.high_pay ? ' · <span class="hp">High pay</span>' : ''}${i.ad_read === false ? ' · <span class="warn">ad not read</span>' : ''}</div></td>
+      <td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>${i.url_direct && i.url_linkedin ? ` <a class="muted" href="${esc(i.url_linkedin)}" target="_blank" rel="noopener" title="Same ad on LinkedIn">LinkedIn ↗</a>` : ''}<div class="emp">${esc(i.employer)}${i.sector && i.sector !== 'Other' ? ' · ' + esc(i.sector) : ''}${i.stage && STARTUPISH.has(i.stage) ? ' · <span class="st">' + esc(i.stage) + '</span>' : ''}${i.ideal ? ' · <span class="id">★ Ideal role</span>' : ''}${i.broad ? ' · <span class="br">◆ Broad entry-level</span>' : ''}${i.high_pay ? ' · <span class="hp">High pay</span>' : ''}${i.ad_read === false ? ' · <span class="warn">ad not read</span>' : ''}</div></td>
       <td>${esc(i.hub)}</td><td>${esc(i.cv)}</td>
       <td class="num">${isDate(i.closes) ? esc(fmtDay(i.closes, { weekday: undefined, year: undefined })) : 'rolling'}</td>
       ${withSeen ? `<td class="num"><a href="#/day/${i.date}">${esc(fmtDay(i.date, { weekday: undefined, year: undefined }))}</a></td>` : ''}
@@ -185,6 +187,7 @@
         <select id="${prefix}Stage" aria-label="Company stage"><option value="">Any company stage</option>${stages.map((c) => `<option>${esc(c)}</option>`).join('')}</select>
         <label class="chk"><input type="checkbox" id="${prefix}Pay"> High pay only</label>
         <label class="chk"><input type="checkbox" id="${prefix}Ideal"> Ideal roles only</label>
+        <label class="chk"><input type="checkbox" id="${prefix}Broad"> Broad entry-level only</label>
       </div>`;
   }
   function matcher(prefix) {
@@ -195,7 +198,7 @@
         (!g('Hub').value || i.hub === g('Hub').value) && (!g('Cv').value || i.cv === g('Cv').value) && (+i.fit >= +g('Fit').value) &&
         (!g('Sector').value || i.sector === g('Sector').value) &&
         (!g('Stage').value || (g('Stage').value === 'Startup or scale-up' ? STARTUPISH.has(i.stage) : i.stage === g('Stage').value)) &&
-        (!g('Pay').checked || i.high_pay) && (!g('Ideal').checked || i.ideal);
+        (!g('Pay').checked || i.high_pay) && (!g('Ideal').checked || i.ideal) && (!g('Broad').checked || i.broad);
     };
   }
 
@@ -217,6 +220,7 @@
 
     let html = head + kpis([
       ...(items.some((i) => i.ideal) ? [[items.filter((i) => i.ideal).length, 'ideal roles']] : []),
+      ...(items.some((i) => i.broad) ? [[items.filter((i) => i.broad).length, 'broad entry-level']] : []),
       [s.pending ?? '–', 'in queue'],
       [s.ad_text ?? s.read ?? '–', 'with full ad'],
       [s.kept ?? items.length, 'kept (fit 2+)'],
@@ -262,7 +266,14 @@
         h += `<h2 class="sec">High pay: check by hand <span class="count">${chk.length}</span></h2>
           <p class="notes">Well-paid employers (quant trading, hedge funds, banks, top tech) whose ad page blocks automated reading. Open each one and judge it yourself.</p>` + tableShell('checkT', false);
       }
-      h += section('Top picks · fit 4+', by('top'), null) + section('Worth a look · fit 3+', by('worth'), null);
+      h += section('Top picks · fit 4+', by('top'), null);
+      const broad = by('broad');
+      if (broad.length) {
+        h += `<h2 class="sec broad">◆ Broad entry-level · schemes open to many backgrounds <span class="count">${broad.length}</span></h2>
+          <p class="notes">Graduate schemes, trainee and entry-level programmes and graduate internships that take a range of degrees. Not physics-specific, but realistic for a STEM graduate.</p>
+          <div class="cards">${broad.map((it) => card(it, null)).join('')}</div>`;
+      }
+      h += section('Worth a look · fit 3+', by('worth'), null);
       const maybe = by('maybe');
       if (maybe.length) h += `<h2 class="sec">Also kept · fit 2+ <span class="count">${maybe.length}</span></h2>` + tableShell('maybeT', false);
       h += section('Bridge', by('bridge'), null);
@@ -274,7 +285,7 @@
       if (mt) pager(mt, maybe, (i) => rowHtml(i, false), 'None');
       wireApplied(body);
     };
-    ['q', 'Hub', 'Cv', 'Fit', 'Sector', 'Stage', 'Pay', 'Ideal'].forEach((id) => document.getElementById('d' + id).addEventListener('input', drawBody));
+    ['q', 'Hub', 'Cv', 'Fit', 'Sector', 'Stage', 'Pay', 'Ideal', 'Broad'].forEach((id) => document.getElementById('d' + id).addEventListener('input', drawBody));
     drawBody();
 
     const fl = document.getElementById('filtList');
@@ -331,6 +342,7 @@
       [INDEX.days.length, 'days tracked'],
       [all.length, 'unique matches'],
       [all.filter((i) => i.ideal).length, 'ideal roles'],
+      [all.filter((i) => i.broad).length, 'broad entry-level'],
       [all.filter((i) => i.section === 'top').length, 'top picks'],
       [all.filter((i) => i.high_pay).length, 'high pay'],
       [all.filter((i) => STARTUPISH.has(i.stage)).length, 'startups and scale-ups'],
@@ -379,7 +391,7 @@
       document.getElementById('allCount').textContent = rows.length;
       pager(document.getElementById('allT'), rows, (i) => rowHtml(i, true), 'No matches for these filters.');
     }
-    ['aq', 'aHub', 'aCv', 'aFit', 'aSector', 'aStage', 'aPay', 'aIdeal', 'aOpen', 'aSort'].forEach((id) => document.getElementById(id).addEventListener('input', draw));
+    ['aq', 'aHub', 'aCv', 'aFit', 'aSector', 'aStage', 'aPay', 'aIdeal', 'aBroad', 'aOpen', 'aSort'].forEach((id) => document.getElementById(id).addEventListener('input', draw));
     draw();
   }
 

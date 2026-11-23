@@ -1,262 +1,284 @@
 {
-  "schema": 1,
-  "date": "2026-11-23",
-  "generated_at": "2026-11-23T07:53:49+00:00",
-  "status": "ok",
-  "data_refreshed": "2026-11-23",
-  "window_from": "2026-11-22T07:28:58+00:00",
-  "catch_up": false,
-  "days_covered": 1,
-  "first_digest": false,
-  "stats": {
-    "pending": 7,
-    "ad_text": 7,
-    "passed_gates": 5,
-    "kept": 1,
-    "shown": 1,
-    "held_over": 0,
-    "waiting_for_ad": 0,
-    "dropped": 6,
-    "sources_failed": 11,
-    "top": 0,
-    "check": 0,
-    "high_pay": 0,
-    "ideal": 0,
-    "startups": 0
-  },
-  "notes": [
-    "Ad text fetched for 4 postings today"
-  ],
-  "items": [
-    {
-      "key": "5f96cc0607e597ea",
-      "dup_keys": [],
-      "section": "maybe",
-      "sector": "Other",
-      "stage": "Unknown",
-      "high_pay": false,
-      "pay": "",
-      "ideal": false,
-      "ideal_why": "",
-      "title": "Physics Subject Matter Expert - AI Content Specialist",
-      "employer": "Alignerr",
-      "hub": "Manchester-Cheshire",
-      "closes": "rolling",
-      "type_id": 13,
-      "type_name": "Physics-informed / scientific ML engineer",
-      "fit": 2.4,
-      "cv": "Modelling and simulation",
-      "why": "Ad asks a Master's in Physics or Applied Physics; Pedro holds the \"TopMaster Nanoscience (research master)\" on a 5 year physics BSc, with \"Python scientific stack, Fortran\"",
-      "angle": "Research master in nanoscience on a physics bachelor; writes and checks physics models in Python daily.",
-      "flags": [
-        "sponsor licence unknown",
-        "contract task work (AI training platform), not a permanent job"
-      ],
-      "url": "https://www.linkedin.com/jobs/view/4493399594",
-      "url_direct": "",
-      "url_linkedin": "https://www.linkedin.com/jobs/view/4493399594",
-      "first_seen": "2026-11-23",
-      "source": "LinkedIn (JobSpy)",
-      "ad_read": true,
-      "reviewed": true
-    }
-  ],
-  "deadlines": [
-    {
-      "employer": "targetjobs UK",
-      "scheme": "2027 Quantitative Analytics Associate Graduate Programme",
-      "closes": "2026-11-27"
-    },
-    {
-      "employer": "Aurora Energy Research",
-      "scheme": "Graduate Software Engineering Programme (Oxford, 2027)",
-      "closes": "2026-11-29"
-    },
-    {
-      "employer": "Aurora Energy Research",
-      "scheme": "Graduate Software Engineering Programme (Oxford, 2027)",
-      "closes": "2026-11-29"
-    },
-    {
-      "employer": "Physicsworldjobs",
-      "scheme": "CERN: Control Software Engineer - Particle Accelerators  (TE-MPE-CB-2026-213-LD)",
-      "closes": "2026-11-29"
-    },
-    {
-      "employer": "Ramboll",
-      "scheme": "Impact Assessment Graduate 2027",
-      "closes": "2026-12-01"
-    },
-    {
-      "employer": "Ramboll",
-      "scheme": "Impact Assessment Graduate 2027",
-      "closes": "2026-12-01"
-    },
-    {
-      "employer": "targetjobs UK",
-      "scheme": "Aon Graduate Programme 2027 - Catastrophe Modelling",
-      "closes": "2026-12-07"
-    },
-    {
-      "employer": "Aon",
-      "scheme": "Aon Graduate Programme 2027 - Commercial Risk Consulting",
-      "closes": "2026-12-07"
-    },
-    {
-      "employer": "University of Southampton",
-      "scheme": "Nanofabrication Technician (3549226BA)",
-      "closes": "2026-12-07"
-    },
-    {
-      "employer": "Aon",
-      "scheme": "Aon Graduate Programme 2027 - Insurance Actuarial Consulting- CTS",
-      "closes": "2026-12-07"
-    }
-  ],
-  "filtered": [
-    {
-      "title": "Applied Physics Specialist",
-      "employer": "Alignerr",
-      "reason": "Alignerr applied physics task role asks a completed or final stage PhD"
-    },
-    {
-      "title": "Production Technician",
-      "employer": "NKT Photonics (Hamamatsu)",
-      "reason": "asks several years of industrial experience or a vocational precision mechanics background"
-    },
-    {
-      "title": "Science Technician",
-      "employer": "Harris Academy Orpington",
-      "reason": "score too low"
-    },
-    {
-      "title": "Materials Characterisation Scientist",
-      "employer": "AfterQuery Experts",
-      "reason": "score too low"
-    },
-    {
-      "title": "Academic Tutor for English",
-      "employer": "Harris Academy Orpington",
-      "reason": "score too low"
-    },
-    {
-      "title": "Academic Tutor for Science",
-      "employer": "Harris Academy Orpington",
-      "reason": "score too low"
-    }
-  ],
-  "filtered_more": "",
-  "cv_version": "",
-  "source_health": [
-    {
-      "source": "Reed API",
-      "error": "RuntimeError: REED_API_KEY not set",
-      "days": 37
-    },
-    {
-      "source": "Adzuna API",
-      "error": "RuntimeError: ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
-      "days": 37
-    },
-    {
-      "source": "Microsoft",
-      "error": "SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /searc",
-      "days": 37
-    },
-    {
-      "source": "ORCA Computing",
-      "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
-      "days": 37
-    },
-    {
-      "source": "Modo Energy",
-      "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
-      "days": 37
-    },
-    {
-      "source": "jobs.ac.uk - Laboratory, Clinical & Technician",
-      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/laboratory-clinical-and-technici",
-      "days": 37
-    },
-    {
-      "source": "jobs.ac.uk - Engineering & Technology",
-      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/engineering-and-technology?forma",
-      "days": 37
-    },
-    {
-      "source": "jobs.ac.uk - Materials Science",
-      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/materials-science?format=rss",
-      "days": 37
-    },
-    {
-      "source": "jobs.ac.uk - Physical & Environmental Sciences (parent)",
-      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physical-and-environmental-scien",
-      "days": 37
-    },
-    {
-      "source": "University of Cambridge",
-      "error": "ConnectionError: HTTPSConnectionPool(host='jobs.cam.ac.uk', port=443): Max retries exceeded with url: /job/?format=rss&u",
-      "days": 37
-    },
-    {
-      "source": "jobs.ac.uk - Physics & Astronomy",
-      "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physics-and-astronomy?format=rss",
-      "days": 37
-    }
-  ],
-  "pipeline": {
-    "ready": {
-      "ready_at": "2026-11-23T06:34:33+00:00",
-      "pending": 7,
-      "ad_text": 7,
-      "gated": 0,
-      "fit_ge_2": 3,
-      "first_seen_days": [
-        "2026-11-23"
-      ],
-      "file": "/Users/danielito/Projects/job-radar/state/pending.jsonl"
-    },
-    "enrich": {
-      "enrich_at": "2026-11-23T06:34:20+00:00",
-      "needed": 4,
-      "seconds": 12,
-      "enriched": 4,
-      "failed": 0,
-      "skipped": 0,
-      "restage_dropped": 0,
-      "linkedin_fetched": 3,
-      "linkedin_blocked": false,
-      "skipped_by_notes": 0,
-      "hosts": {
-        "linkedin.com": {
-          "ok": 3
-        },
-        "photonics.wd103.myworkdayjobs.com": {
-          "ok": 1
-        }
-      },
-      "runs": [
-        {
-          "enrich_at": "2026-11-23T06:34:20+00:00",
-          "needed": 4,
-          "seconds": 12,
-          "enriched": 4,
-          "failed": 0,
-          "skipped": 0,
-          "restage_dropped": 0,
-          "linkedin_fetched": 3,
-          "linkedin_blocked": false,
-          "skipped_by_notes": 0,
-          "hosts": {
-            "linkedin.com": {
-              "ok": 3
-            },
-            "photonics.wd103.myworkdayjobs.com": {
-              "ok": 1
-            }
-          }
-        }
-      ]
-    }
+ "schema": 1,
+ "date": "2026-11-23",
+ "generated_at": "2026-11-23T18:52:21+00:00",
+ "status": "ok",
+ "data_refreshed": "2026-11-23",
+ "window_from": "2026-11-23T00:30:08+00:00",
+ "catch_up": false,
+ "days_covered": 1,
+ "first_digest": false,
+ "stats": {
+  "pending": 8,
+  "ad_text": 8,
+  "passed_gates": 5,
+  "kept": 1,
+  "shown": 1,
+  "held_over": 0,
+  "waiting_for_ad": 0,
+  "dropped": 7,
+  "sources_failed": 12,
+  "top": 0,
+  "check": 0,
+  "high_pay": 0,
+  "ideal": 0,
+  "broad": 0,
+  "startups": 0
+ },
+ "notes": [
+  "Ad text fetched for 5 postings today"
+ ],
+ "items": [
+  {
+   "key": "5f96cc0607e597ea",
+   "dup_keys": [],
+   "section": "maybe",
+   "sector": "Other",
+   "stage": "Unknown",
+   "high_pay": false,
+   "pay": "",
+   "ideal": false,
+   "ideal_why": "",
+   "broad": false,
+   "broad_why": "",
+   "title": "Physics Subject Matter Expert - AI Content Specialist",
+   "employer": "Alignerr",
+   "hub": "Manchester-Cheshire",
+   "closes": "rolling",
+   "type_id": 13,
+   "type_name": "Physics-informed / scientific ML engineer",
+   "fit": 2.4,
+   "cv": "Modelling and simulation",
+   "why": "Ad asks a Master's in Physics or Applied Physics; Pedro holds the \"TopMaster Nanoscience (research master)\" on a 5 year physics BSc, with \"Python scientific stack, Fortran\"",
+   "angle": "Research master in nanoscience on a physics bachelor; writes and checks physics models in Python daily.",
+   "flags": [
+    "sponsor licence unknown",
+    "contract task work (AI training platform), not a permanent job"
+   ],
+   "url": "https://www.linkedin.com/jobs/view/4493399594",
+   "url_direct": "",
+   "url_linkedin": "https://www.linkedin.com/jobs/view/4493399594",
+   "first_seen": "2026-11-23",
+   "source": "LinkedIn (JobSpy)",
+   "ad_read": true,
+   "reviewed": true
   }
+ ],
+ "deadlines": [
+  {
+   "employer": "targetjobs UK",
+   "scheme": "2027 Quantitative Analytics Associate Graduate Programme",
+   "closes": "2026-11-27"
+  },
+  {
+   "employer": "Aurora Energy Research",
+   "scheme": "Graduate Software Engineering Programme (Oxford, 2027)",
+   "closes": "2026-11-29"
+  },
+  {
+   "employer": "Aurora Energy Research",
+   "scheme": "Graduate Software Engineering Programme (Oxford, 2027)",
+   "closes": "2026-11-29"
+  },
+  {
+   "employer": "Physicsworldjobs",
+   "scheme": "CERN: Control Software Engineer - Particle Accelerators  (TE-MPE-CB-2026-213-LD)",
+   "closes": "2026-11-29"
+  },
+  {
+   "employer": "Ramboll",
+   "scheme": "Impact Assessment Graduate 2027",
+   "closes": "2026-12-01"
+  },
+  {
+   "employer": "Ramboll",
+   "scheme": "Impact Assessment Graduate 2027",
+   "closes": "2026-12-01"
+  },
+  {
+   "employer": "targetjobs UK",
+   "scheme": "Aon Graduate Programme 2027 - Catastrophe Modelling",
+   "closes": "2026-12-07"
+  },
+  {
+   "employer": "Aon",
+   "scheme": "Aon Graduate Programme 2027 - Commercial Risk Consulting",
+   "closes": "2026-12-07"
+  },
+  {
+   "employer": "University of Southampton",
+   "scheme": "Nanofabrication Technician (3549226BA)",
+   "closes": "2026-12-07"
+  },
+  {
+   "employer": "Aon",
+   "scheme": "Aon Graduate Programme 2027 - Insurance Actuarial Consulting- CTS",
+   "closes": "2026-12-07"
+  }
+ ],
+ "filtered": [
+  {
+   "title": "Applied Physics Specialist",
+   "employer": "Alignerr",
+   "reason": "Alignerr applied physics task role asks a completed or final stage PhD"
+  },
+  {
+   "title": "Production Technician",
+   "employer": "NKT Photonics (Hamamatsu)",
+   "reason": "asks several years of industrial experience or a vocational precision mechanics background"
+  },
+  {
+   "title": "Mechanical Commissioning Technician",
+   "employer": "Johnson Matthey",
+   "reason": "Johnson Matthey commissioning technician needs a mechanical or electrical HNC or NVQ Level 3 (vocational)"
+  },
+  {
+   "title": "Science Technician",
+   "employer": "Harris Academy Orpington",
+   "reason": "score too low"
+  },
+  {
+   "title": "Materials Characterisation Scientist",
+   "employer": "AfterQuery Experts",
+   "reason": "score too low"
+  },
+  {
+   "title": "Academic Tutor for English",
+   "employer": "Harris Academy Orpington",
+   "reason": "score too low"
+  },
+  {
+   "title": "Academic Tutor for Science",
+   "employer": "Harris Academy Orpington",
+   "reason": "score too low"
+  }
+ ],
+ "filtered_more": "",
+ "cv_version": "",
+ "source_health": [
+  {
+   "source": "Reed API",
+   "error": "RuntimeError: REED_API_KEY not set",
+   "days": 38
+  },
+  {
+   "source": "Adzuna API",
+   "error": "RuntimeError: ADZUNA_APP_ID / ADZUNA_APP_KEY not set",
+   "days": 38
+  },
+  {
+   "source": "Microsoft",
+   "error": "SSLError: HTTPSConnectionPool(host='gcsservices.careers.microsoft.com', port=443): Max retries exceeded with url: /searc",
+   "days": 38
+  },
+  {
+   "source": "ORCA Computing",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 38
+  },
+  {
+   "source": "Modo Energy",
+   "error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/b",
+   "days": 38
+  },
+  {
+   "source": "jobs.ac.uk - Engineering & Technology",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/engineering-and-technology?forma",
+   "days": 38
+  },
+  {
+   "source": "jobs.ac.uk - Laboratory, Clinical & Technician",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/laboratory-clinical-and-technici",
+   "days": 38
+  },
+  {
+   "source": "jobs.ac.uk - Materials Science",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/materials-science?format=rss",
+   "days": 38
+  },
+  {
+   "source": "jobs.ac.uk - Physical & Environmental Sciences (parent)",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physical-and-environmental-scien",
+   "days": 38
+  },
+  {
+   "source": "jobs.ac.uk - Physics & Astronomy",
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/jobs/physics-and-astronomy?format=rss",
+   "days": 38
+  },
+  {
+   "source": "University of Cambridge",
+   "error": "ConnectionError: HTTPSConnectionPool(host='jobs.cam.ac.uk', port=443): Max retries exceeded with url: /job/?format=rss&u",
+   "days": 38
+  }
+ ],
+ "pipeline": {
+  "ready": {
+   "ready_at": "2026-11-23T18:36:08+00:00",
+   "pending": 8,
+   "ad_text": 8,
+   "gated": 0,
+   "fit_ge_2": 4,
+   "first_seen_days": [
+    "2026-11-23"
+   ],
+   "file": "/Users/danielito/Projects/job-radar/state/pending.jsonl"
+  },
+  "enrich": {
+   "enrich_at": "2026-11-23T18:36:07+00:00",
+   "needed": 5,
+   "seconds": 0,
+   "enriched": 5,
+   "failed": 0,
+   "skipped": 0,
+   "restage_dropped": 0,
+   "linkedin_fetched": 3,
+   "linkedin_blocked": false,
+   "skipped_by_notes": 0,
+   "hosts": {
+    "matthey.wd3.myworkdayjobs.com": {
+     "ok": 1
+    }
+   },
+   "runs": [
+    {
+     "enrich_at": "2026-11-23T06:34:20+00:00",
+     "needed": 4,
+     "seconds": 12,
+     "enriched": 4,
+     "failed": 0,
+     "skipped": 0,
+     "restage_dropped": 0,
+     "linkedin_fetched": 3,
+     "linkedin_blocked": false,
+     "skipped_by_notes": 0,
+     "hosts": {
+      "linkedin.com": {
+       "ok": 3
+      },
+      "photonics.wd103.myworkdayjobs.com": {
+       "ok": 1
+      }
+     }
+    },
+    {
+     "enrich_at": "2026-11-23T18:36:07+00:00",
+     "needed": 1,
+     "seconds": 0,
+     "enriched": 1,
+     "failed": 0,
+     "skipped": 0,
+     "restage_dropped": 0,
+     "linkedin_fetched": 0,
+     "linkedin_blocked": false,
+     "skipped_by_notes": 0,
+     "hosts": {
+      "matthey.wd3.myworkdayjobs.com": {
+       "ok": 1
+      }
+     }
+    }
+   ]
+  }
+ }
 }

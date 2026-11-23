@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T18:11:45Z",
+ "updated": "2026-11-23T18:52:22Z",
  "days": [
   {
    "date": "2026-11-23",
@@ -7,8 +7,9 @@
    "shown": 1,
    "top": 0,
    "ideal": 0,
+   "broad": 0,
    "kept": 1,
-   "pending": 7,
+   "pending": 8,
    "catch_up": false
   },
   {
@@ -17,6 +18,7 @@
    "shown": 15,
    "top": 1,
    "ideal": 0,
+   "broad": 0,
    "kept": 15,
    "pending": 40,
    "catch_up": true
@@ -27,6 +29,7 @@
    "shown": 7,
    "top": 0,
    "ideal": 0,
+   "broad": 0,
    "kept": 7,
    "pending": 22,
    "catch_up": true
@@ -37,6 +40,7 @@
    "shown": 2,
    "top": 0,
    "ideal": 0,
+   "broad": 0,
    "kept": 2,
    "pending": 13,
    "catch_up": true
@@ -47,6 +51,7 @@
    "shown": 2,
    "top": 0,
    "ideal": 0,
+   "broad": 0,
    "kept": 2,
    "pending": 18,
    "catch_up": true
@@ -57,6 +62,7 @@
    "shown": 6,
    "top": 1,
    "ideal": 0,
+   "broad": 0,
    "kept": 6,
    "pending": 22,
    "catch_up": true
@@ -67,6 +73,7 @@
    "shown": 9,
    "top": 0,
    "ideal": 0,
+   "broad": 0,
    "kept": 8,
    "pending": 35,
    "catch_up": true
@@ -77,6 +84,7 @@
    "shown": 0,
    "top": 0,
    "ideal": 0,
+   "broad": 0,
    "kept": 0,
    "pending": 2,
    "catch_up": true
@@ -87,6 +95,7 @@
    "shown": 7,
    "top": 2,
    "ideal": 0,
+   "broad": 0,
    "kept": 7,
    "pending": 42,
    "catch_up": true
@@ -97,6 +106,7 @@
    "shown": 11,
    "top": 2,
    "ideal": 0,
+   "broad": 0,
    "kept": 11,
    "pending": 61,
    "catch_up": true
@@ -107,6 +117,7 @@
    "shown": 2,
    "top": 1,
    "ideal": 0,
+   "broad": 0,
    "kept": 2,
    "pending": 19,
    "catch_up": true
@@ -117,6 +128,7 @@
    "shown": 8,
    "top": 0,
    "ideal": 0,
+   "broad": 0,
    "kept": 6,
    "pending": 43,
    "catch_up": true
@@ -127,6 +139,7 @@
    "shown": 59,
    "top": 7,
    "ideal": 0,
+   "broad": 0,
    "kept": 58,
    "pending": 241,
    "catch_up": true
@@ -137,6 +150,7 @@
    "shown": 18,
    "top": 0,
    "ideal": 0,
+   "broad": 0,
    "kept": 17,
    "pending": 74,
    "catch_up": true
@@ -147,6 +161,7 @@
    "shown": 4,
    "top": 0,
    "ideal": 0,
+   "broad": 0,
    "kept": 4,
    "pending": 32,
    "catch_up": true
@@ -157,6 +172,7 @@
    "shown": 4,
    "top": 1,
    "ideal": 0,
+   "broad": 0,
    "kept": 3,
    "pending": 20,
    "catch_up": true
@@ -167,6 +183,7 @@
    "shown": 7,
    "top": 0,
    "ideal": 0,
+   "broad": 0,
    "kept": 7,
    "pending": 25,
    "catch_up": true
@@ -177,6 +194,7 @@
    "shown": 10,
    "top": 0,
    "ideal": 0,
+   "broad": 0,
    "kept": 10,
    "pending": 22,
    "catch_up": false
@@ -187,6 +205,7 @@
    "shown": 45,
    "top": 1,
    "ideal": 0,
+   "broad": 0,
    "kept": 45,
    "pending": 215,
    "catch_up": true
@@ -197,6 +216,7 @@
    "shown": 5,
    "top": 0,
    "ideal": 0,
+   "broad": 0,
    "kept": 5,
    "pending": 15,
    "catch_up": true
@@ -207,6 +227,7 @@
    "shown": 10,
    "top": 0,
    "ideal": 0,
+   "broad": 0,
    "kept": 10,
    "pending": 40,
    "catch_up": true
@@ -217,6 +238,7 @@
    "shown": 6,
    "top": 0,
    "ideal": 0,
+   "broad": 0,
    "kept": 6,
    "pending": 14,
    "catch_up": true
@@ -227,6 +249,7 @@
    "shown": 76,
    "top": 7,
    "ideal": 1,
+   "broad": 0,
    "kept": 75,
    "pending": 327,
    "catch_up": true
@@ -237,6 +260,7 @@
    "shown": 44,
    "top": 3,
    "ideal": 1,
+   "broad": 0,
    "kept": 44,
    "pending": 192,
    "catch_up": true
@@ -247,6 +271,7 @@
    "shown": 65,
    "top": 3,
    "ideal": 0,
+   "broad": 0,
    "kept": 65,
    "pending": 212,
    "catch_up": true
@@ -257,6 +282,7 @@
    "shown": 41,
    "top": 2,
    "ideal": 0,
+   "broad": 0,
    "kept": 41,
    "pending": 155,
    "catch_up": true
@@ -267,6 +293,7 @@
    "shown": 14,
    "top": 0,
    "ideal": 0,
+   "broad": 0,
    "kept": 14,
    "pending": 63,
    "catch_up": true
@@ -277,6 +304,7 @@
    "shown": 4,
    "top": 0,
    "ideal": 0,
+   "broad": 0,
    "kept": 4,
    "pending": 44,
    "catch_up": true
@@ -287,6 +315,7 @@
    "shown": 41,
    "top": 5,
    "ideal": 0,
+   "broad": 0,
    "kept": 41,
    "pending": 163,
    "catch_up": true
@@ -297,6 +326,7 @@
    "shown": 56,
    "top": 2,
    "ideal": 0,
+   "broad": 0,
    "kept": 56,
    "pending": 187,
    "catch_up": false
@@ -307,6 +337,7 @@
    "shown": 127,
    "top": 12,
    "ideal": 0,
+   "broad": 0,
    "kept": 271,
    "pending": 1380,
    "catch_up": false
