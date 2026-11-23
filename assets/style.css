@@ -210,3 +210,12 @@ h2.sec.ideal { color: var(--worth); }
 .tag.broad { background: var(--accent); color: var(--surface); font-weight: 700; }
 h2.sec.broad { color: var(--accent); }
 .emp .br { color: var(--accent); font-weight: 600; }
+
+/* low tier: unlikely fits, shown for completeness (rank, don't hide) */
+.fit.low { background: var(--surface-2); color: var(--muted); }
+details.lowtier > summary { list-style: none; cursor: pointer; }
+details.lowtier > summary::-webkit-details-marker { display: none; }
+details.lowtier > summary h2.sec::before { content: '▸'; color: var(--muted); }
+details.lowtier[open] > summary h2.sec::before { content: '▾'; }
+h2.sec.low { color: var(--muted); }
+.emp .lowr { color: var(--muted); font-style: italic; }

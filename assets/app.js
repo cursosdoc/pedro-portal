@@ -23,7 +23,7 @@
   };
   const isDate = (s) => /^\d{4}-\d{2}-\d{2}$/.test(s || '');
   const daysUntil = (iso) => Math.round((new Date(iso + 'T23:59:59Z') - new Date(todayISO() + 'T23:59:59Z')) / 86400000);
-  const fitClass = (it) => it.section === 'top' || it.fit >= 4 ? 'top' : it.section === 'bridge' ? 'bridge' : 'worth';
+  const fitClass = (it) => it.section === 'low' ? 'low' : it.section === 'top' || it.fit >= 4 ? 'top' : it.section === 'bridge' ? 'bridge' : 'worth';
   const applied = store.get('jr.applied', {});
   const setApplied = (key, on) => { if (on) applied[key] = todayISO(); else delete applied[key]; store.set('jr.applied', applied); };
 
@@ -148,7 +148,7 @@
   function rowHtml(i, withSeen) {
     return `<tr class="${applied[i.key] ? 'applied' : ''}">
       <td class="num"><span class="fit ${fitClass(i)}">${esc(i.fit)}</span></td>
-      <td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>${i.url_direct && i.url_linkedin ? ` <a class="muted" href="${esc(i.url_linkedin)}" target="_blank" rel="noopener" title="Same ad on LinkedIn">LinkedIn ↗</a>` : ''}<div class="emp">${esc(i.employer)}${i.sector && i.sector !== 'Other' ? ' · ' + esc(i.sector) : ''}${i.stage && STARTUPISH.has(i.stage) ? ' · <span class="st">' + esc(i.stage) + '</span>' : ''}${i.ideal ? ' · <span class="id">★ Ideal role</span>' : ''}${i.broad ? ' · <span class="br">◆ Broad entry-level</span>' : ''}${i.high_pay ? ' · <span class="hp">High pay</span>' : ''}${i.ad_read === false ? ' · <span class="warn">ad not read</span>' : ''}</div></td>
+      <td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>${i.url_direct && i.url_linkedin ? ` <a class="muted" href="${esc(i.url_linkedin)}" target="_blank" rel="noopener" title="Same ad on LinkedIn">LinkedIn ↗</a>` : ''}<div class="emp">${esc(i.employer)}${i.sector && i.sector !== 'Other' ? ' · ' + esc(i.sector) : ''}${i.stage && STARTUPISH.has(i.stage) ? ' · <span class="st">' + esc(i.stage) + '</span>' : ''}${i.ideal ? ' · <span class="id">★ Ideal role</span>' : ''}${i.broad ? ' · <span class="br">◆ Broad entry-level</span>' : ''}${i.high_pay ? ' · <span class="hp">High pay</span>' : ''}${i.ad_read === false ? ' · <span class="warn">ad not read</span>' : ''}${i.section === 'low' ? ' · <span class="lowr">unlikely fit: ' + esc(i.low_reason || '') + '</span>' : ''}</div></td>
       <td>${esc(i.hub)}</td><td>${esc(i.cv)}</td>
       <td class="num">${isDate(i.closes) ? esc(fmtDay(i.closes, { weekday: undefined, year: undefined })) : 'rolling'}</td>
       ${withSeen ? `<td class="num"><a href="#/day/${i.date}">${esc(fmtDay(i.date, { weekday: undefined, year: undefined }))}</a></td>` : ''}
@@ -227,7 +227,9 @@
       [items.filter((i) => i.section === 'top').length, 'top picks'],
       [items.filter((i) => i.section === 'check').length, 'high pay to check'],
       [items.filter((i) => STARTUPISH.has(i.stage)).length, 'startups and scale-ups'],
-      [s.dropped ?? (d.filtered || []).length, 'filtered out'],
+      ...(s.low !== undefined
+        ? [[s.low, 'unlikely fit (listed below)'], ...(s.removed ? [[s.removed, 'removed duplicates']] : [])]
+        : [[s.dropped ?? (d.filtered || []).length, 'filtered out']]),
     ]);
     html += filterBar('d', items);
     html += '<div id="dayBody"></div>';
@@ -240,7 +242,7 @@
     if (filt.length || d.filtered_more) {
       const reasons = {};
       filt.forEach((f) => { const r = f.reason.replace(/^closed .*/, 'closed').replace(/^\d+\+ years.*/, 'too much experience required'); reasons[r] = (reasons[r] || 0) + 1; });
-      html += `<h2 class="sec">Filtered out <span class="count">${filt.length}</span></h2>
+      html += `<h2 class="sec">${s.low !== undefined ? 'Removed · exact duplicates or broken listings' : 'Filtered out'} <span class="count">${filt.length}</span></h2>
         <p class="notes">${Object.entries(reasons).sort((a, b) => b[1] - a[1]).map(([r, n]) => `${esc(r)}: ${n}`).join(' · ')}</p>
         <details class="panel"><summary>Show all</summary><ul class="plain" id="filtList"></ul>
         <button type="button" class="more" id="filtMore" hidden></button></details>`;
@@ -277,12 +279,22 @@
       const maybe = by('maybe');
       if (maybe.length) h += `<h2 class="sec">Also kept · fit 2+ <span class="count">${maybe.length}</span></h2>` + tableShell('maybeT', false);
       h += section('Bridge', by('bridge'), null);
+      const low = by('low');
+      if (low.length) {
+        h += `<details class="lowtier"${store.get('jr.lowOpen', false) ? ' open' : ''}><summary><h2 class="sec low">Unlikely fit · shown for completeness <span class="count">${low.length}</span></h2></summary>
+          <p class="notes">Kept, not hidden: postings that fail a requirement (PhD, years of experience, degree, clearance, location), score low, or a reviewer judged unlikely. Each row says why. Sorted by fit.</p>` + tableShell('lowT', false) + '</details>';
+      }
       if (!vis.length) h = '<p class="empty">No items match these filters.</p>';
       body.innerHTML = h;
       const ct = document.getElementById('checkT');
       if (ct) pager(ct, chk, (i) => rowHtml(i, false), 'None');
       const mt = document.getElementById('maybeT');
       if (mt) pager(mt, maybe, (i) => rowHtml(i, false), 'None');
+      const lt = document.getElementById('lowT');
+      if (lt) {
+        pager(lt, low, (i) => rowHtml(i, false), 'None');
+        lt.closest('details').addEventListener('toggle', (e) => store.set('jr.lowOpen', e.target.open));
+      }
       wireApplied(body);
     };
     ['q', 'Hub', 'Cv', 'Fit', 'Sector', 'Stage', 'Pay', 'Ideal', 'Broad'].forEach((id) => document.getElementById('d' + id).addEventListener('input', drawBody));
@@ -340,7 +352,8 @@
     let html = `<div class="pagehead"><h1>${title}</h1><span class="sub">${okDays.length} digest day${okDays.length === 1 ? '' : 's'}${INDEX.updated ? ' · updated ' + esc(INDEX.updated.replace('T', ' ').slice(0, 16)) + ' UTC' : ''}</span></div>`;
     html += kpis([
       [INDEX.days.length, 'days tracked'],
-      [all.length, 'unique matches'],
+      [all.filter((i) => i.section !== 'low').length, 'unique matches'],
+      ...(all.some((i) => i.section === 'low') ? [[all.filter((i) => i.section === 'low').length, 'unlikely fits (sorted last)']] : []),
       [all.filter((i) => i.ideal).length, 'ideal roles'],
       [all.filter((i) => i.broad).length, 'broad entry-level'],
       [all.filter((i) => i.section === 'top').length, 'top picks'],
@@ -370,6 +383,7 @@
     html += `<h2 class="sec">All matches <span class="count" id="allCount">${all.length}</span></h2>
       ${filterBar('a', all)}
       <div class="filters"><select id="aOpen" aria-label="Status"><option value="open">Open only</option><option value="">Include closed</option><option value="todo">Not applied</option></select>
+      <select id="aTier" aria-label="Tier"><option value="">Likely fits first, then unlikely</option><option value="likely">Likely fits only</option><option value="low">Unlikely fits only</option></select>
       <select id="aSort" aria-label="Sort"><option value="fit">Sort: fit</option><option value="closes">Sort: closing date</option><option value="date">Sort: newest</option></select></div>
       ${tableShell('allT', true)}`;
     main.innerHTML = html;
@@ -377,21 +391,24 @@
     const match = matcher('a');
     const openSel = document.getElementById('aOpen');
     const sortSel = document.getElementById('aSort');
+    const tierSel = document.getElementById('aTier');
     const saved = store.get('jr.filters', {});
     if (saved.open !== undefined) openSel.value = saved.open;
     if (saved.sort) sortSel.value = saved.sort;
+    if (saved.tier !== undefined) tierSel.value = saved.tier;
     function draw() {
-      store.set('jr.filters', { open: openSel.value, sort: sortSel.value });
+      store.set('jr.filters', { open: openSel.value, sort: sortSel.value, tier: tierSel.value });
       const rows = all.filter((i) => match(i) &&
+        (tierSel.value !== 'likely' || i.section !== 'low') && (tierSel.value !== 'low' || i.section === 'low') &&
         (openSel.value !== 'open' || !isDate(i.closes) || i.closes >= today) &&
         (openSel.value !== 'todo' || !applied[i.key]));
       const k = sortSel.value;
-      rows.sort((a, b) => k === 'closes' ? (isDate(a.closes) ? a.closes : '9999').localeCompare(isDate(b.closes) ? b.closes : '9999') || b.fit - a.fit
-        : k === 'date' ? b.date.localeCompare(a.date) || b.fit - a.fit : (!!b.ideal - !!a.ideal) || b.fit - a.fit);
+      rows.sort((a, b) => ((a.section === 'low') - (b.section === 'low')) || (k === 'closes' ? (isDate(a.closes) ? a.closes : '9999').localeCompare(isDate(b.closes) ? b.closes : '9999') || b.fit - a.fit
+        : k === 'date' ? b.date.localeCompare(a.date) || b.fit - a.fit : (!!b.ideal - !!a.ideal) || b.fit - a.fit));
       document.getElementById('allCount').textContent = rows.length;
       pager(document.getElementById('allT'), rows, (i) => rowHtml(i, true), 'No matches for these filters.');
     }
-    ['aq', 'aHub', 'aCv', 'aFit', 'aSector', 'aStage', 'aPay', 'aIdeal', 'aBroad', 'aOpen', 'aSort'].forEach((id) => document.getElementById(id).addEventListener('input', draw));
+    ['aq', 'aHub', 'aCv', 'aFit', 'aSector', 'aStage', 'aPay', 'aIdeal', 'aBroad', 'aOpen', 'aTier', 'aSort'].forEach((id) => document.getElementById(id).addEventListener('input', draw));
     draw();
   }
 
