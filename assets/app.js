@@ -17,7 +17,10 @@
     set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* storage unavailable */ } },
   };
   const todayISO = () => new Date().toISOString().slice(0, 10);
+  // a one-off backlog review page has the id '<date>-backlog' (see tools/build_digest.py --backlog)
+  const isBacklog = (id) => /-backlog$/.test(id || '');
   const fmtDay = (iso, opts) => {
+    if (isBacklog(iso)) return 'Backlog review';
     const d = new Date(iso + 'T12:00:00Z');
     return d.toLocaleDateString('en-GB', Object.assign({ weekday: 'short', day: '2-digit', month: 'short', year: 'numeric', timeZone: 'UTC' }, opts || {}));
   };
@@ -50,6 +53,8 @@
   });
 
   /* ---------- shell: day list + selector ---------- */
+  const dailyDays = () => INDEX.days.filter((d) => !isBacklog(d.date));
+  const latestDay = () => dailyDays()[0];
   function renderShell(active, mode) {
     const max = Math.max(1, ...INDEX.days.map((d) => d.kept || 0));
     dayList.innerHTML = INDEX.days.map((d) => `
@@ -65,7 +70,7 @@
       const v = a.dataset.view;
       a.classList.toggle('active', (v === 'all' && !active && !mode) || (v === 'startups' && mode === 'startups') || (v === 'day' && !!active));
     });
-    const latest = INDEX.days[0];
+    const latest = latestDay();
     document.querySelector('.tabs a[data-view="day"]').href = latest ? '#/day/' + latest.date : '#/all';
   }
   dateSelect.addEventListener('change', () => {
@@ -209,7 +214,10 @@
     try { d = await getDay(date); } catch (e) { main.innerHTML = `<p class="empty">No digest for ${esc(date)}.</p>`; return; }
     const s = d.stats || {};
     const items = d.items || [];
-    const head = `<div class="pagehead"><h1>${esc(fmtDay(d.date, { weekday: 'long', month: 'long' }))}</h1>
+    const head = d.kind === 'backlog' ? `<div class="pagehead"><h1>Backlog review</h1>
+      <span class="sub">Roles first seen ${esc(fmtDay(d.backlog_from || '', { weekday: undefined }))} to ${esc(fmtDay(d.backlog_to || '', { weekday: undefined }))} that earlier rules hid, re-checked on ${esc(fmtDay(d.published || '', { weekday: undefined }))}. Older ads may have closed.</span></div>
+      ${(d.notes || []).length ? `<ul class="notes">${d.notes.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>` : ''}`
+      : `<div class="pagehead"><h1>${esc(fmtDay(d.date, { weekday: 'long', month: 'long' }))}</h1>
       <span class="sub">${d.catch_up ? `Covers ${esc(d.days_covered)} days since ${esc((d.window_from || '').slice(0, 10))}` : 'Daily digest'}${d.data_refreshed && d.data_refreshed !== d.date ? ` · data last refreshed ${esc(d.data_refreshed)}` : ''}</span></div>
       ${(d.notes || []).length ? `<ul class="notes">${d.notes.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>` : ''}`;
 
@@ -325,7 +333,8 @@
   /* ---------- overview ---------- */
   async function renderAll(mode) {
     renderShell(null, mode);
-    const okDays = INDEX.days.filter((d) => d.status === 'ok');
+    // daily pages first, the one-off backlog review last (its rows sort by first seen, not by the page id)
+    const okDays = dailyDays().filter((d) => d.status === 'ok').concat(INDEX.days.filter((d) => isBacklog(d.date) && d.status === 'ok'));
     const digests = await Promise.all(okDays.map((d) => getDay(d.date).catch(() => null)));
     // newest first; keep the latest sighting of each job key (and its duplicate keys)
     const seen = new Set();
@@ -336,7 +345,7 @@
         const keys = [it.key].concat(it.dup_keys || []);
         if (keys.some((k) => seen.has(k))) return;
         keys.forEach((k) => seen.add(k));
-        all.push(Object.assign({ date: d.date }, it));
+        all.push(Object.assign({ date: d.date, seen: isBacklog(d.date) ? (it.first_seen || '') : d.date }, it));
       });
     });
 
@@ -350,9 +359,9 @@
     const appliedCount = all.filter((i) => applied[i.key]).length;
 
     const title = mode === 'startups' ? 'Startups and scale-ups' : 'Overview';
-    let html = `<div class="pagehead"><h1>${title}</h1><span class="sub">${okDays.length} digest day${okDays.length === 1 ? '' : 's'}${INDEX.updated ? ' · updated ' + esc(INDEX.updated.replace('T', ' ').slice(0, 16)) + ' UTC' : ''}</span></div>`;
+    let html = `<div class="pagehead"><h1>${title}</h1><span class="sub">${okDays.filter((d) => !isBacklog(d.date)).length} digest day${okDays.filter((d) => !isBacklog(d.date)).length === 1 ? '' : 's'}${okDays.some((d) => isBacklog(d.date)) ? ' plus the backlog review' : ''}${INDEX.updated ? ' · updated ' + esc(INDEX.updated.replace('T', ' ').slice(0, 16)) + ' UTC' : ''}</span></div>`;
     html += kpis([
-      [INDEX.days.length, 'days tracked'],
+      [dailyDays().length, 'days tracked'],
       [all.filter((i) => i.section !== 'low').length, 'unique matches'],
       ...(all.some((i) => i.section === 'low') ? [[all.filter((i) => i.section === 'low').length, 'unlikely fits (sorted last)']] : []),
       [all.filter((i) => i.ideal).length, 'ideal roles'],
@@ -365,7 +374,7 @@
     ]);
 
     // volume per day (oldest left)
-    const vols = INDEX.days.slice(0, 30).reverse();
+    const vols = dailyDays().slice(0, 30).reverse();
     const vmax = Math.max(1, ...vols.map((d) => d.shown || 0));
     html += `<h2 class="sec">Matches per day</h2><div class="panel"><div class="vol">${vols.map((d) => {
       const h = Math.round(64 * (d.shown || 0) / vmax);
@@ -405,7 +414,7 @@
         (openSel.value !== 'todo' || !applied[i.key]));
       const k = sortSel.value;
       rows.sort((a, b) => ((a.section === 'low') - (b.section === 'low')) || (k === 'closes' ? (isDate(a.closes) ? a.closes : '9999').localeCompare(isDate(b.closes) ? b.closes : '9999') || b.fit - a.fit
-        : k === 'date' ? b.date.localeCompare(a.date) || b.fit - a.fit : (!!b.ideal - !!a.ideal) || b.fit - a.fit));
+        : k === 'date' ? b.seen.localeCompare(a.seen) || b.fit - a.fit : (!!b.ideal - !!a.ideal) || b.fit - a.fit));
       document.getElementById('allCount').textContent = rows.length;
       pager(document.getElementById('allT'), rows, (i) => rowHtml(i, true), 'No matches for these filters.');
     }
@@ -416,9 +425,9 @@
   /* ---------- router ---------- */
   async function route() {
     const h = location.hash || '#/all';
-    const m = h.match(/^#\/day\/(\d{4}-\d{2}-\d{2})$/);
+    const m = h.match(/^#\/day\/(\d{4}-\d{2}-\d{2}(?:-backlog)?)$/);
     if (m) return renderDay(m[1]);
-    if (h === '#/latest' && INDEX.days[0]) return renderDay(INDEX.days[0].date);
+    if (h === '#/latest' && latestDay()) return renderDay(latestDay().date);
     if (h === '#/startups') return renderAll('startups');
     return renderAll();
   }
@@ -431,7 +440,7 @@
       return;
     }
     INDEX.days.sort((a, b) => b.date.localeCompare(a.date));
-    footNote.textContent = `Job Radar · ${INDEX.days.length} days · applied ticks are saved in this browser only`;
+    footNote.textContent = `Job Radar · ${dailyDays().length} days · applied ticks are saved in this browser only`;
     window.addEventListener('hashchange', () => { route(); main.focus({ preventScroll: true }); window.scrollTo(0, 0); });
     route();
   }

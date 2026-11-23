@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-23T21:11:57Z",
+ "updated": "2026-11-23T22:08:29Z",
  "days": [
+  {
+   "date": "2026-11-23-backlog",
+   "status": "ok",
+   "shown": 4677,
+   "top": 17,
+   "ideal": 1,
+   "broad": 23,
+   "kept": 1018,
+   "pending": 6743,
+   "catch_up": false,
+   "kind": "backlog"
+  },
   {
    "date": "2026-11-23",
    "status": "ok",
@@ -10,7 +22,8 @@
    "broad": 48,
    "kept": 65,
    "pending": 206,
-   "catch_up": false
+   "catch_up": false,
+   "kind": "daily"
   },
   {
    "date": "2026-11-22",
@@ -21,7 +34,8 @@
    "broad": 0,
    "kept": 15,
    "pending": 40,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-11-20",
@@ -32,7 +46,8 @@
    "broad": 0,
    "kept": 7,
    "pending": 22,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-11-19",
@@ -43,7 +58,8 @@
    "broad": 0,
    "kept": 2,
    "pending": 13,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-11-18",
@@ -54,7 +70,8 @@
    "broad": 0,
    "kept": 2,
    "pending": 18,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-11-17",
@@ -65,7 +82,8 @@
    "broad": 0,
    "kept": 6,
    "pending": 22,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-11-16",
@@ -76,7 +94,8 @@
    "broad": 0,
    "kept": 8,
    "pending": 35,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-11-15",
@@ -87,7 +106,8 @@
    "broad": 0,
    "kept": 0,
    "pending": 2,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-11-14",
@@ -98,7 +118,8 @@
    "broad": 0,
    "kept": 7,
    "pending": 42,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-11-13",
@@ -109,7 +130,8 @@
    "broad": 0,
    "kept": 11,
    "pending": 61,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-11-12",
@@ -120,7 +142,8 @@
    "broad": 0,
    "kept": 2,
    "pending": 19,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-11-11",
@@ -131,7 +154,8 @@
    "broad": 0,
    "kept": 6,
    "pending": 43,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-11-10",
@@ -142,7 +166,8 @@
    "broad": 0,
    "kept": 58,
    "pending": 241,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-11-09",
@@ -153,7 +178,8 @@
    "broad": 0,
    "kept": 17,
    "pending": 74,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-11-03",
@@ -164,7 +190,8 @@
    "broad": 0,
    "kept": 4,
    "pending": 32,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-11-02",
@@ -175,7 +202,8 @@
    "broad": 0,
    "kept": 3,
    "pending": 20,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-11-01",
@@ -186,7 +214,8 @@
    "broad": 0,
    "kept": 7,
    "pending": 25,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-10-31",
@@ -197,7 +226,8 @@
    "broad": 0,
    "kept": 10,
    "pending": 22,
-   "catch_up": false
+   "catch_up": false,
+   "kind": "daily"
   },
   {
    "date": "2026-10-30",
@@ -208,7 +238,8 @@
    "broad": 0,
    "kept": 45,
    "pending": 215,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-10-28",
@@ -219,7 +250,8 @@
    "broad": 0,
    "kept": 5,
    "pending": 15,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-10-27",
@@ -230,7 +262,8 @@
    "broad": 0,
    "kept": 10,
    "pending": 40,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-10-26",
@@ -241,7 +274,8 @@
    "broad": 0,
    "kept": 6,
    "pending": 14,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-10-25",
@@ -252,7 +286,8 @@
    "broad": 0,
    "kept": 75,
    "pending": 327,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-10-22",
@@ -263,7 +298,8 @@
    "broad": 0,
    "kept": 44,
    "pending": 192,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-10-21",
@@ -274,7 +310,8 @@
    "broad": 0,
    "kept": 65,
    "pending": 212,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-10-20",
@@ -285,7 +322,8 @@
    "broad": 0,
    "kept": 41,
    "pending": 155,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-10-19",
@@ -296,7 +334,8 @@
    "broad": 0,
    "kept": 14,
    "pending": 63,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-10-18",
@@ -307,7 +346,8 @@
    "broad": 0,
    "kept": 4,
    "pending": 44,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-10-17",
@@ -318,7 +358,8 @@
    "broad": 0,
    "kept": 41,
    "pending": 163,
-   "catch_up": true
+   "catch_up": true,
+   "kind": "daily"
   },
   {
    "date": "2026-10-16",
@@ -329,7 +370,8 @@
    "broad": 0,
    "kept": 56,
    "pending": 187,
-   "catch_up": false
+   "catch_up": false,
+   "kind": "daily"
   },
   {
    "date": "2026-10-15",
@@ -340,7 +382,8 @@
    "broad": 0,
    "kept": 271,
    "pending": 1380,
-   "catch_up": false
+   "catch_up": false,
+   "kind": "daily"
   }
  ]
 }
