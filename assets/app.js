@@ -228,7 +228,8 @@
       [items.filter((i) => i.section === 'check').length, 'high pay to check'],
       [items.filter((i) => STARTUPISH.has(i.stage)).length, 'startups and scale-ups'],
       ...(s.low !== undefined
-        ? [[s.low, 'unlikely fit (listed below)'], ...(s.removed ? [[s.removed, 'removed duplicates']] : [])]
+        ? [[s.low, 'unlikely fit (listed below)'], ...(s.removed ? [[s.removed, 'removed duplicates']] : []),
+           ...(s.excluded ? [[s.excluded, 'excluded: seniority or experience']] : [])]
         : [[s.dropped ?? (d.filtered || []).length, 'filtered out']]),
     ]);
     html += filterBar('d', items);
@@ -282,7 +283,7 @@
       const low = by('low');
       if (low.length) {
         h += `<details class="lowtier"${store.get('jr.lowOpen', false) ? ' open' : ''}><summary><h2 class="sec low">Unlikely fit · shown for completeness <span class="count">${low.length}</span></h2></summary>
-          <p class="notes">Kept, not hidden: postings that fail a requirement (PhD, years of experience, degree, clearance, location), score low, or a reviewer judged unlikely. Each row says why. Sorted by fit.</p>` + tableShell('lowT', false) + '</details>';
+          <p class="notes">Kept, not hidden: postings that fail a requirement (PhD, degree, clearance, location, student only), score low, or a reviewer judged unlikely. Roles needing more seniority or experience are excluded, not listed. Each row says why. Sorted by fit.</p>` + tableShell('lowT', false) + '</details>';
       }
       if (!vis.length) h = '<p class="empty">No items match these filters.</p>';
       body.innerHTML = h;
