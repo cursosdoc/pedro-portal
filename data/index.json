@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-24T08:12:50Z",
+ "updated": "2026-11-24T09:12:54Z",
  "days": [
   {
    "date": "2026-11-24",
    "status": "ok",
-   "shown": 49,
+   "shown": 43,
    "top": 0,
-   "ideal": 1,
+   "ideal": 0,
    "broad": 1,
-   "kept": 9,
+   "kept": 7,
    "pending": 51,
    "catch_up": false,
    "kind": "daily"
@@ -16,11 +16,11 @@
   {
    "date": "2026-11-23-backlog",
    "status": "ok",
-   "shown": 4677,
+   "shown": 4454,
    "top": 17,
    "ideal": 1,
    "broad": 23,
-   "kept": 1018,
+   "kept": 971,
    "pending": 6743,
    "catch_up": false,
    "kind": "backlog"
