@@ -237,7 +237,7 @@
       [items.filter((i) => STARTUPISH.has(i.stage)).length, 'startups and scale-ups'],
       ...(s.low !== undefined
         ? [[s.low, 'unlikely fit (listed below)'], ...(s.removed ? [[s.removed, 'removed duplicates']] : []),
-           ...(s.excluded ? [[s.excluded, 'excluded: seniority, experience or location']] : [])]
+           ...(s.excluded ? [[s.excluded, 'excluded: seniority, experience, PhD or location']] : [])]
         : [[s.dropped ?? (d.filtered || []).length, 'filtered out']]),
     ]);
     html += filterBar('d', items);
